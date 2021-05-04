@@ -1,6 +1,8 @@
-# Colabois website
+<h1 align="center">Colabois website</h1>
 
-The website of the association
+<p align="center">
+    <img src=".readme/screenshots/1.png">
+</p>
 
 ## Running
 
