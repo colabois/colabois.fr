@@ -1,4 +1,84 @@
 ---
 ---
 
-@import index
+body
+	display: grid
+	grid-template-columns: auto
+	grid-template-rows: auto auto
+	grid-template-areas: "body-header" "body-main"
+
+header
+	grid-area: body-header
+	display: grid
+	grid-template-columns: 1fr
+	grid-template-rows: auto 1fr
+	grid-template-areas: "header-links" "header-description" "header-down"
+	height: 100vh
+	background-image: url("/static/img/index-header-background.jpg")
+	background-size: cover
+	background-attachment: fixed
+	color: white
+	font-family: "Segoe UI", sans-serif
+	font-size: 1.5em
+
+	a
+		text-decoration: none
+		color: inherit
+
+	#header-links
+		grid-area: header-links
+		display: flex
+		align-items: center
+		width: 100%
+
+	@media (max-width: 500px)
+		#header-links
+			flex-direction: column
+
+	#header-links-menu
+		display: none
+
+	#header-links-separator
+		flex-grow: 1
+
+	#header-links a
+		color: white
+		text-decoration: none
+		padding: 1em
+
+		&:hover
+			text-decoration: underline
+
+	#header-description
+		grid-area: header-description
+		justify-self: center
+		align-self: center
+		display: flex
+		flex-direction: column
+		align-items: center
+		justify-content: center
+		text-align: center
+
+		> *
+			margin: .3em 0
+
+	#header-down
+		grid-area: header-down
+		justify-self: center
+		padding: 2em
+
+#main
+	grid-area: body-main
+	align-self: center
+	justify-self: center
+
+	max-width: 75%
+	margin: 2em 0
+
+	display: grid
+	grid-template-columns: repeat(2, 1fr)
+
+	text-align: justify
+
+	section
+		margin: 1em
