@@ -22,9 +22,9 @@ header {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
     grid-template-areas: 
-        "links"
-        "description"
-        "down";
+        "header-links"
+        "header-description"
+        "header-down";
 
     height: 100vh;
 
@@ -43,7 +43,7 @@ header a {
 }
 
 #header-links {
-    grid-area: links;
+    grid-area: header-links;
 
     display: flex;
     align-items: center;
@@ -77,7 +77,7 @@ header a {
 }
 
 #header-description {
-    grid-area: description;
+    grid-area: header-description;
     justify-self: center;
     align-self: center;
 
@@ -94,7 +94,7 @@ header a {
 }
 
 #header-down {
-    grid-area: down;
+    grid-area: header-down;
 
     justify-self: center;
     padding: 2em;
