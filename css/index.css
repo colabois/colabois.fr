@@ -24,6 +24,7 @@ header {
 
     background-image: url("/img/index-header-background.jpg");
     background-size: cover;
+    background-attachment: fixed;
     color: white;
 
     font-family: "Segoe UI", sans-serif;
@@ -42,6 +43,16 @@ header a {
     align-items: center;
 
     width: 100%;
+}
+
+@media (max-width: 500px) {
+    #header-links {
+        flex-direction: column;
+    }
+}
+
+#header-links-menu {
+    display: none;
 }
 
 #header-links-separator {
@@ -68,6 +79,8 @@ header a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    text-align: center;
 }
 
 #header-description > * {
@@ -82,7 +95,8 @@ header a {
 }
 
 #main {
-    max-width: 200px;
+    max-width: 75%;
     align-self: center;
     justify-self: center;
+    margin: 2em 0;
 }
