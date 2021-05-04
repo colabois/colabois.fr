@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+        "links"
+        "description"
+        "down";
+
+    height: 100vh;
+
+    background-image: url("/img/index-header-background.jpg");
+    background-size: cover;
+    color: white;
+
+    font-family: "Segoe UI", sans-serif;
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#header-links {
+    grid-area: links;
+
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+}
+
+#header-links-separator {
+    flex-grow: 1;
+}
+
+#header-links a {
+    color: white;
+    text-decoration: none;
+
+    padding: 1em;
+}
+
+#header-links a:hover {
+    text-decoration: underline;
+}
+
+#header-description {
+    grid-area: description;
+    justify-self: center;
+    align-self: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-description > * {
+    margin: .3em 0;
+}
+
+#header-down {
+    grid-area: down;
+
+    justify-self: center;
+    padding: 2em;
+}
+
+#main {
+    max-width: 200px;
+    align-self: center;
+    justify-self: center;
+}
