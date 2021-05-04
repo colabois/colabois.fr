@@ -7,11 +7,17 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "body-header"
+        "body-main";
 }
 
 header {
+    grid-area: body-header;
+
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
@@ -99,4 +105,12 @@ header a {
     align-self: center;
     justify-self: center;
     margin: 2em 0;
+}
+
+main {
+    grid-area: body-main;
+}
+
+nav {
+    grid-area: body-nav;
 }
