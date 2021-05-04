@@ -1,7 +1,7 @@
 <h1 align="center">Colabois website</h1>
 
 <p align="center">
-    <img src=".readme/screenshots/1.png">
+    <img src=".readme/screenshots/1.jpg">
 </p>
 
 ## Running
