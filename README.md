@@ -4,11 +4,6 @@
     <img src=".readme/screenshots/1.jpg">
 </p>
 
-## Install dependencies
+## Run
 
-- [Install Jekyll](https://jekyllrb.com/docs/installation/)
-- `bundle install`
-
-## Run locally
-
-`bundle exec jekyll serve`
+This is just basic HTML/CSS so any server will work, personally I use `python3 -m http.server`
