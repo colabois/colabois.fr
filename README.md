@@ -4,6 +4,10 @@
     <img src=".readme/screenshots/1.jpg">
 </p>
 
+## Build
+
+`make build`
+
 ## Run
 
-This is just basic HTML/CSS so any server will work, personally I use `python3 -m http.server`
+`make run`
