@@ -1,0 +1,12 @@
+exclude:
+    - README.md
+    - Makefile
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  startings: [html, head, body]
