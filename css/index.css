@@ -30,38 +30,33 @@ header a {
 	color: inherit;
 }
 
-header #header-links {
-	grid-area: header-links;
-	display: flex;
-	align-items: center;
-	width: 100%;
-}
-
 @media (max-width: 500px) {
-	header #header-links {
+	header .header-links {
 		flex-direction: column;
 	}
 }
 
-header #header-links-menu {
-	display: none;
+.header-links {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
-header #header-links-separator {
+.header-links-separator {
 	flex-grow: 1;
 }
 
-header #header-links a {
+header .header-links a {
 	color: white;
 	text-decoration: none;
 	padding: 1em;
 }
 
-header #header-links a:hover {
+header .header-links a:hover {
 	text-decoration: underline;
 }
 
-header #header-description {
+header .header-description {
 	grid-area: header-description;
 	justify-self: center;
 	align-self: center;
@@ -72,11 +67,11 @@ header #header-description {
 	text-align: center;
 }
 
-header #header-description > * {
+header .header-description > * {
 	margin: 0.3em 0;
 }
 
-header #header-down {
+header .header-down {
 	grid-area: header-down;
 	justify-self: center;
 	padding: 2em;
@@ -84,15 +79,86 @@ header #header-down {
 
 #main {
 	grid-area: body-main;
-	align-self: center;
-	justify-self: center;
-	max-width: 75%;
-	margin: 2em 0;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#main > section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding: 2em 5%;
+	width: 100%;
+}
+
+#main > section > h1 {
+	text-align: center;
+}
+
+#main #infos {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	text-align: justify;
 }
 
-#main section {
+#main #infos section {
 	margin: 1em;
+}
+
+#main #projects {
+	display: block;
+	background-color: lightgrey;
+}
+
+.project-list {
+	display: flex;
+	justify-content: center;
+
+	max-width: 100%;
+}
+
+@media (max-width: 500px) {
+	.project-list {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.project {
+	background-color: white;
+	box-shadow: 3px 3px 10px rgb(146, 146, 146);
+
+	border-radius: 10px;
+	width: 12em;
+	margin: 2em;
+}
+
+.project-image {
+	width: 100%;
+	height: 10em;
+	box-shadow: inset 5px 5px 5px red;
+	object-fit: cover;
+	border-radius: 10px 10px 0 0;
+}
+
+.project-description {
+	padding: 1em;
+}
+
+.project-title {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.project-title a {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+.project-summary {
+	margin-top: 1em;
+	color: rgb(44, 44, 44);
 }

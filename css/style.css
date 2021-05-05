@@ -9,3 +9,14 @@ html {
 body {
   font-family: "Segoe UI", sans-serif;
 }
+
+header #header-links {
+	grid-area: header-links;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+header #header-links-separator {
+	flex-grow: 1;
+}
