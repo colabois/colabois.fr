@@ -8,7 +8,7 @@
 
 This site relies on Jekyll so you will need to [install it](https://jekyllrb.com/docs/installation/)
 
-You will also need `make` if you want to use it
+You will also need `make` if you don't want to run Jekyll commands manually
 
 ## Build
 
