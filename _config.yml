@@ -3,10 +3,10 @@ exclude:
     - Makefile
 
 compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: [local]
-  blanklines: false
-  startings: [html, head, body]
+    clippings: all
+    comments: ["<!-- ", " -->"]
+    endings: all
+    ignore:
+        envs: [local]
+    blanklines: false
+    startings: [html, head, body]
