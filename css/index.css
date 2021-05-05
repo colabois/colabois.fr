@@ -1,15 +1,4 @@
-body {
-	display: grid;
-	grid-template-columns: auto;
-	grid-template-rows: auto auto;
-	grid-template-areas: 
-		"body-header" 
-		"body-main";
-}
-
 header {
-	grid-area: body-header;
-
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: auto 1fr;
@@ -66,20 +55,17 @@ header .header-description > * {
 }
 
 #main {
-	grid-area: body-main;
-	
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: stretch;
 }
 
-section {
+.main-section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 
 	padding: 2em 5%;
-	width: 100%;
 }
 
 #main > section > h1 {
@@ -96,8 +82,7 @@ section {
 	margin: 1em;
 }
 
-#main #projects {
-	display: block;
+#projects {
 	background-color: lightgrey;
 }
 
