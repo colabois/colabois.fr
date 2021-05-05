@@ -4,10 +4,16 @@
     <img src=".readme/screenshots/1.jpg">
 </p>
 
+## Dependencies
+
+This site relies on Jekyll so you will need to [install it](https://jekyllrb.com/docs/installation/)
+
+You will also need `make` if you want to use it
+
 ## Build
 
-`make build`
+`make build` or `bundle exec jekyll build`
 
 ## Run
 
-`make run`
+`make run` or `bundle exec jekyll serve`
