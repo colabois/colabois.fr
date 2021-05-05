@@ -9,6 +9,7 @@ body {
 
 header {
 	grid-area: body-header;
+
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: auto 1fr;
@@ -17,43 +18,26 @@ header {
 		"header-description" 
 		"header-down";
 	height: 100vh;
+
 	background-image: url("/img/index-header-background.jpg");
 	background-size: cover;
 	background-attachment: fixed;
+	
 	color: white;
-	font-family: "Segoe UI", sans-serif;
-	font-size: 1.5em;
 }
 
-header a {
-	text-decoration: none;
-	color: inherit;
+.header-links {
+	background-color: transparent;
+}
+
+.header-link {
+	padding: 1em;
 }
 
 @media (max-width: 500px) {
 	header .header-links {
 		flex-direction: column;
 	}
-}
-
-.header-links {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
-
-.header-links-separator {
-	flex-grow: 1;
-}
-
-header .header-links a {
-	color: white;
-	text-decoration: none;
-	padding: 1em;
-}
-
-header .header-links a:hover {
-	text-decoration: underline;
 }
 
 header .header-description {
@@ -71,10 +55,14 @@ header .header-description > * {
 	margin: 0.3em 0;
 }
 
-header .header-down {
+.header-down {
 	grid-area: header-down;
 	justify-self: center;
+
 	padding: 2em;
+
+	color: inherit;
+	text-decoration: inherit;
 }
 
 #main {
@@ -85,7 +73,7 @@ header .header-down {
 	align-items: center;
 }
 
-#main > section {
+section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -98,33 +86,19 @@ header .header-down {
 	text-align: center;
 }
 
-#main #infos {
+#infos {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	text-align: justify;
 }
 
-#main #infos section {
+#infos > div {
 	margin: 1em;
 }
 
 #main #projects {
 	display: block;
 	background-color: lightgrey;
-}
-
-.project-list {
-	display: flex;
-	justify-content: center;
-
-	max-width: 100%;
-}
-
-@media (max-width: 500px) {
-	.project-list {
-		flex-direction: column;
-		align-items: center;
-	}
 }
 
 .project {
@@ -136,9 +110,23 @@ header .header-down {
 	margin: 2em;
 }
 
+.project-list {
+	display: flex;
+	justify-content: center;
+
+	flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+	.project-list {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
 .project-image {
 	width: 100%;
-	height: 10em;
+	height: 8em;
 	box-shadow: inset 5px 5px 5px red;
 	object-fit: cover;
 	border-radius: 10px 10px 0 0;
