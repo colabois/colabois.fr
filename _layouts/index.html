@@ -1,8 +1,5 @@
 ---
 layout: base
-title: Accueil
-lang: en
-permalink: /
 ---
 
 <link rel="stylesheet" href="/css/index.css">
@@ -10,8 +7,8 @@ permalink: /
 	<div class="header-links">
 		<a href="/" class="header-link">Colabois</a>
 		<span class="header-links-separator"></span>
-		<a href="/#projects" class="header-link">Projects</a>
-		<a href="/#support-us" class="header-link">Support us</a>
+		<a href="/#projects" class="header-link">Projets</a>
+		<a href="/#support-us" class="header-link">Nous supporter</a>
 	</div>
 	<div class="header-description">
 		<h1>Colabois</h1>
@@ -21,16 +18,15 @@ permalink: /
 </header>
 <section id="infos" class="main-section">
 	<div id="who-are-we">
-		<h1>Who are we?</h1>
-		<p>We are a group of students and professionnal developers, grouped to create useful tools for community. Our goal is to help each other, develop common projects and the watchword is friendship!</p>
+		<h1>{{ page.translations.who-are-we }}</h1>
 	</div>
 	<div id="what-do-we-do">
-		<h1>What do we do?</h1>
-		<p>We have an ideal of open source, so all our projects are, and donations allow us to pay hosting of services we provide. Some day, maybe, our projects will become important enough for us to makke it become our job, but waiting that, we love you all!</p>
+		<h1>Que faisons-nous ?</h1>
+		<p>Nous avons un idéal d'open source, donc tous nos projets le sont, et les dons nous permettent de payer l'hébergement des services que nous fournissons. Un jour, peut-être, nos projets deviendront assez importants pour que nous puissions en faire notre métier, mais en attendant on vous aime tous!</p>
 	</div>
 </section>
 <section id="projects" class="main-section">
-	<h1 class="main-section-title">Our projects</h1>
+	<h1 class="main-section-title">Nos projets</h1>
 	<div class="project-list">
 		<div class="project">
 			<img src="/img/projects-logos/pdba.png" class="project-image">
@@ -43,18 +39,18 @@ permalink: /
 			<img src="/img/projects-logos/discorn.png" class="project-image">
 			<div class="project-description">
 				<h1 class="project-title"><a href="https://moriya.zapto.org/gitsokyo/Discorn" target="_blank">Discorn</a></h1>
-				<p class="project-summary">Discorn is an encrypted and decentralized chatting protocol based on cryptocurrencies.</p>
+				<p class="project-summary">Un protocole de messagerie chiffré et décentralisé basé sur les cryptomonnaies</p>
 			</div>
 		</div>
 	</div>
 </section>
 <section id="support-us" class="main-section">
-	<h1 class="main-section-title">Support us</h1>
-	<p>We didn't make a donation system yet, however, the links will appear when available.</p>
+	<h1 class="main-section-title">Nous soutenir</h1>
+	<p>Nous n'avons pas encore mis en place de système de dons, cependant, les liens apparaîtront ici quand disponibles.</p>
 </section>
 <footer class="main-section footer">
 	<div class="footer-section">
-		<h1 class="footer-section-title">In other languages:</h1>
+		<h1 class="footer-section-title">Dans d'autres langues:</h1>
 		<a href="/fr" class="footer-link">Français</a>
 		<a href="/" class="footer-link">English</a>
 	</div>
