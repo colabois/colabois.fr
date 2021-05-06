@@ -1,0 +1,13 @@
+---
+layout: base
+title: Redirecting...
+---
+
+<script>
+	let language = navigator.language || navigator.userLanguage; 
+	if (language == "fr") {
+		document.location.href = "/fr"
+	} else {
+		document.location.href = "/en"
+	}
+</script>
