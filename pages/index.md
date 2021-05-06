@@ -2,7 +2,7 @@
 layout: index
 title: Home
 lang: en
-permalink: /en
+permalink: /
 
 strings:
   support-us: Support us
