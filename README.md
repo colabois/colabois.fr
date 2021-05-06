@@ -17,3 +17,9 @@ You will also need `make` if you don't want to run Jekyll commands manually
 ## Run
 
 `make run` or `bundle exec jekyll serve`
+
+## Contributing
+
+### Translation
+
+If you want to translate pages in other languages, please look at the front-matter only index.LANGUAGE.md pages
