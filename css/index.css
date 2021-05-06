@@ -68,7 +68,7 @@ header .header-description > * {
 	padding: 2em 5%;
 }
 
-#main > section > h1 {
+.main-section-title {
 	text-align: center;
 }
 

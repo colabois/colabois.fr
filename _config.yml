@@ -1,6 +1,9 @@
 plugins:
     - jekyll-autoprefixer
 
+kramdown:
+    parse_block_html: true
+
 exclude:
     - README.md
     - Makefile
