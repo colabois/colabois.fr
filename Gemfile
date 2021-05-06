@@ -2,4 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.2.0"
 
-gem 'jekyll-autoprefixer'
+group :jekyll_plugins do
+	gem 'jekyll-contentblocks'
+	gem 'jekyll-autoprefixer'
+end

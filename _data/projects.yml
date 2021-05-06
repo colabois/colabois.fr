@@ -1,0 +1,9 @@
+- name: PDBA
+  desc: Python Discord Bot Agregator
+  imgpath: /img/project-logos/pdba.png
+  link: https://moriya.zapto.org/gitsokyo/PDBA
+
+- name: Discord
+  desc: An encrypted and decentralized chatting protocol based on cryptocurrencies.
+  imgpath: /img/project-logos/discorn.png
+  link: https://moriya.zapto.org/gitsokyo/Discorn
