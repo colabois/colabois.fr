@@ -2,6 +2,7 @@
 layout: index
 title: Accueil
 lang: fr
+permalink: /fr
 
 strings:
   support-us: Nous supporter

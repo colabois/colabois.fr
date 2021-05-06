@@ -3,7 +3,8 @@
   imgpath: /img/project-logos/pdba.png
   link: https://moriya.zapto.org/gitsokyo/PDBA
 
-- name: Discord
+- name: Discorn
   desc: An encrypted and decentralized chatting protocol based on cryptocurrencies.
   imgpath: /img/project-logos/discorn.png
   link: https://moriya.zapto.org/gitsokyo/Discorn
+
