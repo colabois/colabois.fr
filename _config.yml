@@ -5,6 +5,12 @@ exclude:
     - README.md
     - Makefile
 
+defaults:
+    - scope: 
+        path: img/favicon.ico
+      values:
+        permalink: /favicon.ico
+
 compress_html:
     clippings: all
     comments: ["<!-- ", " -->"]
