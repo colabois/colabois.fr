@@ -43,6 +43,11 @@ header {
 	text-decoration: underline;
 }
 
+article {
+	max-width: 75%;
+	align-self: center;
+}
+
 .project {
 	background-color: white;
 	box-shadow: 3px 3px 10px rgb(146, 146, 146);

@@ -2,7 +2,8 @@
 layout: base
 ---
 
-{% assign t = page.strings %}
+{% assign t = site.data.translations[page.lang] %}
+{% assign s = page.strings %}
 
 <link rel="stylesheet" href="/css/index.css">
 <header>
@@ -20,12 +21,12 @@ layout: base
 </header>
 <section id="infos" class="main-section">
 	<div id="who-are-we">
-		<h1>{{ t["title-who-are-we"] }}</h1>
-		<p>{{ t["desc-who-are-we"] }}</p>
+		<h1>{{ s["title-who-are-we"] }}</h1>
+		<p>{{ s["desc-who-are-we"] }}</p>
 	</div>
 	<div id="what-do-we-do">
-		<h1>{{ t["title-what-do-we-do"] }}</h1>
-		<p>{{ t["desc-what-do-we-do"] }}</p>
+		<h1>{{ s["title-what-do-we-do"] }}</h1>
+		<p>{{ s["desc-what-do-we-do"] }}</p>
 	</div>
 </section>
 <section id="projects" class="main-section">
@@ -43,8 +44,8 @@ layout: base
 	</div>
 </section>
 <section id="support-us" class="main-section">
-	<h1>{{ t["title-support-us"] }}</h1>
-	<p>{{ t["desc-support-us"] }}</p>
+	<h1>{{ s["title-support-us"] }}</h1>
+	<p>{{ s["desc-support-us"] }}</p>
 </section>
 <footer class="main-section footer">
 	<div class="footer-section">
