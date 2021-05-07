@@ -2,7 +2,11 @@
 layout: base
 ---
 
-{% assign t = site.data.translations[page.lang] %}
+{% if page.lang %}
+	{% assign t = site.data.translations[page.lang] %}
+{% else %}
+	{% assign t = site.data.translations["en"] %}
+{% endif %}
 
 <header>
 	<div class="header-links">
@@ -12,6 +16,16 @@ layout: base
 		<a href="/#support-us" class="header-link">{{ t["support-us"] }}</a>
 	</div>
 </header>
-<article>
-	{{ content }}
-</article>
+<section class="main-section">
+	<article>
+		{{ content }}
+	</article>
+</section>
+<footer class="main-section footer">
+	<div class="footer-section">
+		<h1 class="footer-section-title">{{ t["in-other-languages"] }}</h1>
+		{% for language in site.data.languages %}
+			<a href="{{ language.link }}" class="footer-link">{{ language.name }}</a>
+		{% endfor %}
+	</div>
+</footer>
