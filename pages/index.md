@@ -14,6 +14,10 @@ It should be redirecting you automatically, but if not, please choose a language
 
 [Français](/fr)
 
+[Italiano](/it)
+
+[Español](/es)
+
 <style>
 body {
 	display: flex;
@@ -33,12 +37,19 @@ a {
 }
 </style>
 
-
 <script>
 	let language = navigator.language || navigator.userLanguage;
-	if (language == "fr") {
-		document.location.href = "/fr"
-	} else {
-		document.location.href = "/en"
+	switch (language) {
+		case 'fr':
+			document.location.href = "/fr";
+			break;
+		case 'it':
+			document.location.href = "/it";
+			break;
+		case 'es':
+			document.location.href = "/es";
+			break;
+		default:
+			document.location.href = "/en";
 	}
 </script>
