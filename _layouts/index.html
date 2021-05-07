@@ -49,7 +49,8 @@ layout: base
 <footer class="main-section footer">
 	<div class="footer-section">
 		<h1 class="footer-section-title">{{ t["in-other-languages"] }}</h1>
-		<a href="/fr" class="footer-link">Français</a>
-		<a href="/" class="footer-link">English</a>
+		{% for language in site.data.languages %}
+			<a href="{{ language.link }}" class="footer-link">{{ language.name }}</a>
+		{% endfor %}
 	</div>
 </footer>

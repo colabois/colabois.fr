@@ -10,13 +10,9 @@ This page is available in multiple languages.
 
 It should be redirecting you automatically, but if not, please choose a language below
 
-[English](/en)
-
-[Français](/fr)
-
-[Italiano](/it)
-
-[Español](/es)
+{% for language in site.data.languages %}
+[{{ language.name }}]({{ language.link }})
+{% endfor %}
 
 <style>
 body {
@@ -40,15 +36,11 @@ a {
 <script>
 	let language = navigator.language || navigator.userLanguage;
 	switch (language) {
-		case 'fr':
-			document.location.href = "/fr";
+		{% for language in site.data.languages %}
+		case '{{ language.iso }}':
+			document.location.href = '{{ language.link }}';
 			break;
-		case 'it':
-			document.location.href = "/it";
-			break;
-		case 'es':
-			document.location.href = "/es";
-			break;
+		{% endfor %}
 		default:
 			document.location.href = "/en";
 	}
