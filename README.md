@@ -26,4 +26,4 @@ If you want to fix an existing translation, please look at the index.LANGUAGE.md
 
 If you want to add a new language, please create a new *index.LANGUAGE.md* file (**tip:** just copy the *index.en.md* file and modify things), and reference it in *_data/languages.yml* (again, copy an existing one and modify it)
 
-Don't worry if you make errors, I'll review your pull requests. If you don't understand something, please go in the GitHub discussions.
+Don't worry if you make errors, I'll review your pull requests. If you don't understand something, please go in the [GitHub discussions](https://github.com/colabois/colabois-website/discussions).
