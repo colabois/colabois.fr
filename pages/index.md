@@ -34,8 +34,7 @@ a {
 </style>
 
 <script>
-	let language = navigator.language || navigator.userLanguage;
-	switch (language) {
+	switch ((navigator.language || navigator.userLanguage).substring(0, 2)) {
 		{% for language in site.data.languages %}
 		case '{{ language.iso }}':
 			document.location.href = '{{ language.link }}';
