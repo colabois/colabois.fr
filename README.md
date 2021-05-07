@@ -22,4 +22,6 @@ You will also need `make` if you don't want to run Jekyll commands manually
 
 ### Translation
 
-If you want to translate pages in other languages, please look at the front-matter only index.LANGUAGE.md pages
+If you want to fix an existing translation, please look at the index.LANGUAGE.md file
+
+If you want to add a new language, please create a new *index.LANGUAGE.md* file (tip: just copy the *index.en.md* file and modify things), don't forget to replace permalink and other variables and reference it in *_data/languages.yml* (again, copy an existing one and modify it, the link must match the permalink of the page)
