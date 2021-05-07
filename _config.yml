@@ -11,6 +11,9 @@ defaults:
       values:
         permalink: /favicon.ico
 
+sass:
+    style: compressed
+
 compress_html:
     clippings: all
     comments: ["<!-- ", " -->"]
