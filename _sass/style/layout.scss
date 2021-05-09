@@ -2,41 +2,23 @@
 	box-sizing: border-box;
 }
 
-html {
-	scroll-behavior: smooth;
-}
-
 body {
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
 	justify-content: flex-start;
-	font-family: "Segoe UI", sans-serif;
 }
 
 header {
-	font-size: 1.25em;
-
-	text-align: center;
-
 	align-self: stretch;
 
-	background-color: rgb(250, 92, 0);
-	color: white;
-	
 	.links {
 		display: flex;
 		align-items: center;
 		width: 100%;
 
 		a {
-			color: inherit;
-			text-decoration: inherit;
 			padding: .5em;
-
-			:hover {
-				text-decoration: underline;
-			}
 		}
 
 		.separator {
@@ -46,15 +28,14 @@ header {
 }
 
 article {
+	align-self: center;
 	margin-top: 2em;
 	max-width: 50%;
-	align-self: center;
 }
 
 section {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	padding: 2em 5%;
 
 	> h1 {
@@ -62,14 +43,12 @@ section {
 	}
 }
 
-.project-list {
+.projects-list {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-}
 
-@media (max-width: 500px) {
-	.project-list {
+	@media (max-width: 500px) {
 		flex-direction: column;
 		align-items: center;
 	}
@@ -77,15 +56,9 @@ section {
 
 footer {
 	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
 	justify-content: center;
 	flex-wrap: wrap;
-
 	padding: 2em 5%;
-
-	background-color: rgb(36, 36, 36);
-	color: white;
 
 	div {
 		display: flex;
