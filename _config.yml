@@ -6,10 +6,10 @@ exclude:
     - Makefile
 
 defaults:
-    - scope: 
-        path: img/favicon.ico
+    - scope:
+        path: _posts
       values:
-        permalink: /favicon.ico
+        layout: post
 
 sass:
     style: compressed
