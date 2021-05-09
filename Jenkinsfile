@@ -15,6 +15,8 @@ pipeline {
     stages {
         stage('Build sources') {
             steps {
+                sh 'chown -R 1001:1000 .'
+                sh 'chmod -R go+rwx .'
                 sh 'make build -j4'
             }
             post {
