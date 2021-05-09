@@ -1,7 +1,6 @@
 ---
 layout: base
 title: Redirecting...
-permalink: /
 ---
 
 ## Redirecting...
