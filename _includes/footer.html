@@ -1,0 +1,16 @@
+{% if page.lang %}
+	{% assign t = site.data.translations[page.lang] %}
+{% else %}
+	{% assign t = site.data.translations["en"] %}
+{% endif %}
+
+<footer class="footer">
+	<div class="footer-section">
+		{% for language in site.data.languages %}
+			<a href="{{ language.link }}" class="footer-link">{{ language.name }}</a>
+		{% endfor %}
+	</div>
+	<div class="footer-section">
+		<a href="https://github.com/colabois/colabois.fr" class="footer-link">Site source</a>
+	</div>
+</footer>

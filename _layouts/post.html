@@ -22,11 +22,4 @@ layout: base
 		</article>
 	</section>
 </main>
-<footer class="main-section footer">
-	<div class="footer-section">
-		<h1 class="footer-section-title">{{ t["in-other-languages"] }}</h1>
-		{% for language in site.data.languages %}
-			<a href="{{ language.link }}" class="footer-link">{{ language.name }}</a>
-		{% endfor %}
-	</div>
-</footer>
+{% include footer.html %}
