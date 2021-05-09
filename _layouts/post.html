@@ -1,0 +1,32 @@
+---
+layout: base
+---
+
+{% if page.lang %}
+	{% assign t = site.data.translations[page.lang] %}
+{% else %}
+	{% assign t = site.data.translations["en"] %}
+{% endif %}
+
+<link rel="stylesheet" href="/css/post.css">
+<header class="header">
+	<a href="/" class="header-link">Colabois</a>
+	<span class="header-links-separator"></span>
+</header>
+<main>
+	<section class="main-section">
+		<article class="post">
+			<h1 class="post-title">{{ page.title }}</h1>
+			<p class="post-infos">{{ page.author }} - {{ page.date | date: "%A %d %B %Y"}}</p>
+			{{ content }}
+		</article>
+	</section>
+</main>
+<footer class="main-section footer">
+	<div class="footer-section">
+		<h1 class="footer-section-title">{{ t["in-other-languages"] }}</h1>
+		{% for language in site.data.languages %}
+			<a href="{{ language.link }}" class="footer-link">{{ language.name }}</a>
+		{% endfor %}
+	</div>
+</footer>

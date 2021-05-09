@@ -1,0 +1,12 @@
+.header {
+	display: flex;
+	font-size: 1.25em;
+
+	&-link {
+		padding: .5em;
+	}
+
+	&-links-separator {
+		flex-grow: 1;
+	}
+}
