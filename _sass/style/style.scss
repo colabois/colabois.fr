@@ -1,0 +1,33 @@
+body {
+	font-family: "Segoe UI", sans-serif;
+}
+
+header {
+	background-color: rgb(250, 92, 0);
+	color: white;
+}
+
+a {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+table, td, th {
+	padding: .5em;
+	border: solid 1px rgb(206, 206, 206);
+	border-collapse: collapse;
+}
+
+div.highlight {
+	padding: 1em;
+	border-radius: 5px;
+	
+	pre.highlight {
+		margin: 0;
+	}
+}
+
+footer {
+	background-color: rgb(36, 36, 36);
+	color: white;
+}
