@@ -1,10 +1,12 @@
 pipeline {
     agent {
         dockerfile {
-            args '-u root --net=host -v $HOME/docker_volumes/.cache/:/root/.cache/'
+            args '-u root --net=host -v $HOME/docker_volumes/gem:/usr/gem  -v $HOME/docker_volumes/bundle/:/usr/local/bundle -v $HOME/docker_volumes/.cache/:/root/.cache/'
         }
     }
     environment {
+        JEKYLL_UID = '1001'
+        JEKYLL_GID = '1001'
         DEPLOY_HOST = 'webroot@colabois.fr'
         WEBSITE = 'https://colabois.fr'
         PROJECT_NAME = 'colabois.fr'
@@ -15,8 +17,7 @@ pipeline {
     stages {
         stage('Build sources') {
             steps {
-                sh 'chown -R 1001:1000 .'
-                sh 'chmod -R go+rwx .'
+                sh 'chmod -R o+rwx .'
                 sh 'make build -j4'
             }
             post {
@@ -30,7 +31,6 @@ pipeline {
             when {
                 anyOf {
                     branch 'main'
-                    branch 'jenkins_tests'
                 }
             }
             steps {
