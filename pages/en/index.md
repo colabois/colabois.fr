@@ -18,8 +18,5 @@ strings:
   name-discorn: Discorn
   desc-discorn: Discorn is an encrypted and decentralized chatting protocol based on cryptocurrencies.
 
-  title-support-us: Support us
-  desc-support-us: We didn’t make a donations system yet, but the links will be here when availables.
-
   in-other-languages: In other languages
 ---

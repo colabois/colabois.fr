@@ -18,8 +18,5 @@ strings:
   name-discorn: Discorn
   desc-discorn: Un protocole de messagerie chiffré et décentralisé basé sur les cryptomonnaies.
 
-  title-support-us: Support us
-  desc-support-us: Nous n'avons pas encore mis en place de système de dons, cependant, les liens apparaîtront ici quand disponibles.
-
   in-other-languages: Dans d'autres langues
 ---

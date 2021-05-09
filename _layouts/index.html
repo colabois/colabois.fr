@@ -11,7 +11,6 @@ layout: base
 		<a href="/">Colabois</a>
 		<span class="separator"></span>
 		<a href="#projects">{{ t["projects"] }}</a>
-		<a href="#support-us">{{ t["support-us"] }}</a>
 	</div>
 	<div class="description">
 		<h1>Colabois</h1>
@@ -43,20 +42,6 @@ layout: base
 				</div>
 			{% endfor %}
 		</div>
-	</section>
-	<section id="our-posts">
-		<h1>Our posts</h1>
-		<ul>
-			{% for post in site.posts %}
-			  <li>
-				<a href="{{ post.url }}">{{ post.title }}</a>
-			  </li>
-			{% endfor %}
-		  </ul>
-	</section>
-	<section id="support-us" class="main-section">
-		<h1>{{ s["title-support-us"] }}</h1>
-		<p>{{ s["desc-support-us"] }}</p>
 	</section>
 </main>
 <footer class="main-section footer">

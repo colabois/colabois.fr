@@ -13,8 +13,5 @@ strings:
 
   title-our-projects: Nuestros proyectos
 
-  title-support-us: Soportarnos
-  desc-support-us: Ya no tenemos un sistema de donaciones, pero los enlaces seran aquí cuándo disponibles.
-
   in-other-languages: En otros idiomas
 ---
