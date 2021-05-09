@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 ---
 
 {% if page.lang %}
@@ -9,17 +9,8 @@ layout: base
 {% endif %}
 
 <link rel="stylesheet" href="/css/post.css">
-<header class="header">
-	<a href="/" class="header-link">Colabois</a>
-	<span class="header-links-separator"></span>
-</header>
-<main>
-	<section class="main-section">
-		<article class="post">
-			<h1 class="post-title">{{ page.title }}</h1>
-			<p class="post-infos">{{ page.author }} - {{ page.date | date: "%A %d %B %Y"}}</p>
-			{{ content }}
-		</article>
-	</section>
-</main>
-{% include footer.html %}
+<article class="post">
+	<h1 class="post-title">{{ page.title }}</h1>
+	<p class="post-infos">{{ page.author }} - {{ page.date | date: "%A %d %B %Y"}}</p>
+	{{ content }}
+</article>

@@ -2,7 +2,6 @@
 layout: index
 title: Accueil
 lang: fr
-permalink: /fr
 
 strings:
   title-who-are-we: Qui sommes-nous?

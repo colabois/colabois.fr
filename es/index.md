@@ -2,7 +2,6 @@
 layout: index
 title: Home
 lang: es
-permalink: /es
 
 strings:
   title-who-are-we: ¿Quién somos?

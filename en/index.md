@@ -2,7 +2,6 @@
 layout: index
 title: Home
 lang: en
-permalink: /en
 
 strings:
   title-who-are-we: Who are we?
