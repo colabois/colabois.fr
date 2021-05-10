@@ -1,13 +1,11 @@
 ---
-layout: page
-title: Mentions Légales
+layout: default
+title: Contact
 lang: en
 ---
 
-Contact informations
-================
+# Contact informations
 
-Site administration
------------------------
+## Site administration
 
 Site administration can be contacted via email at [`contact@colabois.fr`](mailto:contact@colabois.fr)
