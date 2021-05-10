@@ -7,6 +7,11 @@ exclude:
     - Dockerfile
     - Jenkinsfile
 
+languages: ["en", "fr", "es"]
+default_lang: "en"
+exclude_from_localization: ["css", "fonts", "img"]
+parallel_localization: true
+
 defaults:
     - scope:
         path: _posts
