@@ -1,10 +1,12 @@
 en:
   projects: Projects
-  site-source: Site source
+  site-source: Source code
+  contact: Contact
 
 fr:
   projects: Projets
-  site-source: Code du site
+  site-source: Code source
+  contact: Mentions légales
 
 es:
   projects: Proyectos

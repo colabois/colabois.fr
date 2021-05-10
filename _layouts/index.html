@@ -1,8 +1,11 @@
 ---
 layout: base
 ---
-
-{% assign t = site.data.translations[page.lang] %}
+{% if page.lang %}
+	{% assign t = site.data.translations[page.lang] %}
+{% else %}
+	{% assign t = site.data.translations["en"] %}
+{% endif %}
 {% assign s = page.strings %}
 
 <link rel="stylesheet" href="/css/index.css">

@@ -1,3 +1,10 @@
+
+{% if page.lang %}
+	{% assign t = site.data.translations[page.lang] %}
+{% else %}
+	{% assign t = site.data.translations["en"] %}
+{% endif %}
+
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
 <head>
@@ -6,6 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/highlight.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 	<title>{{ page.title }} | Colabois</title>
 </head>
 <body>
