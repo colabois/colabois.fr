@@ -6,16 +6,15 @@
 
 <footer class="footer">
 	<div class="footer-section">
-		{% for collection in site.collections %}
-			{% assign possible_indexes = collection.docs | where: "layout", "index" %}
-			{% for index in possible_indexes %}
-				<a href="{{ index.url }}" class="footer-link">{{ site.data.collections_names[collection.label] }}</a>
-			{% endfor %}
+		{% for lang in site.languages %}
+			<a href="{{ site.baseurl }}/{{ lang }}{{ page.url }}">{{ site.data.lang_names[lang] }}</a>
 		{% endfor %}
 	</div>
+	{% for section in site.data.footer %}
 	<div class="footer-section">
-		{% for page in site[page.collection] %}
-			<a href="{{ page.url }}" class="footer-link">{{ page.title }}</a>
+		{% for link in section.children %}
+			<a href="{{ link.url }}" class="footer-link">{{ link.name }}</a>
 		{% endfor %}
 	</div>
+	{% endfor %}
 </footer>

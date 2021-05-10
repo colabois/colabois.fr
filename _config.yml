@@ -17,7 +17,7 @@ collections:
 
 permalink: /:title
 
-languages: ["en", "fr", "es", "zh"]
+languages: ["en", "fr", "es"]
 default_lang: "en"
 exclude_from_localization: ["css", "fonts", "img"]
 parallel_localization: true
