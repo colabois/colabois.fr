@@ -6,6 +6,19 @@ exclude:
     - Makefile
     - Dockerfile
     - Jenkinsfile
+    
+collections_dir: collections
+
+collections:
+    en:
+        output: true
+        permalink: /en/:name
+    fr:
+        output: true
+        permalink: /fr/:name
+    es:
+        output: true
+        permalink: /es/:name
 
 defaults:
     - scope:

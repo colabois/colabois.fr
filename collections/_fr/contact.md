@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Contact
+title: Mentions légales
 lang: fr
 ---
 
-# Contact
+# Mentions légales
 
 ## Responsables éditoriaux
 
