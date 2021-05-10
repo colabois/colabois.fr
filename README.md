@@ -1,4 +1,6 @@
-<h1 align="center">Colabois</h1>
+[![Build Status](https://moriya.zapto.org/jenkins/buildStatus/icon?job=Colabois%2Fcolabois.fr%2Fmain&subject=production&style=flat-square)](https://colabois.fr) [![Build Status](https://moriya.zapto.org/jenkins/buildStatus/icon?job=Colabois%2Fcolabois.fr%2Fdev&subject=www-dev&style=flat-square)](https://www-dev.colabois.fr)
+
+<h1 align="center"><a href src="https://colabois.fr"> Colabois.fr </a></h1>
 
 <p align="center">
     <img src=".readme/screenshots/1.jpg">
