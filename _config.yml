@@ -1,21 +1,21 @@
 plugins:
-    - jekyll-autoprefixer
-    - jekyll-polyglot
+  - jekyll-autoprefixer
+  - jekyll-polyglot
 
 exclude:
-    - README.md
-    - Makefile
-    - Dockerfile
-    - Jenkinsfile
+  - README.md
+  - Makefile
+  - Dockerfile
+  - Jenkinsfile
 
 collections_dir: collections
 
 collections:
-    posts:
-        output: true
-    pages:
-        output: true
-        permalink: /:title
+  posts:
+    output: true
+  pages:
+    output: true
+    permalink: /:title
 
 permalink: /:title
 
@@ -25,24 +25,24 @@ exclude_from_localization: ["css", "fonts", "img"]
 parallel_localization: true
 
 defaults:
-    - scope:
-        path: _posts
-      values:
-        layout: post
-    - scope:
-        path: pages
-      values:
-        permalink: /:title
+  - scope:
+      path: _posts
+    values:
+      layout: post
+  - scope:
+      path: pages
+    values:
+      permalink: /:title
 
 sass:
-    style: compressed
-    sourcemap: never
+  style: compressed
+  sourcemap: never
 
 compress_html:
-    clippings: all
-    comments: ["<!-- ", " -->"]
-    endings: all
-    ignore:
-        envs: [local]
-    blanklines: false
-    startings: [html, head, body]
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  startings: [html, head, body]
