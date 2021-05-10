@@ -6,12 +6,16 @@
 
 <footer class="footer">
 	<div class="footer-section">
-		{% for language in site.data.languages %}
-			<a href="{{ language.link }}" class="footer-link">{{ language.name }}</a>
+		{% for collection in site.collections %}
+			{% assign possible_indexes = collection.docs | where: "layout", "index" %}
+			{% for index in possible_indexes %}
+				<a href="{{ index.url }}" class="footer-link">{{ site.data.collections_names[collection.label] }}</a>
+			{% endfor %}
 		{% endfor %}
 	</div>
 	<div class="footer-section">
-		<a href="/{{ page.collection }}/contact"><i class="far fa-address-book"></i> {{ t["contact"] }}</a>
-		<a href="https://github.com/colabois/colabois.fr" class="footer-link"><i class="fab fa-github"></i> {{ t["site-source"] }}</a>
+		{% for page in site[page.collection] %}
+			<a href="{{ page.url }}" class="footer-link">{{ page.title }}</a>
+		{% endfor %}
 	</div>
 </footer>

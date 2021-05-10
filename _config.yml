@@ -13,12 +13,15 @@ collections:
     en:
         output: true
         permalink: /en/:name
+        naaame: A
     fr:
         output: true
         permalink: /fr/:name
+        naaame: B
     es:
         output: true
         permalink: /es/:name
+        naaame: C
 
 defaults:
     - scope:
