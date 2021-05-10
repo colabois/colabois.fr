@@ -6,6 +6,10 @@
 
 	&-link {
 		padding: 1em !important;
+
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 
 	&-description {
