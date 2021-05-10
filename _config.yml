@@ -20,6 +20,7 @@ defaults:
 
 sass:
     style: compressed
+    sourcemap: never
 
 compress_html:
     clippings: all
