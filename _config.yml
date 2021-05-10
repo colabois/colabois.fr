@@ -8,6 +8,8 @@ exclude:
     - Dockerfile
     - Jenkinsfile
 
+collections_dir: collections
+
 collections:
     posts:
         output: true
