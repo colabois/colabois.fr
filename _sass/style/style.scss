@@ -1,14 +1,22 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: "Segoe UI", sans-serif;
 }
 
-header {
+.header {
 	background-color: rgb(250, 92, 0);
 	color: white;
 }
 
 a {
 	text-decoration: inherit;
+	color: inherit;
+}
+
+.main a {
 	color: royalblue;
 }
 
@@ -25,9 +33,4 @@ div.highlight {
 	pre.highlight {
 		margin: 0;
 	}
-}
-
-footer {
-	background-color: rgb(36, 36, 36);
-	color: white;
 }

@@ -9,37 +9,37 @@ layout: base
 {% assign s = page.strings %}
 
 <link rel="stylesheet" href="/css/index.css">
-<header>
-	<div class="links">
-		<a href="/">Colabois</a>
-		<span class="separator"></span>
-		<a href="#projects">{{ t["projects"] }}</a>
+<header class="header">
+	<div class="header-links">
+		<a href="/" class="header-link">Colabois</a>
+		<span class="header-links-separator"></span>
+		<a href="#projects" class="header-link">{{ t["projects"] }}</a>
 	</div>
-	<div class="description">
+	<div class="header-description">
 		<h1>Colabois</h1>
 	</div>
-	<a href="#infos" class="down"><span class="material-icons">expand_more</span></a>
+	<a href="#infos" class="header-down"><span class="material-icons">expand_more</span></a>
 </header>
-<main>
+<main class="main">
 	<section id="infos" class="main-section">
 		<div id="who-are-we">
 			<h1>{{ s["title-who-are-we"] }}</h1>
 			<p>{{ s["desc-who-are-we"] }}</p>
 		</div>
-		<div id="what-do-we-do">
+		<div>
 			<h1>{{ s["title-what-do-we-do"] }}</h1>
 			<p>{{ s["desc-what-do-we-do"] }}</p>
 		</div>
 	</section>
 	<section id="projects" class="main-section">
-		<h1>{{ s["title-our-projects"] }}</h1>
+		<h1 class="main-section-title">{{ s["title-our-projects"] }}</h1>
 		<div class="project-list">
 			{% for project in site.data.projects %}
 				<div class="project">
 					<img src="{{ project["imgpath"] }}" class="project-image">
-					<div class="project-description">
-						<h1 class="project-title"><a href="{{ project["link"] }}" target="_blank">{{ project["name"] }}</a></h1>
-						<p class="project-summary">{{ project["desc"] }}</p>
+					<div class="project-desc">
+						<h1 class="project-desc-title"><a href="{{ project["link"] }}" target="_blank">{{ project["name"] }}</a></h1>
+						<p class="project-desc-summary">{{ project["desc"] }}</p>
 					</div>
 				</div>
 			{% endfor %}
