@@ -6,5 +6,5 @@
 - name: Discorn
   desc: An encrypted and decentralized chatting protocol based on cryptocurrencies.
   imgpath: /img/project-logos/discorn.png
-  link: https://moriya.zapto.org/gitsokyo/Discorn
+  link: https://github.com/colabois/Discorn
 
