@@ -1,11 +1,11 @@
-<h1 align="center"><a href src="https://colabois.fr"> Colabois.fr </a></h1>
+<h1 align="center">Colabois.fr</h1>
 
 <p align="center">
     <a href="https://colabois.fr">
-        <img src="https://moriya.zapto.org/jenkins/buildStatus/icon?job=Colabois%2Fcolabois.fr%2Fmain&subject=production&style=flat">
+        <img src="https://jenkins.colabois.fr/buildStatus/icon?job=Colabois%2Fcolabois.fr%2Fmain&subject=production&style=flat">
     </a>
     <a href="https://www-dev.colabois.fr">
-        <img src="https://moriya.zapto.org/jenkins/buildStatus/icon?job=Colabois%2Fcolabois.fr%2Fdev&subject=www-dev&style=flat">
+        <img src="https://jenkins.colabois.fr/buildStatus/icon?job=Colabois%2Fcolabois.fr%2Fdev&subject=www-dev&style=flat">
     </a>
 </p>
 
