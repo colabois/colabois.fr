@@ -82,7 +82,7 @@ pipeline {
     post {
         always {
             sh 'git clean -fxd'
-            discordSend description: env.TAG_NAME ? "Le tag ${env.TAG_NAME} a fini d'exécuter :\n - [colabois.fr](${env.WEBSITE + '/'})" : env.BRANCH_NAME == 'main' || env.BRANCH_NAME == 'jenkins_tests' ? "La branche ${env.BRANCH_NAME} a fini d'exécuter :\n - [colabois.fr](${env.WEBSITE + '/'})" : env.BRANCH_NAME == 'dev' ? "La branche ${env.BRANCH_NAME} a fini d'exécuter :\n - [colabois.fr](${env.DEV_WEBSITE + '/'})" : '*pour plus de détail, voir lien au dessus.*', footer: currentBuild.durationString.replace(" and counting",""), link: env.RUN_DISPLAY_URL, result: currentBuild.currentResult, title:"[${currentBuild.currentResult}] ${currentBuild.fullDisplayName}", webhookURL: env.WEBHOOK_URL
+            discordSend description: env.TAG_NAME ? "Le tag ${env.TAG_NAME} a fini d'exécuter :\n - [${env.DOMAIN}](${env.WEBSITE + '/'})" : env.BRANCH_NAME == 'main' || env.BRANCH_NAME == 'jenkins_tests' ? "La branche ${env.BRANCH_NAME} a fini d'exécuter :\n - [${env.DOMAIN}](${env.WEBSITE + '/'})" : env.BRANCH_NAME == 'dev' ? "La branche ${env.BRANCH_NAME} a fini d'exécuter :\n - [${env.DEV_DOMAIN}](${env.DEV_WEBSITE + '/'})" : '*pour plus de détail, voir lien au dessus.*', footer: currentBuild.durationString.replace(" and counting",""), link: env.RUN_DISPLAY_URL, result: currentBuild.currentResult, title:"[${currentBuild.currentResult}] ${currentBuild.fullDisplayName}", webhookURL: env.WEBHOOK_URL
         }
     }
 }
