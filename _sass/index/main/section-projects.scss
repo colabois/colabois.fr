@@ -1,0 +1,22 @@
+#projects {
+    background-color: lightgrey;
+}
+
+.project-list {
+    display: flex;
+
+    &-wrapper {
+        display: flex;
+        overflow-x: auto;
+
+        &-wrapper {
+            display: flex;
+            justify-content: center; 
+        }
+    }
+
+    .project {
+        flex-shrink: 0;
+        display: inline-block;
+    }
+}

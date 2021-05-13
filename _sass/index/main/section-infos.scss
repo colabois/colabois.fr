@@ -1,0 +1,13 @@
+#infos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: justify;
+
+    @media (max-width: 40em) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    > div {
+        margin: 1em;
+    }
+}
