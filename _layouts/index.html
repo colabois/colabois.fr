@@ -34,16 +34,18 @@ layout: base
 	</section>
 	<section id="projects" class="main-section">
 		<h1 class="main-section-title">{{ s["title-our-projects"] }}</h1>
-		<div class="project-list">
-			{% for project in site.data.projects %}
-				<div class="project">
-					<img src="{{ project["imgpath"] }}" class="project-image">
-					<div class="project-desc">
-						<h1 class="project-desc-title"><a href="{{ project["link"] }}" target="_blank">{{ project["name"] }}</a></h1>
-						<p class="project-desc-summary">{{ project["desc"] }}</p>
+		<div class="project-list-wrapper">
+			<div class="project-list">
+				{% for project in site.data.projects %}
+					<div class="project">
+						<img src="{{ project["imgpath"] }}" class="project-image">
+						<div class="project-desc">
+							<h1 class="project-desc-title"><a href="{{ project["link"] }}" target="_blank">{{ project["name"] }}</a></h1>
+							<p class="project-desc-summary">{{ project["desc"] }}</p>
+						</div>
 					</div>
-				</div>
-			{% endfor %}
+				{% endfor %}
+			</div>
 		</div>
 	</section>
 </main>

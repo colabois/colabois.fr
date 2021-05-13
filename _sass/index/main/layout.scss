@@ -21,6 +21,11 @@ main {
 	display: flex;
 	overflow-x: auto;
 
+	&-wrapper {
+		display: flex;
+		justify-content: center;
+	}
+
 	.project {
 		flex-shrink: 0;
 	}
