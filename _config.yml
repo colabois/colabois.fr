@@ -20,7 +20,7 @@ collections:
 permalink: /:title
 
 languages: ["en", "fr", "es"]
-default_lang: "en"
+default_lang: "redirect"
 exclude_from_localization: ["css", "fonts", "img"]
 parallel_localization: true
 
