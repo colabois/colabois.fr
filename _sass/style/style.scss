@@ -1,43 +1,43 @@
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-	font-family: "Segoe UI", sans-serif;
+    font-family: "Segoe UI", sans-serif;
 }
 
 .header {
-	color: white;
-	background-color: transparent;
-	background-image: url("/img/banner-light.jpg");
-	background-size: 100vw;
-	background-attachment: fixed;
+    color: white;
+    background-color: transparent;
+    background-image: url("/img/banner-light.jpg");
+    background-size: 100vw;
+    background-attachment: fixed;
 }
 
 a {
-	text-decoration: inherit;
-	color: inherit;
+    text-decoration: inherit;
+    color: inherit;
 
-	&:hover {
-		text-decoration: underline;
-	}
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 .main a {
-	color: royalblue;
+    color: royalblue;
 }
 
 table, td, th {
-	padding: .5em;
-	border: solid 1px rgb(206, 206, 206);
-	border-collapse: collapse;
+    padding: .5em;
+    border: solid 1px rgb(206, 206, 206);
+    border-collapse: collapse;
 }
 
 div.highlight {
-	padding: 1em;
-	border-radius: 5px;
-	
-	pre.highlight {
-		margin: 0;
-	}
+    padding: 1em;
+    border-radius: 5px;
+    
+    pre.highlight {
+        margin: 0;
+    }
 }

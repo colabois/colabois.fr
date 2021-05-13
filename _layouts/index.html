@@ -3,54 +3,54 @@ layout: base
 ---
 
 {% if page.lang %}
-	{% assign t = site.data.translations[page.lang] %}
+    {% assign t = site.data.translations[page.lang] %}
 {% else %}
-	{% assign t = site.data.translations["en"] %}
+    {% assign t = site.data.translations["en"] %}
 {% endif %}
 {% assign s = page.strings %}
 
 <link rel="stylesheet" href="/css/index.css">
 <header class="header">
-	<div class="header-links">
-		<a href="/" class="header-link">Colabois</a>
-		<span class="header-links-separator"></span>
-		<a href="#projects" class="header-link">{{ t["projects"] }}</a>
-	</div>
-	<div class="header-description">
-		<h1>Colabois</h1>
-	</div>
-	<a href="#infos" class="header-down"><span class="material-icons">expand_more</span></a>
+    <div class="header-links">
+        <a href="/" class="header-link">Colabois</a>
+        <span class="header-links-separator"></span>
+        <a href="#projects" class="header-link">{{ t["projects"] }}</a>
+    </div>
+    <div class="header-description">
+        <h1>Colabois</h1>
+    </div>
+    <a href="#infos" class="header-down"><span class="material-icons">expand_more</span></a>
 </header>
 <main class="main">
-	<section id="infos" class="main-section">
-		<div id="who-are-we">
-			<h1>{{ s["title-who-are-we"] }}</h1>
-			<p>{{ s["desc-who-are-we"] }}</p>
-		</div>
-		<div>
-			<h1>{{ s["title-what-do-we-do"] }}</h1>
-			<p>{{ s["desc-what-do-we-do"] }}</p>
-		</div>
-	</section>
-	<section id="projects" class="main-section">
-		<h1 class="main-section-title">{{ s["title-our-projects"] }}</h1>
-		<div class="project-list-wrapper-wrapper">
-			<div class="project-list-wrapper">
-				<div class="project-list">
-					{% for project in site.data.projects %}
-						<div class="project">
-							{% if project["imgpath"] %}
-								<img src="{{ project["imgpath"] }}" class="project-image">
-							{% endif %}
-							<div class="project-desc">
-								<h1 class="project-desc-title"><a href="{{ project["link"] }}" target="_blank">{{ project["name"] }}</a></h1>
-								<p class="project-desc-summary">{{ project["desc"] }}</p>
-							</div>
-						</div>
-					{% endfor %}
-				</div>
-			</div>
-		</div>
-	</section>
+    <section id="infos" class="main-section">
+        <div id="who-are-we">
+            <h1>{{ s["title-who-are-we"] }}</h1>
+            <p>{{ s["desc-who-are-we"] }}</p>
+        </div>
+        <div>
+            <h1>{{ s["title-what-do-we-do"] }}</h1>
+            <p>{{ s["desc-what-do-we-do"] }}</p>
+        </div>
+    </section>
+    <section id="projects" class="main-section">
+        <h1 class="main-section-title">{{ s["title-our-projects"] }}</h1>
+        <div class="project-list-wrapper-wrapper">
+            <div class="project-list-wrapper">
+                <div class="project-list">
+                    {% for project in site.data.projects %}
+                        <div class="project">
+                            {% if project["imgpath"] %}
+                                <img src="{{ project["imgpath"] }}" class="project-image">
+                            {% endif %}
+                            <div class="project-desc">
+                                <h1 class="project-desc-title"><a href="{{ project["link"] }}" target="_blank">{{ project["name"] }}</a></h1>
+                                <p class="project-desc-summary">{{ project["desc"] }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 {% include footer.html %}

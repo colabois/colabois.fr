@@ -1,37 +1,37 @@
 main {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 #infos {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	text-align: justify;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: justify;
 
-	@media (max-width: 40em) {
-		grid-template-columns: repeat(1, 1fr);
-	}
+    @media (max-width: 40em) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
-	> div {
-		margin: 1em;
-	}
+    > div {
+        margin: 1em;
+    }
 }
 
 .project-list {
-	display: flex;
+    display: flex;
 
-	&-wrapper {
-		display: flex;
-		overflow-x: auto;
+    &-wrapper {
+        display: flex;
+        overflow-x: auto;
 
-		&-wrapper {
-			display: flex;
-			justify-content: center;
-		}
-	}
+        &-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+    }
 
-	.project {
-		flex-shrink: 0;
-		display: inline-block;
-	}
+    .project {
+        flex-shrink: 0;
+        display: inline-block;
+    }
 }

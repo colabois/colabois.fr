@@ -1,22 +1,22 @@
 .header {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
 
-	&-link {
-		padding: 1em !important;
-	}
+    &-link {
+        padding: 1em !important;
+    }
 
-	&-description {
-		flex-grow: 1;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
+    &-description {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-	&-down {
-		padding: 2em;
-		font-size: 1.5em;
-	}
+    &-down {
+        padding: 2em;
+        font-size: 1.5em;
+    }
 }

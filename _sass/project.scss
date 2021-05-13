@@ -1,29 +1,29 @@
 .project {
-	background-color: white;
-	box-shadow: 3px 3px 10px rgb(146, 146, 146);
-	border-radius: 10px;
-	width: 12em;
-	margin: 2em;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgb(146, 146, 146);
+    border-radius: 10px;
+    width: 12em;
+    margin: 2em;
 
-	&-image {
-		width: 100%;
-		height: 8em;
-		object-fit: cover;
-		border-radius: 10px 10px 0 0;
-	}
+    &-image {
+        width: 100%;
+        height: 8em;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+    }
 
-	&-desc {
-		padding: 1em;
+    &-desc {
+        padding: 1em;
 
-		&-title {
-			margin-top: 0;
-			margin-bottom: 0;
-			text-decoration: inherit;
-		}
+        &-title {
+            margin-top: 0;
+            margin-bottom: 0;
+            text-decoration: inherit;
+        }
 
-		&-summary {
-			margin-top: .5em;
-			color: rgb(44, 44, 44);
-		}
-	}
+        &-summary {
+            margin-top: .5em;
+            color: rgb(44, 44, 44);
+        }
+    }
 }

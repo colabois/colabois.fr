@@ -3,14 +3,14 @@ layout: page
 ---
 
 {% if page.lang %}
-	{% assign t = site.data.translations[page.lang] %}
+    {% assign t = site.data.translations[page.lang] %}
 {% else %}
-	{% assign t = site.data.translations["en"] %}
+    {% assign t = site.data.translations["en"] %}
 {% endif %}
 
 <link rel="stylesheet" href="/css/post.css">
 <article class="post">
-	<h1 class="post-title">{{ page.title }}</h1>
-	<p class="post-infos">{{ page.author }} - {{ page.date | date: "%A %d %B %Y"}}</p>
-	{{ content }}
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-infos">{{ page.author }} - {{ page.date | date: "%A %d %B %Y"}}</p>
+    {{ content }}
 </article>

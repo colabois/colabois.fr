@@ -1,21 +1,21 @@
 {% if page.lang %}
-	{% assign t = site.data.translations[page.lang] %}
+    {% assign t = site.data.translations[page.lang] %}
 {% else %}
-	{% assign t = site.data.translations["en"] %}
+    {% assign t = site.data.translations["en"] %}
 {% endif %}
 
 <footer class="footer">
-	<div class="footer-section">
-		{% for lang in site.languages %}
-			<a href="{% if lang == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ lang }}{{page.url}} {% endif %}">{{ site.data.lang_names[lang] }}</a>
-		{% endfor %}
-	</div>
-	<div class="footer-section">
-		{% for page in site[page.collection] %}
-			<a href="{{ page.url }}" class="footer-link">{{ page.title }}</a>
-		{% endfor %}
-	</div>
-	<div class="footer-section">
-		<a href="https://github.com/colabois/colabois.fr">{{ t["site-source"] }}</a>
-	</div>
+    <div class="footer-section">
+        {% for lang in site.languages %}
+            <a href="{% if lang == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ lang }}{{page.url}} {% endif %}">{{ site.data.lang_names[lang] }}</a>
+        {% endfor %}
+    </div>
+    <div class="footer-section">
+        {% for page in site[page.collection] %}
+            <a href="{{ page.url }}" class="footer-link">{{ page.title }}</a>
+        {% endfor %}
+    </div>
+    <div class="footer-section">
+        <a href="https://github.com/colabois/colabois.fr">{{ t["site-source"] }}</a>
+    </div>
 </footer>
