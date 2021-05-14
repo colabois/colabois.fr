@@ -7,13 +7,13 @@ title: Redirecting...
     let lang = (navigator.userLanguage || navigator.language).substring(0, 2);
     switch (lang) {
         case "fr":
-            document.location.href = "/fr{{ page.permalink }}"
+            document.location.href = "/fr{{ page.permalink }}";
             break;
         case "es":
-            document.location.href = "/es{{ page.permalink }}"
+            document.location.href = "/es{{ page.permalink }}";
             break;
         default:
-            document.location.href = "/en{{ page.permalink }}"
+            document.location.href = "/en{{ page.permalink }}";
             break;
     }
 </script>
