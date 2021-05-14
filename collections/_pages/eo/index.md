@@ -8,7 +8,7 @@ strings:
   desc-who-are-we: Ni estas grupo de studentoj kaj ellaborantoistoj, grupataj por krei iloj utilaj por la komunumo. Nia celo estas helpu unu la alian, disvolviĝi projektoj komunaj kaj la devizo estas la amikeco!
   
   title-what-do-we-do: Kio ni faras?
-  desc-what-do-we-do: Ni havas idealo de open source, do tute la nia projektoj estas open. Tago, eble, nia projektoj fariĝos sufiĉe importantaj por ni por fari de tio nia laboro, kaj atendanta, ni amas tute vin!!
+  desc-what-do-we-do: Ni havas idealo de open source, do tute la nia projektoj estas open. Iam, eble, nia projektoj fariĝos sufiĉe importantaj por ni por fari de tio nia laboro, kaj atendanta, ni amas tute vin!!
   
   title-our-projects: Nia projektoj
   
