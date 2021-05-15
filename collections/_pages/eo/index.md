@@ -11,11 +11,5 @@ strings:
   desc-what-do-we-do: Ni havas idealon de malfermkodo, do tute la nia projektoj estas tiel. Iam, eble, nia projektoj fariĝos sufiĉe da gravataj aferoj por ke ĝi iĝos nian laboron, sed atendanta, ni amas tute de vin!!
   
   title-our-projects: Nia projektoj
-  
-  name-pdba: PDBA
-  desc-pdba: Python Discord Bot Agregator
-  name-discorn: Discorn
-  desc-discorn: Discorn is an encrypted and decentralized chatting protocol based on cryptocurrencies.
-
   in-other-languages: En aliaj lingvoj
 ---

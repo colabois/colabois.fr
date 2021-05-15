@@ -11,11 +11,6 @@ strings:
   desc-what-do-we-do: We have an ideal of open source, so all our projects are. Some day, maybe, our projects will become important enough for us to make it become our job, but waiting that, we love you all!
   
   title-our-projects: Our projects
-  
-  name-pdba: PDBA
-  desc-pdba: Python Discord Bot Agregator
-  name-discorn: Discorn
-  desc-discorn: Discorn is an encrypted and decentralized chatting protocol based on cryptocurrencies.
 
   in-other-languages: In other languages
 ---
