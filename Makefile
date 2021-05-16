@@ -1,5 +1,5 @@
 build:
-	bundle exec jekyll build
+	JEKYLL_ENV=production bundle exec jekyll build
 
 run:
-	bundle exec jekyll serve
+	JEKYLL_ENV=production bundle exec jekyll serve
