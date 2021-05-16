@@ -1,8 +1,8 @@
-build: update
+build: check
 	bundle exec jekyll build
 
-run: update
+run: check
 	bundle exec jekyll serve
 
-update:
-	bundle update
+check:
+	bundle check
