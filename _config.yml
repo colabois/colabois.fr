@@ -4,6 +4,7 @@ plugins:
   - jekyll-autoprefixer
   - jekyll-include-cache
   - jekyll-sitemap
+  - jekyll-gzip
 
 exclude:
   - README.md
