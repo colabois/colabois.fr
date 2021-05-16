@@ -5,4 +5,4 @@ run: install
 	bundle exec jekyll serve
 
 install:
-	bundle install
+	bundle install --jobs 4
