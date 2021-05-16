@@ -7,6 +7,7 @@ gem "jekyll", github: "jekyll/jekyll"
 gem "liquid-c"
 
 group :jekyll_plugins do
-	gem 'jekyll-autoprefixer'
+	gem "jekyll-commonmark"
 	gem "jekyll-polyglot"
+	gem "jekyll-autoprefixer"
 end

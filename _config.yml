@@ -1,6 +1,7 @@
 plugins:
-  - jekyll-autoprefixer
+  - jekyll-commonmark
   - jekyll-polyglot
+  - jekyll-autoprefixer
 
 exclude:
   - README.md
@@ -34,6 +35,10 @@ defaults:
       path: pages
     values:
       permalink: /:title
+
+markdown: CommonMark
+commonmark:
+  extensions: ["strikethrough", "autolink", "table"]
 
 sass:
   style: compressed
