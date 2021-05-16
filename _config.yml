@@ -2,6 +2,7 @@ plugins:
   - jekyll-commonmark
   - jekyll-polyglot
   - jekyll-autoprefixer
+  - jekyll-include-cache
 
 exclude:
   - README.md

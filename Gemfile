@@ -10,4 +10,5 @@ group :jekyll_plugins do
 	gem "jekyll-commonmark"
 	gem "jekyll-polyglot"
 	gem "jekyll-autoprefixer"
+	gem "jekyll-include-cache"
 end
