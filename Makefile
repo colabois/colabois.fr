@@ -1,8 +1,5 @@
-build: install
+build:
 	bundle exec jekyll build
 
-run: install
+run:
 	bundle exec jekyll serve
-
-install:
-	bundle install --jobs $$(nproc)
