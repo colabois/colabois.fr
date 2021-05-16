@@ -3,6 +3,7 @@ plugins:
   - jekyll-polyglot
   - jekyll-autoprefixer
   - jekyll-include-cache
+  - jekyll-sitemap
 
 exclude:
   - README.md

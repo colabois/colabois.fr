@@ -11,4 +11,5 @@ group :jekyll_plugins do
 	gem "jekyll-polyglot"
 	gem "jekyll-autoprefixer"
 	gem "jekyll-include-cache"
+	gem "jekyll-sitemap"
 end
