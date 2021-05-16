@@ -22,6 +22,7 @@ pipeline {
         stage('Build sources') {
             steps {
                 sh 'chmod -R o+rwx .'
+                sh 'bundle install --jobs 4'
                 sh 'make build -j4'
             }
             post {
