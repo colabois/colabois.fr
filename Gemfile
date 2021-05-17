@@ -8,6 +8,7 @@ gem "liquid-c"
 
 group :jekyll_plugins do
 	gem "jekyll-commonmark"
+	gem "jekyll-multiple-languages-plugin"
 	gem "jekyll-include-cache"
 	gem "jekyll-sitemap"
 	gem "jekyll-gzip"

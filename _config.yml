@@ -1,5 +1,6 @@
 plugins:
   - jekyll-commonmark
+  - jekyll-multiple-languages-plugin
   - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-gzip
