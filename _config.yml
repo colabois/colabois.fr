@@ -22,8 +22,8 @@ collections:
 
 permalink: /:title
 
-languages: ["en", "fr", "es", "eo"]
-exclude_from_localizations: ["assets"]
+languages: ["en"]
+exclude_from_localizations: ["assets", "favicon.ico"]
 
 defaults:
   - scope:
@@ -41,7 +41,6 @@ commonmark:
 
 sass:
   style: compressed
-  sourcemap: never
 
 compress_html:
   clippings: all
