@@ -1,1 +1,19 @@
-a: b
+projects: Proyectos
+
+index:
+  title: Home
+
+  who_are_we: 
+    title: ¿Quién somos?
+    desc: ¡Somos un grupo de alumnos y desarolladores profesionales, juntos para crear herramientas utiles por la communidad. Nuestro objetivo es de ayudarse, hacer proyectos comunes, y la lema es la amistad!
+
+  what_do_we_do:
+    title: ¿Qué hacemos?
+    desc: Tenemos un ideal de open source, así que todos nuestros proyectos lo son. Un día quizás nuestros proyectos sean bastante importantes para que pasarián a ser nuestro trabajo, pero esperando, vos queremos todos.
+
+  our_projects:
+    title: Nuestros proyectos
+
+404:
+  page_not_found: Página no encontrada :(
+  turn_back_home: Volver a la página principal
