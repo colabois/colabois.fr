@@ -23,7 +23,7 @@ collections:
 
 permalink: /:title
 
-languages: ["en"]
+languages: ["en", "fr", "es", "eo"]
 exclude_from_localizations: ["assets", "favicon.ico"]
 
 defaults:
