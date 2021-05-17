@@ -1,6 +1,5 @@
 plugins:
   - jekyll-commonmark
-  - jekyll-polyglot
   - jekyll-autoprefixer
   - jekyll-include-cache
   - jekyll-sitemap
@@ -25,9 +24,6 @@ collections:
 permalink: /:title
 
 languages: ["en", "fr", "es", "eo"]
-default_lang: "redirect"
-exclude_from_localization: ["css", "fonts", "img"]
-parallel_localization: true
 
 defaults:
   - scope:

@@ -1,4 +1,5 @@
 ---
+title: Home
 layout: base
 ---
 
@@ -14,7 +15,7 @@ layout: base
     <div class="header-links">
         <a href="/" class="header-link">Colabois</a>
         <span class="header-links-separator"></span>
-        <a href="#projects" class="header-link">{{ t["projects"] }}</a>
+        <a href="#projects" class="header-link">{% t projects %}</a>
     </div>
     <div class="header-description">
         <h1>Colabois</h1>
@@ -24,16 +25,16 @@ layout: base
 <main class="main">
     <section id="infos" class="main-section">
         <div id="who-are-we">
-            <h1>{{ s["title-who-are-we"] }}</h1>
-            <p>{{ s["desc-who-are-we"] }}</p>
+            <h1>{% t title_who_are_we %}</h1>
+            <p>{% t desc_who_are_we %}</p>
         </div>
         <div>
-            <h1>{{ s["title-what-do-we-do"] }}</h1>
-            <p>{{ s["desc-what-do-we-do"] }}</p>
+            <h1>{% t title_what_do_we_do %}</h1>
+            <p>{% t desc_what_do_we_do %}</p>
         </div>
     </section>
     <section id="projects" class="main-section">
-        <h1 class="main-section-title">{{ s["title-our-projects"] }}</h1>
+        <h1 class="main-section-title">{% t title_our_projects %}</h1>
         <div class="project-list-wrapper-wrapper">
             <div class="project-list-wrapper">
                 <div class="project-list">
