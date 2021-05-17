@@ -1,14 +1,7 @@
 ---
-title: Home
 layout: base
+ref: index
 ---
-
-{% if page.lang %}
-    {% assign t = site.data.translations[page.lang] %}
-{% else %}
-    {% assign t = site.data.translations["en"] %}
-{% endif %}
-{% assign s = page.strings %}
 
 <link rel="stylesheet" href="/assets/css/index.css">
 <header class="header">
@@ -25,12 +18,12 @@ layout: base
 <main class="main">
     <section id="infos" class="main-section">
         <div id="who-are-we">
-            <h1>{% t title_who_are_we %}</h1>
-            <p>{% t desc_who_are_we %}</p>
+            <h1>{% t index.who_are_we.title %}</h1>
+            <p>{% t index.who_are_we.desc %}</p>
         </div>
         <div>
-            <h1>{% t title_what_do_we_do %}</h1>
-            <p>{% t desc_what_do_we_do %}</p>
+            <h1>{% t index.what_do_we_do.title %}</h1>
+            <p>{% t index.what_do_we_do.desc %}</p>
         </div>
     </section>
     <section id="projects" class="main-section">

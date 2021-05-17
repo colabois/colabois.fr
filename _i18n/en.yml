@@ -2,12 +2,25 @@
 
 projects: Projects
 
-# Home page
+langs:
+  en: English
+  fr: Français
+  es: Español
+  eo: Esperanto
 
-title_who_are_we: Who are we?
-desc_who_are_we: We are a group of students and professionnal developers, grouped to create useful tools for community. Our goal is to help each other, develop common projects and the watchword is friendship!
 
-title_what_do_we_do: What do we do?
-desc_what_do_we_do: We have an ideal of open source, so all our projects are. Some day, maybe, our projects will become important enough for us to make it become our job, but waiting that, we love you all!
+# Index
 
-title_our_projects: Our projects
+index:
+  title: Home
+
+  who_are_we:
+    title: Who are we?
+    desc: We are a group of students and professionnal developers, grouped to create useful tools for community. Our goal is to help each other, develop common projects and the watchword is friendship!
+  
+  what_do_we_do:
+    title: What do we do?
+    desc: We have an ideal of open source, so all our projects are. Some day, maybe, our projects will become important enough for us to make it become our job, but waiting that, we love you all!
+
+  our_projects:
+    title: Our projects
