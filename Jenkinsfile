@@ -7,6 +7,7 @@ pipeline {
     environment {
         JEKYLL_UID = '1001'
         JEKYLL_GID = '1001'
+        JEKYLL_ENV = 'production'
         DEPLOY_HOST = 'webroot@colabois.fr'
         PROJECT_NAME = 'colabois.fr'
         DOMAIN = 'colabois.fr'
@@ -23,7 +24,7 @@ pipeline {
             steps {
                 sh 'chmod -R o+rwx .'
                 sh 'bundle install --jobs $(nproc)'
-                sh 'JEKYLL_ENV=production bundle exec jekyll build'
+                sh 'bundle exec jekyll build'
             }
             post {
                 failure {
