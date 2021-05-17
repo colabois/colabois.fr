@@ -23,18 +23,15 @@ collections:
 
 permalink: /:title
 
-languages: ["en", "fr", "es", "eo"]
-exclude_from_localizations: ["assets", "favicon.ico"]
-
 defaults:
   - scope:
-      path: _posts
+      path: redirect
     values:
-      layout: post
-  - scope:
-      path: pages
-    values:
-      permalink: /:title
+      permalink: /
+
+languages: ["en", "fr", "es", "eo"]
+exclude_from_localizations: ["assets", "favicon.ico", "/index.html"]
+default_locale_in_subfolder: true
 
 markdown: CommonMark
 commonmark:
