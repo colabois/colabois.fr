@@ -8,7 +8,6 @@ gem "liquid-c"
 
 group :jekyll_plugins do
 	gem "jekyll-commonmark"
-	gem "jekyll-autoprefixer"
 	gem "jekyll-include-cache"
 	gem "jekyll-sitemap"
 	gem "jekyll-gzip"
