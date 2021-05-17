@@ -1,9 +1,8 @@
 plugins:
   - jekyll-commonmark
-  - jekyll-multiple-languages-plugin
   - jekyll-include-cache
   - jekyll-sitemap
-  - jekyll-gzip
+  - jekyll-zopfli
 
 exclude:
   - README.md

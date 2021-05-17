@@ -22,8 +22,8 @@ pipeline {
         stage('Build sources') {
             steps {
                 sh 'chmod -R o+rwx .'
-                sh 'bundle install --jobs 4'
-                sh 'make build -j4'
+                sh 'bundle install --jobs $(nproc)'
+                sh 'JEKYLL_ENV=production bundle exec jekyll build'
             }
             post {
                 failure {
