@@ -1,0 +1,18 @@
+---
+layout: default
+ref: posts
+---
+
+<div class="posts-list">
+    {% for post in site.posts %}
+        <div class="posts-list-item">
+            {% if post.cover %}
+                <img src="{{ post.cover }}" alt="">
+            {% endif %}
+            <div class="posts-list-item-desc">
+                <h2>{{ post.title }}</h2>
+                <p>{{ post.excerpt }}</p>
+            </div>
+        </div>
+    {% endfor %}
+</div>
