@@ -30,7 +30,6 @@ defaults:
 
 languages: ["en", "fr", "es", "eo"]
 exclude_from_localizations: ["assets", "favicon.ico"]
-default_locale_in_subfolder: true
 
 markdown: CommonMark
 commonmark:
