@@ -1,0 +1,24 @@
+.posts-list {
+    display: flex;
+    flex-direction: column;
+
+    a {
+        color: black;
+    }
+
+    &-item {
+        display: flex;
+        align-items: center;
+        padding: 1em;
+        border-bottom: solid 1px grey;
+
+        &:last-of-type {
+            border-bottom: none;
+        }
+
+        &-cover {
+            height: 2em;
+            border-radius: 5px;
+        }
+    }
+}
