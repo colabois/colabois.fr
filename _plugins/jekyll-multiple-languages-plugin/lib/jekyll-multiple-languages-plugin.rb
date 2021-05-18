@@ -121,7 +121,7 @@ module Jekyll
 
                   let supportedLangs = ["' + site.config["languages"].join('", "') + '"]
 
-                  if (supportedLangs.contains(lang)) {
+                  if (supportedLangs.includes(lang)) {
                       window.location.href = "/" + lang + "' + d.url + '";
                   } else {
                       window.location.href = "/' + site.config["languages"][0] + d.url + '";
