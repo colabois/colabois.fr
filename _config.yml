@@ -20,9 +20,6 @@ permalink: /:title
 languages: ["en", "fr", "es", "eo"]
 exclude_from_localizations: ["assets", "favicon.ico"]
 
-kramdown:
-  parse_block_html: true
-
 sass:
   style: compressed
 
