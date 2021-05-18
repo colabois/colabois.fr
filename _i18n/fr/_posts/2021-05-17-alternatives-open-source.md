@@ -41,9 +41,9 @@ On ne le présente plus : GNU / Linux, raccourci en Linux, est un système d'exp
 
 Linux a souvent la réputation d'être un système pour des utilisateurs avancés, et connaisseurs; mais certaines distributions, comme Ubuntu, se font de plus en plus accessibles aux débutants. Et si vous cherchez de l'aide, vous trouverez sûrement beaucoup de personnes prêtes à vous accompagner !
 
-(Ubuntu)[https://ubuntu.com/], (Kubuntu)[https://kubuntu.org/]..., ou (Linux Mint)[https://linuxmint.com/], ou encore (Manjaro)[https://manjaro.org/], pour des utilisateurs débutants.
+[Ubuntu](https://ubuntu.com/), [Kubuntu](https://kubuntu.org/)..., ou [Linux Mint](https://linuxmint.com/), ou encore [Manjaro](https://manjaro.org/), pour des utilisateurs débutants.
 
-(Arch Linux)[https://archlinux.org/] ou (Gentoo Linux)[https://www.gentoo.org/], pour des utilisateurs plus aguerris, avec l'envie d'en apprendre plus !
+[Arch Linux](https://archlinux.org/) ou [Gentoo Linux](https://www.gentoo.org/), pour des utilisateurs plus aguerris, avec l'envie d'en apprendre plus !
 
 ### Android et ses ROM custom
 
@@ -53,4 +53,4 @@ Heureusement, il existe de nombreuses solutions, et pour tous les goûts : les R
 
 Une ROM custom très connue est, par exemple, *LineageOS*. 
 
-Si vous voulez plus d'informations, sur votre appareil, sur une ROM custom ou des instructions, vous pouvez aller voir sur le forum (XDA-developers)[https://www.xda-developers.com/the-most-popular-custom-roms-on-xda/], ou encore sur les sites officiels de ces différentes ROM.
+Si vous voulez plus d'informations, sur votre appareil, sur une ROM custom ou des instructions, vous pouvez aller voir sur le forum [XDA-developers](https://www.xda-developers.com/the-most-popular-custom-roms-on-xda/), ou encore sur les sites officiels de ces différentes ROM.
