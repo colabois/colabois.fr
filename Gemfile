@@ -11,4 +11,5 @@ group :jekyll_plugins do
 	gem "jekyll-include-cache"
 	gem "jekyll-sitemap"
 	gem 'jekyll-zopfli'
+	gem 'jekyll-toc'
 end
