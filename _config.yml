@@ -1,9 +1,7 @@
 plugins:
-  - jekyll-commonmark
   - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-zopfli
-  - jekyll-toc
 
 exclude:
   - README.md
@@ -22,9 +20,8 @@ permalink: /:title
 languages: ["en", "fr", "es", "eo"]
 exclude_from_localizations: ["assets", "favicon.ico"]
 
-markdown: CommonMark
-commonmark:
-  extensions: ["strikethrough", "autolink", "table"]
+kramdown:
+  parse_block_html: true
 
 sass:
   style: compressed
