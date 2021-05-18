@@ -13,7 +13,7 @@
     <div class="footer-section">
         {% for page in site[page.collection] %}
             {% unless page.not_in_footer == true %}
-                <a href="{{ page.url }}" claqss="footer-link">{{ page.title }}</a>
+                <a href="{{ site.baseurl }}{{ page.url }}" class="footer-link">{{ page.title }}</a>
             {% endunless %}
         {% endfor %}
     </div>
