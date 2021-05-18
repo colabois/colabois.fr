@@ -12,6 +12,8 @@ exclude:
   - Jenkinsfile
   - .jekyll-cache
 
+collections_dir: collections
+
 collections:
   posts:
     output: true
