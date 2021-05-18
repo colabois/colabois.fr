@@ -12,11 +12,10 @@ exclude:
   - Jenkinsfile
   - .jekyll-cache
 
-collections_dir: collections
-
 collections:
   posts:
     output: true
+    permalink: /posts/:title
   pages:
     output: true
     permalink: /:title
@@ -30,7 +29,7 @@ defaults:
       permalink: /
 
 languages: ["en", "fr", "es", "eo"]
-exclude_from_localizations: ["assets", "favicon.ico", "/index.html"]
+exclude_from_localizations: ["assets", "favicon.ico"]
 default_locale_in_subfolder: true
 
 markdown: CommonMark
