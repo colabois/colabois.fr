@@ -52,7 +52,7 @@ Pour remplacer whatsapp ou messenger, Signal est une très bonne application ope
 
 Les fabricants de téléphones utilisent souvent leur propre application pour envoyer et recevoir des SMS, et celles-ci ne sont que très rarement (ou même jamais) libres et open-source. Mais il en existe, et QKSMS est un très bon exemple ! Elle fonctionne très bien, sans aucune publicité, et est personnalisable.
 
-Vous pouvez la télécharger depuis le [google play store](https://play.google.com/store/apps/details?id=com.moez.QKSMS&hl=en_US&gl=US), mais nous vous conseillons plutôt de l'installer depuis [F-Droid](https://f-droid.org/en/packages/com.moez.QKSMS/).
+Vous pouvez la télécharger sur le [google play store](https://play.google.com/store/apps/details?id=com.moez.QKSMS&hl=en_US&gl=US), mais nous vous conseillons plutôt de l'installer depuis [F-Droid](https://f-droid.org/en/packages/com.moez.QKSMS/).
 
 ## Moteurs de recherche
 
