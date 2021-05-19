@@ -6,17 +6,21 @@ ref: posts
 <link rel="stylesheet" href="/assets/css/posts_list.css">
 
 <div class="posts-list">
-    {% for post in site.posts %}
-        <a href="{{ site.baseurl }}{{ post.url }}" class="no-color">
-            <div class="posts-list-item">
-                {% if post.cover %}
-                    <img src="{{ post.cover }}" alt="post-cover" class="posts-list-item-cover">
-                {% endif %}
-                <div class="posts-list-item-desc">
-                    <h2>{{ post.title }}</h2>
-                    <p>{{ post.excerpt }}</p>
+    {% if site.posts.size != 0 %}
+        {% for post in site.posts %}
+            <a href="{{ site.baseurl }}{{ post.url }}" class="no-color">
+                <div class="posts-list-item">
+                    {% if post.cover %}
+                        <img src="{{ post.cover }}" alt="post-cover" class="posts-list-item-cover">
+                    {% endif %}
+                    <div class="posts-list-item-desc">
+                        <h2>{{ post.title }}</h2>
+                        <p>{{ post.excerpt }}</p>
+                    </div>
                 </div>
-            </div>
-        </a>
-    {% endfor %}
+            </a>
+        {% endfor %}
+    {% else %}
+        <p>It's pretty empty here...</p>
+    {% endif %}
 </div>
