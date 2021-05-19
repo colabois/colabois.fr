@@ -4,13 +4,13 @@ site_source: Fontkodo de la retpaĝo
 
 titles:
   index: Akcepto
-  '404': '404'
+  404: '404'
   contact: Kontakto
 
 index:
   our_projects: Nia projektoj
 
-'404':
+404:
   page_not_found: Paĝo ne trovita
   turn_back_home: Reiri al la akcepto
 
