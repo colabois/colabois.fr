@@ -4,13 +4,13 @@ site_source: Código del sito
 
 titles:
   index: Home
-  '404': '404'
+  404: '404'
   contact: Contacto
 
 index:
   our_projects: Nuestros proyectos
 
-'404':
+404:
   page_not_found: Página no encontrada :(
   turn_back_home: Volver a la página principal
 
