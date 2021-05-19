@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/post.css">
 <article class="post">
     {% if page.cover %}
         <img src="{{ page.cover | prepend: site.baseurl_root }}" class="post-cover">
@@ -11,3 +10,5 @@ layout: default
     <p class="post-infos">{{ page.author }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}</p>
     {{ content }}
 </article>
+
+<link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/post.css">
