@@ -5,7 +5,7 @@ layout: default
 <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/post.css">
 <article class="post">
     {% if page.cover %}
-        <img src="{{ page.cover }}" class="post-cover">
+        <img src="{{ page.cover | prepend: site.baseurl}}" class="post-cover">
     {% endif %}
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-infos">{{ page.author }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}</p>

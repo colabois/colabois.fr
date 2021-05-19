@@ -2,6 +2,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-zopfli
+  - jekyll-liquify
 
 exclude:
   - README.md
@@ -34,4 +35,4 @@ compress_html:
   blanklines: false
   startings: [html, head, body]
 
-baseurl: "/"
+baseurl: "/test"

@@ -30,7 +30,7 @@ ref: index
                     {% for project in site.data.projects %}
                         <div class="project">
                             {% if project["imgpath"] %}
-                                <img src="{{ project["imgpath"] }}" class="project-image">
+                                <img src="{{ project["imgpath"] | liquify }}" class="project-image">
                             {% endif %}
                             <div class="project-desc">
                                 <h1 class="project-desc-title"><a href="{{ project["link"] }}" target="_blank">{{ project["name"] }}</a></h1>
