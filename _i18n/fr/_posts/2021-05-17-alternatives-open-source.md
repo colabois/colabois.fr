@@ -1,7 +1,6 @@
 ---
 title: Alternatives open-source
 author: Dean
-cover: /assets/img/alternatives-open-source/cover.jpg
 layout: post
 ---
 
