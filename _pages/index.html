@@ -5,6 +5,9 @@ ref: index
 
 <meta property="og:title" content="Colabois">
 
+{% capture og_description %}{% tf index/og_description.md %}{% endcapture %}
+<meta property="og:description" content="{{ og_description | strip_html }}">
+
 <header class="header">
     <div class="header-links">
         {% include header_links.html %}
