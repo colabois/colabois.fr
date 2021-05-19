@@ -17,10 +17,10 @@ layout: compress
 </head>
 <body>
     {{ content }}
-    <link rel="stylesheet" href="/assets/css/normalize.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link href="/assets/css/material-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/highlight.css">
+    <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/normalize.css">
+    <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/style.css">
+    <link href="{{ site.baseurl_root }}/assets/css/material-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/highlight.css">
     {% if page.mathjax %}
         <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     {% endif %}
