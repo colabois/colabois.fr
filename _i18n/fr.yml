@@ -1,23 +1,13 @@
 projects: Projets
 
+titles:
+  index: Accueil
+  '404': '404'
+  contact: Contact
+
 index:
-  title: Accueil
-  
-  who_are_we: 
-    title: Qui sommes-nous ?
-    desc: Nous sommes un collectif de programmeurs amateurs, étudiants et professionnels, regroupés pour créer des outils utiles à la communauté. Notre but est de s'entraider mutuellement, de développer des projets communs et le mot d'ordre est l'amitié!
+  our_projects: Nos projets
 
-  what_do_we_do:
-    title: Que faisons-nous ?
-    desc: Nous avons un idéal d'open source, donc tous nos projets le sont. Un jour, peut-être, nos projets deviendront assez importants pour que nous puissions en faire notre métier, mais en attendant on vous aime tous!
-
-  our_projects:
-    title: Nos projets
-
-404:
-  title: 404
+'404':
   page_not_found: Page not found :(
   turn_back_home: Retourner à l'accueil
-
-contact:
-  title: Contact

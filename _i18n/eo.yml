@@ -1,23 +1,13 @@
 projects: Projektoj
 
+titles:
+  index: Akcepto
+  '404': '404'
+  contact: Kontakto
+
 index:
-  title: Akcepto
+  our_projects: Nia projektoj
 
-  who_are_we:
-    title: Kiu estas ni?
-    desc: Ni estas grupo de studentoj kaj ellaborantistoj, grupataj por krei ilojn utilajn por la komunumo. Nia celo estas helpi unu la alian, disvolviĝi projektojn komunajn kaj la devizo estas la amikeco!
-  
-  what_do_we_do:
-    title: Kio ni faras?
-    desc: Ni havas idealon de malfermkodo, do tute la nia projektoj estas tiel. Iam, eble, nia projektoj fariĝos sufiĉe da gravataj aferoj por ke ĝi iĝos nian laboron, sed atendanta, ni amas tute de vin!!
-
-  our_projects:
-    title: Nia projektoj
-
-404:
-  title: 404
+'404':
   page_not_found: Paĝo ne trovita
   turn_back_home: Reiri al la akcepto
-
-contact:
-  title: Kontakto
