@@ -14,7 +14,7 @@ C'est pourquoi nous utilisons quotidiennement des programmes et applications ope
 
 Pour permettre à n'importe qui de passer à un environnement plus libre, nous avons décidé de rédiger cette liste d'alternatives open source à des applications communes. Elle évoluera régulièrement; n'hésitez pas à la consulter plusieurs fois !
 
-**Table des matières**
+## Table des matières
 
 Pour naviguer plus facilement entre les catégories, vous pouvez utiliser la table des matières ci-dessous.
 

@@ -15,7 +15,7 @@ Estas por tiu ke ni uzas ĉiutage programaj kaj aplikadoj malfermkodaj, por prot
 
 Por permesi al ĉiu de uzi medio pli libera, ni decidis de skribi tiu listo de alternativoj malfermkodaj al aplikadoj komunaj. Ĝi evoluos ofte; konsultu ĝin plurfoje!
 
-**Resumo**
+## Resumo
 
 Por navigi pli facile en la kategorioj, vi povas uzi la resumo.
 
