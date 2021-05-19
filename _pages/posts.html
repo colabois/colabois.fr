@@ -7,7 +7,7 @@ ref: posts
 
 <div class="posts-list">
     {% for post in site.posts %}
-        <a href="{{ site.baseurl }}{{ post.url }}">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="no-color">
             <div class="posts-list-item">
                 {% if post.cover %}
                     <img src="{{ post.cover }}" alt="post-cover" class="posts-list-item-cover">

@@ -15,6 +15,10 @@ a {
     color: royalblue;
 }
 
+.main .no-color {
+    color: inherit;
+}
+
 table, td, th {
     padding: .5em;
     border: solid 1px rgb(206, 206, 206);
