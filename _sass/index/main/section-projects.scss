@@ -5,11 +5,11 @@
 .project-list {
     display: flex;
 
-    &-wrapper {
+    &__wrapper {
         display: flex;
         overflow-x: auto;
 
-        &-wrapper {
+        &__wrapper {
             display: flex;
             justify-content: center; 
         }

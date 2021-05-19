@@ -3,10 +3,12 @@ layout: base
 ---
 
 <header class="header">
-    {% include header_links.html %}
+    <div class="header__links">
+        {% include header_links.html %}
+    </div>
 </header>
 <main class="main">
-    <section class="main-section">
+    <section class="main__section">
         {{ content }}
     </section>
 </main>

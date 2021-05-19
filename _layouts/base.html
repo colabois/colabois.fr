@@ -10,7 +10,7 @@
     <meta data-react-helmet="true" name="theme-color" content="{{ site.data.colors['accent'] }}">
     <title>{% if page.collection == "posts" %}{{ page.title }}{% else %}{% t titles.{{ page.ref }} %}{% endif %} | Colabois</title>
 </head>
-<body>
+<body class="body">
     {{ content }}
     <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/normalize.css">
     <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/style.css">

@@ -9,16 +9,16 @@ ref: index
 <meta property="og:description" content="{{ og_description | strip_html }}">
 
 <header class="header">
-    <div class="header-links">
+    <div class="header__links">
         {% include header_links.html %}
     </div>
-    <div class="header-description">
-        <h1>Colabois</h1>
+    <div class="header__description">
+        <h1 class="header__description__title">Colabois</h1>
     </div>
-    <a href="#infos" class="header-down"><span class="material-icons">expand_more</span></a>
+    <a href="#infos" class="header__down"><span class="material-icons">expand_more</span></a>
 </header>
 <main class="main">
-    <section id="infos" class="main-section">
+    <section id="infos" class="main__section">
         <div id="who-are-we">
             {% tf index/who_are_we.md %}
         </div>
@@ -26,19 +26,19 @@ ref: index
             {% tf index/what_do_we_do.md %}
         </div>
     </section>
-    <section id="projects" class="main-section">
-        <h1 class="main-section-title">{% t index.our_projects %}</h1>
-        <div class="project-list-wrapper-wrapper">
-            <div class="project-list-wrapper">
+    <section id="projects" class="main__section">
+        <h1 class="center">{% t index.our_projects %}</h1>
+        <div class="project-list__wrapper__wrapper">
+            <div class="project-list__wrapper">
                 <div class="project-list">
                     {% for project in site.data.projects %}
                         <div class="project">
                             {% if project["imgpath"] %}
-                                <img src="{{ project["imgpath"] | liquify }}" class="project-image">
+                                <img src="{{ project["imgpath"] | liquify }}" class="project__image">
                             {% endif %}
-                            <div class="project-desc">
-                                <h1 class="project-desc-title"><a href="{{ project["link"] }}" target="_blank">{{ project["name"] }}</a></h1>
-                                <p class="project-desc-summary">{{ project["desc"] }}</p>
+                            <div class="project__desc">
+                                <h1 class="project__desc__title"><a href="{{ project["link"] }}" target="_blank">{{ project["name"] }}</a></h1>
+                                <p class="project__desc__summary">{{ project["desc"] }}</p>
                             </div>
                         </div>
                     {% endfor %}
@@ -46,20 +46,20 @@ ref: index
             </div>
         </div>
     </section>
-    <section id="posts" class="main-section">
-        <h1 class="main-section-title">{% t index.our_posts %}</h1>
+    <section id="posts" class="main__section">
+        <h1 class="center">{% t index.our_posts %}</h1>
         <div class="posts-list">
             {% if site.posts.size != 0 %}
                 {% for post in site.posts %}
                     <a href="{{ site.baseurl }}{{ post.url }}" class="no-color">
-                        <div class="posts-list-item">
+                        <div class="posts-list__item">
                             {% if post.cover %}
-                                <img src="{{ post.cover }}" alt="post-cover" class="posts-list-item-cover">
+                                <img src="{{ post.cover }}" alt="post-cover" class="posts-list__item__cover">
                             {% endif %}
-                            <div class="posts-list-item-desc">
-                                <h2 class="posts-list-item-desc-title">{{ post.title }}</h2>
-                                <p class="posts-list-item-desc-excerpt">{{ post.excerpt | strip_html }}</p>
-                                <p class="posts-list-item-desc-infos">{{ post.author }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}</p>
+                            <div class="posts-list__item__desc">
+                                <h2 class="posts-list__item__desc__title">{{ post.title }}</h2>
+                                <p class="posts-list__item__desc__excerpt">{{ post.excerpt | strip_html }}</p>
+                                <p class="posts-list__item__desc__infos">{{ post.author }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}</p>
                             </div>
                         </div>
                     </a>

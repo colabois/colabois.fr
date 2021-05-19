@@ -1,0 +1,24 @@
+.main {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    &__section {
+        flex-grow: 1;
+        
+        display: flex;
+        flex-direction: column;
+        padding: 2em 5%;
+
+        background-color: white;
+    
+        &__title {
+            text-align: center;
+        }
+    }
+
+    .no-color {
+        color: inherit;
+    }
+}

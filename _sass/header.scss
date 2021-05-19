@@ -1,32 +1,35 @@
 .header {
     display: flex;
+    flex-direction: column;
     align-items: stretch;
     font-size: 1.25em;
     
     color: white;
-    background-color: $accent;
-    background-size: cover;
-    background-attachment: fixed;
+    background: black;
 
-    &-link {
-        padding: .75em;
+    text-align: center;
 
-        text-align: center;
-
-        &:hover {
-            background-color: rgba(0, 0, 0, 0.2);
-        }
-    }
-
-    &-links {
+    &__links {
         display: flex;
 
         @media (max-width: 500px) {
             flex-direction: column;
         }
 
-        &-separator {
+        background: $accent;
+
+        &__separator {
             flex-grow: 1;
+        }
+
+        &__item {
+            padding: .75em;
+    
+            text-align: center;
+    
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.2);
+            }
         }
     }
 }
