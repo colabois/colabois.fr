@@ -14,9 +14,9 @@ ref: posts
                         <img src="{{ post.cover }}" alt="post-cover" class="posts-list-item-cover">
                     {% endif %}
                     <div class="posts-list-item-desc">
-                        <h2>{{ post.title }}</h2>
-                        <p>{{ post.author }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}</p>
-                        <p>{{ post.excerpt }}</p>
+                        <h2 class="posts-list-item-desc-title">{{ post.title }}</h2>
+                        <p class="posts-list-item-desc-excerpt">{{ post.excerpt | strip_html }}</p>
+                        <p class="posts-list-item-desc-infos">{{ post.author }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}</p>
                     </div>
                 </div>
             </a>

@@ -17,11 +17,11 @@
         }
 
         &-desc {
-            h2, p {
+            > *{
                 margin: .25em 0;
             }
 
-            p {
+            &-excerpt {
                 color: grey;
             }
         }
