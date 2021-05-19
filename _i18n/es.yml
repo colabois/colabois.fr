@@ -1,5 +1,7 @@
 projects: Proyectos
 
+site_source: Código del sito
+
 titles:
   index: Home
   '404': '404'

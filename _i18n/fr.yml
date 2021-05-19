@@ -1,5 +1,7 @@
 projects: Projets
 
+site_source: Source du site
+
 titles:
   index: Accueil
   '404': '404'
