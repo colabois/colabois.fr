@@ -8,12 +8,15 @@ langs:
   es: Español
   eo: Esperanto
 
+titles:
+  index: Home
+  contact: Contact
+  '404': '404'
+
 
 # Index
 
 index:
-  title: Home
-
   who_are_we:
     title: Who are we?
     desc: We are a group of students and professionnal developers, grouped to create useful tools for community. Our goal is to help each other, develop common projects and the watchword is friendship!
@@ -28,19 +31,6 @@ index:
 
 # 404 page
 
-404:
-  title: 404
+'404':
   page_not_found: Page not found :(
   turn_back_home: Turn back home
-
-
-# Contact page
-
-contact:
-  title: Contact
-
-
-# Posts page
-
-posts:
-  title: Posts

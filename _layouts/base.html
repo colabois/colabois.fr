@@ -12,7 +12,7 @@ layout: compress
         {% if page.collection == "posts" %}
             {{ page.title }}
         {% else %}
-            {% t {{ page.ref }}.title %}
+            {% t titles.{{ page.ref }} %}
         {% endif %} | Colabois</title>
 </head>
 <body>
