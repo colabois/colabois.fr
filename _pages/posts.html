@@ -3,8 +3,6 @@ layout: default
 ref: posts
 ---
 
-<link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/posts_list.css">
-
 <div class="posts-list">
     {% if site.posts.size != 0 %}
         {% for post in site.posts %}
@@ -25,3 +23,5 @@ ref: posts
         <p>{% t posts.no_posts %}</p>
     {% endif %}
 </div>
+
+<link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/posts_list.css">
