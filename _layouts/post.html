@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.excerpt }}">
+
 <article class="post">
     {% if page.cover %}
         <img src="{{ page.cover | prepend: site.baseurl_root }}" class="post-cover">
