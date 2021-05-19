@@ -18,12 +18,10 @@ ref: index
 <main class="main">
     <section id="infos" class="main-section">
         <div id="who-are-we">
-            <h1>{% t index.who_are_we.title %}</h1>
-            <p>{% t index.who_are_we.desc %}</p>
+            {% tf index/who_are_we.md %}
         </div>
         <div>
-            <h1>{% t index.what_do_we_do.title %}</h1>
-            <p>{% t index.what_do_we_do.desc %}</p>
+            {% tf index/what_do_we_do.md %}
         </div>
     </section>
     <section id="projects" class="main-section">
