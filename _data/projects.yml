@@ -1,9 +1,9 @@
 - name: PDBA
   desc: Python Discord Bot Agregator
-  imgpath: /assets/img/project-logos/pdba.png
+  imgpath: '{{ site.baseurl_root }}/assets/img/project-logos/pdba.png'
   link: https://moriya.zapto.org/gitsokyo/PDBA
 
 - name: Discorn
   desc: An encrypted and decentralized chatting protocol based on cryptocurrencies.
-  imgpath: /assets/img/project-logos/discorn.png
+  imgpath: '{{ site.baseurl_root }}/assets/img/project-logos/discorn.png'
   link: https://github.com/colabois/Discorn

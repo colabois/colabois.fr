@@ -3,7 +3,7 @@ layout: base
 ref: index
 ---
 
-<link rel="stylesheet" href="/assets/css/index.css">
+<link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/index.css">
 <header class="header">
     <div class="header-links">
         {% include header_links.html %}
@@ -30,7 +30,7 @@ ref: index
                     {% for project in site.data.projects %}
                         <div class="project">
                             {% if project["imgpath"] %}
-                                <img src="{{ project["imgpath"] }}" class="project-image">
+                                <img src="{{ project["imgpath"] | liquify }}" class="project-image">
                             {% endif %}
                             <div class="project-desc">
                                 <h1 class="project-desc-title"><a href="{{ project["link"] }}" target="_blank">{{ project["name"] }}</a></h1>

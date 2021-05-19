@@ -1,8 +1,11 @@
+---
+---
+
 @font-face {
     font-family: 'Material Icons';
     font-style: normal;
     font-weight: 400;
-    src: url(/assets/fonts/MaterialIcons-Regular.ttf) format('truetype');
+    src: url("{{ site.baseurl_root }}/assets/fonts/MaterialIcons-Regular.ttf") format('truetype');
 }
 
 .material-icons {
