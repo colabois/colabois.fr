@@ -15,7 +15,7 @@ ref: posts
                     {% endif %}
                     <div class="posts-list-item-desc">
                         <h2>{{ post.title }}</h2>
-                        <p>{{ post.author }} - {{ page.date | date: "%A %d %B %Y"}}</p>
+                        <p>{{ post.author }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}</p>
                         <p>{{ post.excerpt }}</p>
                     </div>
                 </div>

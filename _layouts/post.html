@@ -2,18 +2,12 @@
 layout: default
 ---
 
-{% if page.lang %}
-    {% assign t = site.data.translations[page.lang] %}
-{% else %}
-    {% assign t = site.data.translations["en"] %}
-{% endif %}
-
 <link rel="stylesheet" href="/assets/css/post.css">
 <article class="post">
     {% if page.cover %}
         <img src="{{ page.cover }}" class="post-cover">
     {% endif %}
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-infos">{{ page.author }} - {{ page.date | date: "%A %d %B %Y"}}</p>
+    <p class="post-infos">{{ page.author }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}</p>
     {{ content }}
 </article>
