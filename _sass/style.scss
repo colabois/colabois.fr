@@ -2,12 +2,23 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
 
     min-height: 100vh;
+
+    font-family: "Segoe UI", sans-serif;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
 }
 
 .main {
@@ -25,7 +36,31 @@ body {
             text-align: center;
         }
     }
+
+    a {
+        color: royalblue;
+    }
+
+    .no-color {
+        color: inherit;
+    }
 }
+
+table, td, th {
+    padding: .5em;
+    border: solid 1px rgb(206, 206, 206);
+    border-collapse: collapse;
+}
+
+div.highlight {
+    padding: 1em;
+    border-radius: 5px;
+    
+    pre.highlight {
+        margin: 0;
+    }
+}
+
 
 .projects-list {
     display: flex;
