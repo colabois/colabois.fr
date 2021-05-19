@@ -27,13 +27,13 @@ dates:
 
 titles:
   index: Accueil
-  '404': '404'
+  404: '404'
   contact: Contact
 
 index:
   our_projects: Nos projets
 
-'404':
+404:
   page_not_found: Page not found :(
   turn_back_home: Retourner à l'accueil
 
