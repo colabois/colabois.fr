@@ -11,3 +11,6 @@ index:
 '404':
   page_not_found: Page not found :(
   turn_back_home: Retourner à l'accueil
+
+posts:
+  no_posts: C'est très vide ici...
