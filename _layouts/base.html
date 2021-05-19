@@ -7,12 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        {% if page.collection == "posts" %}
-            {{ page.title }}
-        {% else %}
-            {% t titles.{{ page.ref }} %}
-        {% endif %} | Colabois</title>
+    <title>{% if page.collection == "posts" %}{{ page.title }}{% else %}{% t titles.{{ page.ref }} %}{% endif %} | Colabois</title>
 </head>
 <body>
     {{ content }}
