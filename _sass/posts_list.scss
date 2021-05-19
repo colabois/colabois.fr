@@ -16,9 +16,22 @@
             border-bottom: none;
         }
 
+        &-desc {
+            h2, p {
+                margin: .25em 0;
+            }
+
+            p {
+                color: grey;
+            }
+        }
+
         &-cover {
-            height: 2em;
+            height: 4em;
+            width: 4em;
+            object-fit: cover;
             border-radius: 5px;
+            margin-right: 2em;
         }
     }
 }

@@ -10,6 +10,9 @@ layout: default
 
 <link rel="stylesheet" href="/assets/css/post.css">
 <article class="post">
+    {% if page.cover %}
+        <img src="{{ page.cover }}" class="post-cover">
+    {% endif %}
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-infos">{{ page.author }} - {{ page.date | date: "%A %d %B %Y"}}</p>
     {{ content }}
