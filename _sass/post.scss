@@ -1,7 +1,18 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
 .post {
     align-self: center;
     margin: 2em 0;
-    max-width: 75ch;
+    padding: 4em;
+    max-width: 100ch;
+
+    border-radius: 15px;
+
+    background-color: white;
+
+    box-shadow: 0 0 100px rgb(194, 194, 194);
 
     &-infos {
         color: rgb(116, 116, 116);
