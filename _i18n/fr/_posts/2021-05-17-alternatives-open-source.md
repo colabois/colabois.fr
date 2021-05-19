@@ -26,7 +26,33 @@ Pour naviguer plus facilement entre les catégories, vous pouvez utiliser la tab
 
 ## Hébergement de fichiers / clouds
 
+### Nextcloud
+
+Pour remplacer Google Drive, [Nextcloud](https://nextcloud.com/) est une des meilleures solutions. C'est une solution de cloud auto-hébergée, pour des fichiers, mais aussi des listes de tâches, des contacts, un calendrier, ou même des recettes de cuisine ! Il permet de synchroniser toutes ces informations entre différents clients, sur presque tous les systèmes d'exploitation. On peut aussi y ajouter des *collabora online* ou *onlyoffice*, pour remplacer Google Docs, Sheets et Slides, entre autres.
+
+L'avantage de Nextcloud, c'est qu'il peut fonctionner sur un [raspberry pi](https://www.raspberrypi.org/), avec un disque dur et, bien sûr, une connexion internet stable. Vous pouvez donc garder toutes vos données chez vous, là où elles seront le plus en sécurité ! Le raspberry pi est, de plus, très peu consommateur d'électricité.
+
+Si vous décidez de tenter l'installation, il existe de nombreux guides pour le faire, et vous pouvez aussi trouver de l'aide pour le faire. Vous apprendrez le fonctionnement d'un serveur web, et peut-être même l'utilisation de la ligne de commande de Raspbian (une distribution Linux prévue pour le raspberry pi) ! 
+
+Mais ce n'est pas toujours facile, et vous ne voulez peut-être pas passer du temps à le faire. Dans ce cas, vous pouvez opter pour un service qui héberge des instances de Nextcloud, [gratuitement](https://nextcloud.com/signup/) ou moyennant quelques euros par an.
+
 ## Messageries
+
+### Mail
+
+### Par internet
+
+#### Signal
+
+Pour remplacer whatsapp ou messenger, Signal est une très bonne application open-source, qui fonctionne de la même manière : vous lui fournissez votre numéro de télépgone pour créer un compte, et vous pouvez communiquer avec tous ceux qui ont installé l'application. Elle chiffre complètement vos messages, afin que personne d'autre ne soit capable de les lire, et il est même possible de verrouiller l'accès à l'application à l'aide d'une authentification biométrique ou d'un mot de passe.
+
+### SMS
+
+#### QKSMS
+
+Les fabricants de téléphones utilisent souvent leur propre application pour envoyer et recevoir des SMS, et celles-ci ne sont que très rarement (ou même jamais) libres et open-source. Mais il en existe, et QKSMS est un très bon exemple ! Elle fonctionne très bien, sans aucune publicité, et est personnalisable.
+
+Vous pouvez la télécharger depuis le [google play store](https://play.google.com/store/apps/details?id=com.moez.QKSMS&hl=en_US&gl=US), mais nous vous conseillons plutôt de l'installer depuis [F-Droid](https://f-droid.org/en/packages/com.moez.QKSMS/).
 
 ## Moteurs de recherche
 
@@ -44,7 +70,7 @@ Linux a souvent la réputation d'être un système pour des utilisateurs avancé
 
 [Ubuntu](https://ubuntu.com/), [Kubuntu](https://kubuntu.org/)..., ou [Linux Mint](https://linuxmint.com/), ou encore [Manjaro](https://manjaro.org/), pour des utilisateurs débutants.
 
-[Arch Linux](https://archlinux.org/) ou [Gentoo Linux](https://www.gentoo.org/), pour des utilisateurs plus aguerris, avec l'envie d'en apprendre plus !
+[Arch Linux](https://archlinux.org/) ou [Gentoo Linux](https://www.gentoo.org/), pour des utilisateurs aguerris, avec l'envie d'en apprendre plus !
 
 ### Android et ses ROM custom
 
