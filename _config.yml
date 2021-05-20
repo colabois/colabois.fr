@@ -12,6 +12,9 @@ exclude:
   - .jekyll-cache
 
 collections:
+  posts:
+    output: true
+    permalink: /blog/:title
   pages:
     output: true
     permalink: /:title

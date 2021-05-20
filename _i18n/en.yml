@@ -12,7 +12,7 @@ titles:
   index: Home
   contact: Contact
   404: '404'
-  posts: Posts
+  blog: Blog
 
 dates:
   days:
@@ -45,7 +45,7 @@ translated_by: Translated by
 # Index
 
 index:
-  our_projects: Our projects
+  our_blog: Our blog
   our_posts: Our posts
 
 

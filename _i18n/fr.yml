@@ -31,8 +31,10 @@ titles:
   index: Accueil
   404: '404'
   contact: Contact
+  blog: Blog
 
 index:
+  our_blog: Notre blog
   our_projects: Nos projets
 
 404:
