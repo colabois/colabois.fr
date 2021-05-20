@@ -43,6 +43,9 @@
 
 @media (max-width: 500px) {
     .header {
+        position: sticky;
+        top: 0;
+
         &__drawer-btn {
             display: block;
             align-self: flex-start;
