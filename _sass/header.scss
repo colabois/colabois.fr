@@ -63,7 +63,9 @@
             transform: translateX(-100%);
             transition: .3s;
             flex-direction: column;
-            width: 60%;
+            width: 55%;
+
+            background: #333;
 
             &__item {
                 text-align: left;
