@@ -2,6 +2,8 @@ projects: Projektoj
 
 site_source: Fontkodo de la retejo
 
+translated_by: Tradukito de
+
 dates:
   days:
     'Monday': 'Lundo'
