@@ -5,19 +5,23 @@
     font-size: 1.25em;
     
     color: white;
-    background: $header_background;
+    background: $accent;
 
     z-index: 1;
     box-shadow: 0 0 20px #ccc;
 
     text-align: center;
 
+    &__drawer-checkbox {
+        display: none;
+    }
+
+    &__drawer-btn {
+        display: none;
+    }
+
     &__links {
         display: flex;
-
-        @media (max-width: 500px) {
-            flex-direction: column;
-        }
 
         background: $accent;
 
@@ -32,6 +36,41 @@
     
             &:hover {
                 background-color: rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .header {
+        &__drawer-btn {
+            display: block;
+            align-self: flex-start;
+            padding: .5em;
+            padding-bottom: .3em;
+            font-size: 1.3rem;
+        }
+        
+        #drawer-checkbox:checked ~ &__links  {
+            transform: none;
+        }
+
+        &__links {
+            position: fixed;
+            top: calc(1.3rem + 1em);
+            bottom: 0;
+            left: 0;
+            transform: translateX(-100%);
+            transition: .3s;
+            flex-direction: column;
+            width: 60%;
+
+            &__item {
+                text-align: left;
+            }
+
+            &__separator {
+                display: none;
             }
         }
     }
