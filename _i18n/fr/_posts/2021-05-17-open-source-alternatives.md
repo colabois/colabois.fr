@@ -1,7 +1,6 @@
 ---
 title: Alternatives open-source
 author: Dean
-layout: post
 ---
 
 Un des objectifs de la création de l'association colabois est la défense de l'open source; et de la vie privée de chacun. Lorsqu'il nous arrive d'en parler autour de nous, la remarque la plus fréquente est du style "Mais les services de google sont tellement pratiques ! Et en plus c'est gratuit, comment je peux les remplacer ?".

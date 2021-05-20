@@ -19,6 +19,12 @@ collections:
     output: true
     permalink: /:title
 
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
+
 permalink: /:title
 
 languages: ["en", "fr", "es", "eo"]
