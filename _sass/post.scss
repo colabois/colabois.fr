@@ -6,7 +6,7 @@
     .post {
         padding: clamp(0px, 10%, 4em);
         margin: 2em 0;
-        max-width: 100ch;
+        max-width: calc(90ch + 4em);
 
         border-radius: 15px;
 
