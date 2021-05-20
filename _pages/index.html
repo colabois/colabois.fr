@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: presentation
 ref: index
 ---
 
@@ -8,68 +8,56 @@ ref: index
 {% capture og_description %}{% tf index/og_description.md %}{% endcapture %}
 <meta property="og:description" content="{{ og_description | strip_html }}">
 
-<header class="header">
-    <input type="checkbox" class="header__drawer-checkbox" id="drawer-checkbox">
-    <label class="header__drawer-btn" for="drawer-checkbox"><span class="material-icons">menu</span></label>
-    {% include header.html %}
-    <div class="header__description">
-        <h1 class="header__description__title">Colabois</h1>
+<section id="infos" class="main__section">
+    <div id="who-are-we">
+        {% tf index/who_are_we.md %}
     </div>
-    <a href="#infos" class="header__down"><span class="material-icons">expand_more</span></a>
-</header>
-<main class="main">
-    <section id="infos" class="main__section">
-        <div id="who-are-we">
-            {% tf index/who_are_we.md %}
-        </div>
-        <div>
-            {% tf index/what_do_we_do.md %}
-        </div>
-    </section>
-    <section id="projects" class="main__section">
-        <h1 class="center">{% t index.our_projects %}</h1>
-        <div class="project-list__wrapper__wrapper">
-            <div class="project-list__wrapper">
-                <div class="project-list">
-                    {% for project in site.data.projects %}
-                        <div class="project">
-                            {% if project["imgpath"] %}
-                                <img src="{{ project["imgpath"] | liquify }}" class="project__image">
-                            {% endif %}
-                            <div class="project__desc">
-                                <h1 class="project__desc__title"><a href="{{ project["link"] }}" target="_blank">{{ project["name"] }}</a></h1>
-                                <p class="project__desc__summary">{{ project["desc"] }}</p>
-                            </div>
+    <div>
+        {% tf index/what_do_we_do.md %}
+    </div>
+</section>
+<section id="projects" class="main__section">
+    <h1 class="center">{% t index.our_projects %}</h1>
+    <div class="project-list__wrapper__wrapper">
+        <div class="project-list__wrapper">
+            <div class="project-list">
+                {% for project in site.data.projects %}
+                    <div class="project">
+                        {% if project["imgpath"] %}
+                            <img src="{{ project["imgpath"] | liquify }}" class="project__image">
+                        {% endif %}
+                        <div class="project__desc">
+                            <h1 class="project__desc__title"><a href="{{ project["link"] }}" target="_blank">{{ project["name"] }}</a></h1>
+                            <p class="project__desc__summary">{{ project["desc"] }}</p>
                         </div>
-                    {% endfor %}
-                </div>
+                    </div>
+                {% endfor %}
             </div>
         </div>
-    </section>
-    <section id="posts" class="main__section">
-        <h1 class="center">{% t index.our_blog %}</h1>
-        <div class="posts-list">
-            {% if site.posts.size != 0 %}
-                {% for post in site.posts %}
-                    <a href="{{ site.baseurl }}{{ post.url }}" class="no-color">
-                        <div class="posts-list__item">
-                            {% if post.cover %}
-                                <img src="{{ post.cover }}" alt="post-cover" class="posts-list__item__cover">
-                            {% endif %}
-                            <div class="posts-list__item__desc">
-                                <h2 class="posts-list__item__desc__title">{{ post.title }}</h2>
-                                <p class="posts-list__item__desc__excerpt">{{ post.excerpt | strip_html }}</p>
-                                <p class="posts-list__item__desc__infos">{{ post.author }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}</p>
-                            </div>
+    </div>
+</section>
+<section id="posts" class="main__section">
+    <h1 class="center">{% t index.our_blog %}</h1>
+    <div class="posts-list">
+        {% if site.posts.size != 0 %}
+            {% for post in site.posts %}
+                <a href="{{ site.baseurl }}{{ post.url }}" class="no-color">
+                    <div class="posts-list__item">
+                        {% if post.cover %}
+                            <img src="{{ post.cover }}" alt="post-cover" class="posts-list__item__cover">
+                        {% endif %}
+                        <div class="posts-list__item__desc">
+                            <h2 class="posts-list__item__desc__title">{{ post.title }}</h2>
+                            <p class="posts-list__item__desc__excerpt">{{ post.excerpt | strip_html }}</p>
+                            <p class="posts-list__item__desc__infos">{{ post.author }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}</p>
                         </div>
-                    </a>
-                {% endfor %}
-            {% else %}
-                <p>{% t posts.no_posts %}</p>
-            {% endif %}
-        </div>
-    </section>
-</main>
-{% include footer.html %}
+                    </div>
+                </a>
+            {% endfor %}
+        {% else %}
+            <p>{% t posts.no_posts %}</p>
+        {% endif %}
+    </div>
+</section>
 
 <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/index.css">

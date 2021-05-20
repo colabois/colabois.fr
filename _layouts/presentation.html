@@ -1,0 +1,15 @@
+---
+layout: base
+---
+
+<header class="header header--full-height">
+    {% include header.html %}
+    <div class="header__description">
+        <h1>{% t header_titles.{{ page.ref }} %}</h1>
+        <p>{% t header_descriptions.{{ page.ref }} %}</p>
+    </div>
+    <a href="#main" class="header__down"><span class="material-icons">expand_more</span></a>
+</header>
+<main id="main" class="main">
+    {{ content }}
+</main>

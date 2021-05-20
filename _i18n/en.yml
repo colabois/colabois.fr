@@ -13,6 +13,13 @@ titles:
   contact: Contact
   404: '404'
   blog: Blog
+  pdba: PDBA
+
+header_titles:
+  index: Colabois
+
+header_descriptions:
+  pdba: Python Discord Bot Agregator
 
 dates:
   days:
