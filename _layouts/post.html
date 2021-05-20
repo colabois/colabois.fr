@@ -13,7 +13,7 @@ layout: default
         <img src="{{ page.cover | prepend: site.baseurl_root }}" class="post-cover">
     {% endif %}
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-infos">{{ page.author }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}</p>
+    <p class="post-infos">{{ page.author }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}{% if page.translation_author %}<br>{% t translated_by %} {{ page.translation_author }}{% endif %}</p>
     {{ content }}
 </article>
 
