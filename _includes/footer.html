@@ -3,9 +3,9 @@
       {% for lang in site.languages %}
         {% unless site.lang == lang %}
           {% if lang == site.default_lang and site.default_locale_in_subfolder != true %}
-            <a href="{{ site.baseurl_root }}{{ page.url }}" >{% t langs.{{ lang }} %}</a>
+            <a href="{{ site.baseurl_root }}{% unless page.collection == "posts" %}{{ page.url }}{% endunless %}" >{% t langs.{{ lang }} %}</a>
           {% else %}
-            <a href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" >{% t langs.{{ lang }} %}</a>
+            <a href="{{ site.baseurl_root }}/{{ lang }}{% unless page.collection == "posts" %}{{ page.url }}{% endunless %}" >{% t langs.{{ lang }} %}</a>
           {% endif %}
         {% endunless %}
       {% endfor %}
