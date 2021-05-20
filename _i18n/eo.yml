@@ -31,9 +31,10 @@ titles:
   index: Akcepto
   404: '404'
   contact: Kontakto
-  posts: Afiŝoj
+  blog: Blogo
 
 index:
+  our_blog: Nia blogo
   our_projects: Nia projektoj
 
 404:
