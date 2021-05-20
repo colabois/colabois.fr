@@ -11,6 +11,19 @@ dates:
     'Friday': 'Vendredo'
     'Saturday': 'Sabato'
     'Sunday': 'Dimanĉo'
+  months:
+    'January': 'Januaro'
+    'February': 'Februaro'
+    'March': 'Marto'
+    'April': 'Aprilo'
+    'May': 'Majo'
+    'June': 'Junio'
+    'July': 'Julio'
+    'August': 'Aŭgusto'
+    'September': 'Septembro'
+    'October': 'Oktobro'
+    'November': 'Novembro'
+    'December': 'Decembro'
 
 titles:
   index: Akcepto
