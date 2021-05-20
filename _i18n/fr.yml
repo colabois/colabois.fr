@@ -2,6 +2,8 @@ projects: Projets
 
 site_source: Source du site
 
+translated_by: Traduit par
+
 dates:
   days:
     'Monday': 'Lundi'
