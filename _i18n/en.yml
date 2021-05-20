@@ -17,6 +17,7 @@ titles:
 
 header_titles:
   index: Colabois
+  pdba: PDBA
 
 header_descriptions:
   pdba: Python Discord Bot Agregator
