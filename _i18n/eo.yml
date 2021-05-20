@@ -2,6 +2,16 @@ projects: Projektoj
 
 site_source: Fontkodo de la retpaĝo
 
+dates:
+  days:
+    'Monday': 'Lundo'
+    'Tuesday': 'Mardo'
+    'Wednesday': 'Merkredo'
+    'Thursday': 'Ĵaŭdo'
+    'Friday': 'Vendredo'
+    'Saturday': 'Sabato'
+    'Sunday': 'Dimanĉo'
+
 titles:
   index: Akcepto
   404: '404'
