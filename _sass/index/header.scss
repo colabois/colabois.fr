@@ -1,5 +1,7 @@
-.header {
+.body .header {
     height: 100vh;
+
+    position: static;
 
     &__links {
         box-shadow: 0 -5px 10 rgb(39, 39, 39);
