@@ -7,6 +7,9 @@
     color: white;
     background: $header_background;
 
+    z-index: 1;
+    box-shadow: 0 0 20px #ccc;
+
     text-align: center;
 
     &__links {
