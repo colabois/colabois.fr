@@ -1,5 +1,5 @@
 ---
-title: Malferkodaj alternativoj
+title: Malfermkodaj alternativoj
 author: Dean
 translation_author: Victor B
 layout: post
