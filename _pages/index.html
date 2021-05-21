@@ -18,7 +18,7 @@ ref: index
         <div class="overflow-x-auto">
             <div class="flex-row">
                 {% for project in site.data.projects %}
-                    <div class="project">
+                    <div class="project no-flex-shrink">
                         {% if project["imgpath"] %}
                             <img src="{{ project["imgpath"] | liquify }}" class="project__image">
                         {% endif %}
