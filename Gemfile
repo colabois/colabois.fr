@@ -11,4 +11,5 @@ group :jekyll_plugins do
 	gem "jekyll-sitemap"
 	gem 'jekyll-zopfli'
 	gem 'jekyll-liquify'
+	gem 'jekyll-seo-tag'
 end

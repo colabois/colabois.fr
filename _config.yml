@@ -1,8 +1,11 @@
+title: Colabois
+
 plugins:
   - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-zopfli
   - jekyll-liquify
+  - jekyll-seo-tag
 
 exclude:
   - README.md
