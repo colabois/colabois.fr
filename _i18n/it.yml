@@ -1,0 +1,25 @@
+---
+projects: Progetti
+langs:
+  en: English
+  fr: Français
+  es: Español
+  eo: Esperanto
+titles:
+  index: Home
+  contact: Contatti
+  '404': '404'
+  blog: Blog
+  pdba: PDBA
+  team: Membri
+header_titles:
+  index: Colabois
+  pdba: PDBA
+header_descriptions:
+  pdba: Python Discord Bot Agregator
+dates:
+  days:
+    Monday: Lunedì
+    Tuesday: Martedì
+    Wednesday: Mercoledì
+    Thursday: Giovedì
