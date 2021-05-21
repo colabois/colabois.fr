@@ -1,45 +1,52 @@
+---
 projects: Projets
-
-site_source: Source du site
-
-translated_by: Traduit par
-
-dates:
-  days:
-    'Monday': 'Lundi'
-    'Tuesday': 'Mardi'
-    'Wednesday': 'Mercredi'
-    'Thursday': 'Jeudi'
-    'Friday': 'Vendredi'
-    'Saturday': 'Samedi'
-    'Sunday': 'Dimanche'
-  months:
-    'January': 'Janvier'
-    'February': 'Février'
-    'March': 'Mars'
-    'April': 'Avril'
-    'May': 'Mai'
-    'June': 'Juin'
-    'July': 'Juillet'
-    'August': 'Août'
-    'September': 'Septembre'
-    'October': 'Octobre'
-    'November': 'Novembre'
-    'December': 'Décembre'
-
 titles:
   index: Accueil
-  404: '404'
   contact: Contact
+  '404': '404'
   blog: Blog
-
+  pdba: PDBA
+  team: Équipe
+dates:
+  days:
+    Monday: Lundi
+    Tuesday: Mardi
+    Wednesday: Mercredi
+    Thursday: Jeudi
+    Friday: Vendredi
+    Saturday: Samedi
+    Sunday: Dimanche
+  months:
+    January: Janvier
+    February: Février
+    March: Mars
+    April: Avril
+    May: Mai
+    June: Juin
+    July: Juillet
+    August: Août
+    September: Septembre
+    October: Octobre
+    November: Novembre
+    December: Décembre
+site_source: Source du site
+translated_by: Traduit par
 index:
   our_blog: Notre blog
   our_projects: Nos projets
-
-404:
+'404':
   page_not_found: Page not found :(
   turn_back_home: Retourner à l'accueil
-
 posts:
   no_posts: C'est très vide ici...
+langs:
+  en: English
+  fr: Français
+  es: Español
+  eo: Esperanto
+header_titles:
+  index: Colabois
+  pdba: PDBA
+header_descriptions:
+  pdba: Python Discord Bot Agregator
+written_by: Écrit par
