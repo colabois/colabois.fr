@@ -1,11 +1,11 @@
 victorb:
   name: Victor B
-  desc: Here is the description
+  desc:  Ut faucibus accumsan tortor eget dictum. Maecenas lacinia accumsan orci consectetur convallis. Sed lacinia lorem vel augue semper hendrerit. Duis et est metus. Morbi accumsan, metus nec volutpat semper, sem ipsum suscipit nisi, et finibus augue sem eu odio. Sed mi felis, aliquet ut ullamcorper sed, feugiat pulvinar felis. Sed eget massa purus. Integer lacinia maximus enim, ornare scelerisque dui egestas in. Fusce in erat enim. Pellentesque semper turpis vitae mauris rhoncus, non egestas libero pellentesque. Fusce blandit tincidunt gravida. Nulla dictum euismod sem eu tincidunt. Pellentesque dapibus nunc at neque volutpat convallis. Ut maximus imperdiet pulvinar. Maecenas in enim sapien. 
   avatar: true
 
 dean:
   name: Dean
-  desc: Ceci est ma magnifique description
+  desc:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit magna tortor, sit amet semper odio maximus in. In in lectus sit amet risus luctus luctus a in mi. Morbi efficitur mauris sit amet turpis ultrices, a luctus elit commodo. Proin orci ex, ullamcorper id nunc ut, pretium finibus erat. Nunc non magna fringilla, vehicula augue a, dictum sem. Curabitur iaculis rhoncus volutpat. Proin leo arcu, tempus feugiat nisi et, dapibus rutrum ipsum. 
   avatar: true
 
 suwako:

@@ -21,27 +21,11 @@ layout: default
         {{ content }}
         <hr>
         <h2>{% t written_by %}</h2>
-        <div class="post__article__author author">
-            {% if author.avatar %}
-                <img src="{{ site.baseurl_root }}/assets/img/avatars/{{ page.author }}.png" class="author__infos__avatar" alt="{{ author.name }}'s avatar">
-            {% endif %}
-            <div class="author__infos__desc">
-                <h3>{{ author.name }}</h3>
-                <p>{{ author.desc }}</p>
-            </div>
-        </div>
+        {% include author.html author=page.author %}
         {% if page.translation_author %}
             <hr>
             <h2>{% t translated_by %}</h2>
-            <div class="author">
-                {% if translation_author.avatar %}
-                    <img src="{{ site.baseurl_root }}/assets/img/avatars/{{ page.translation_author }}.png" class="author__infos__avatar" alt="{{ translation_author.name }}'s avatar"">
-                {% endif %}
-                <div class="author__infos__desc">
-                    <h3>{{ translation_author.name }}</h3>
-                    <p>{{ translation_author.desc }}</p>
-                </div>
-            </div>
+            {% include author.html author=page.translation_author %}
         {% endif %}
     </article>
 </div>
