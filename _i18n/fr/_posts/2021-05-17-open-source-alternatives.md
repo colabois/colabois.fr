@@ -40,9 +40,15 @@ Mais ce n'est pas toujours facile, et vous ne voulez peut-être pas passer du te
 
 ### Par internet
 
+
+
 #### Signal
 
 Pour remplacer whatsapp ou messenger, Signal est une très bonne application open-source, qui fonctionne de la même manière : vous lui fournissez votre numéro de télépgone pour créer un compte, et vous pouvez communiquer avec tous ceux qui ont installé l'application. Elle chiffre complètement vos messages, afin que personne d'autre ne soit capable de les lire, et il est même possible de verrouiller l'accès à l'application à l'aide d'une authentification biométrique ou d'un mot de passe.
+
+#### Telegram
+
+Telegram est aussi un bon service où vous utilisez votre numéro de téléphone pour vous connecter, et, bien sûr, tout est chiffré sauf les métadonnés (envoyeur, receveur, date du message...). Vous pouvez créer des "chats secrets" que vous pouvez ensuite détruire et qui ne laisseront aucune trace
 
 ### SMS
 
