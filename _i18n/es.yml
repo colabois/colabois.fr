@@ -1,21 +1,55 @@
+---
 projects: Proyectos
-
-site_source: Código del sito
-
 titles:
   index: Home
-  404: '404'
   contact: Contacto
-
-index:
-  our_projects: Nuestros proyectos
-
-404:
+  '404': '404'
+  blog: Blog
+  pdba: PDBA
+  team: Equipo
+site_source: Código del sito
+'404':
   page_not_found: Página no encontrada :(
   turn_back_home: Volver a la página principal
-
-contact:
-  title: Contacto
-
 posts:
   no_posts: Estas muy vacío aquí...
+contact:
+  title: Contacto
+index:
+  our_projects: Nuestros proyectos
+  our_blog: Nuestro blog
+  our_posts: Nuestros posts
+langs:
+  en: English
+  fr: Français
+  es: Español
+  eo: Esperanto
+header_titles:
+  index: Colabois
+  pdba: PDBA
+header_descriptions:
+  pdba: Python Discord Bot Agregator
+dates:
+  days:
+    Monday: Lunes
+    Tuesday: Martes
+    Wednesday: Miercoles
+    Thursday: Jueves
+    Friday: Viernes
+    Saturday: Sabado
+    Sunday: Domingo
+  months:
+    January: Enero
+    February: Febrero
+    March: Marzo
+    April: Abril
+    May: Mayo
+    June: Junio
+    July: Julio
+    August: Agosto
+    September: Septiembre
+    October: Octubre
+    November: Noviembre
+    December: Diciembre
+translated_by: Traducido por
+written_by: Escrito por
