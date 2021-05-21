@@ -44,7 +44,7 @@ Mais ce n'est pas toujours facile, et vous ne voulez peut-être pas passer du te
 
 #### Signal
 
-Pour remplacer whatsapp ou messenger, Signal est une très bonne application open-source, qui fonctionne de la même manière : vous lui fournissez votre numéro de télépgone pour créer un compte, et vous pouvez communiquer avec tous ceux qui ont installé l'application. Elle chiffre complètement vos messages, afin que personne d'autre ne soit capable de les lire, et il est même possible de verrouiller l'accès à l'application à l'aide d'une authentification biométrique ou d'un mot de passe.
+Pour remplacer whatsapp ou messenger, Signal est une très bonne application open-source, qui fonctionne de la même manière : vous lui fournissez votre numéro de téléphone pour créer un compte, et vous pouvez communiquer avec tous ceux qui ont installé l'application. Elle chiffre complètement vos messages, afin que personne d'autre ne soit capable de les lire, et il est même possible de verrouiller l'accès à l'application à l'aide d'une authentification biométrique ou d'un mot de passe.
 
 #### Telegram
 
