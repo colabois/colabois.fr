@@ -1,5 +1,10 @@
 ---
 projects: Proyectos
+langs:
+  en: English
+  fr: Français
+  es: Español
+  eo: Esperanto
 titles:
   index: Home
   contact: Contacto
@@ -7,23 +12,6 @@ titles:
   blog: Blog
   pdba: PDBA
   team: Equipo
-site_source: Código del sito
-'404':
-  page_not_found: Página no encontrada :(
-  turn_back_home: Volver a la página principal
-posts:
-  no_posts: Estas muy vacío aquí...
-contact:
-  title: Contacto
-index:
-  our_projects: Nuestros proyectos
-  our_blog: Nuestro blog
-  our_posts: Nuestros posts
-langs:
-  en: English
-  fr: Français
-  es: Español
-  eo: Esperanto
 header_titles:
   index: Colabois
   pdba: PDBA
@@ -51,5 +39,16 @@ dates:
     October: Octubre
     November: Noviembre
     December: Diciembre
+site_source: Código del sito
 translated_by: Traducido por
 written_by: Escrito por
+index:
+  our_blog: Nuestro blog
+  our_projects: Nuestros proyectos
+'404':
+  page_not_found: Página no encontrada :(
+  turn_back_home: Volver a la página principal
+posts:
+  no_posts: Estas muy vacío aquí...
+contact:
+  title: Contacto
