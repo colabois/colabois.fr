@@ -2,9 +2,9 @@
 layout: base
 ---
 
-<header class="header header--full-height">
+<header class="header full-height bg-accent text-center">
     {% include header.html %}
-    <div class="header__description">
+    <div class="flex-col flex-grow flex-center">
         <h1>{% t header_titles.{{ page.ref }} %}</h1>
         <p>{% t header_descriptions.{{ page.ref }} %}</p>
     </div>

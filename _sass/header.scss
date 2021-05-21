@@ -1,102 +1,21 @@
 .header {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    font-size: 1.25em;
-    
-    color: white;
-    background: $accent;
 
-    z-index: 1;
-    box-shadow: 0 0 20px #ccc;
-
-    text-align: center;
-
-    &__drawer-checkbox {
-        display: none;
-    }
-
-    &__drawer-btn {
-        display: none;
-    }
+    font-size: 1.25rem;
 
     &__links {
-        display: flex;
-
-        background: $accent;
-
-        &__separator {
-            flex-grow: 1;
-        }
-
-        &__item {
+        a {
             padding: .75em;
-    
-            text-align: center;
-    
+
             &:hover {
-                background-color: rgba(0, 0, 0, 0.2);
+                background-color: rgba(0, 0, 0, 0.281);
             }
         }
-    }
-
-    &__description {
-        flex-grow: 1;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
     }
 
     &__down {
-        padding: 2em;
-        font-size: 1.5em;
-    }
-
-    &--full-height {
-        height: 100vh;
-    }
-}
-
-@media (max-width: 500px) {
-    .header {
-        position: sticky;
-        top: 0;
-
-        &__drawer-btn {
-            display: block;
-            align-self: flex-start;
-            padding: .5em;
-            padding-bottom: .3em;
-            font-size: 1.3rem;
-        }
-        
-        #drawer-checkbox:checked ~ &__links  {
-            transform: none;
-        }
-
-        &__links {
-            position: fixed;
-            top: calc(1.3rem + 1em);
-            bottom: 0;
-            left: 0;
-            transform: translateX(-100%);
-            transition: .3s;
-            flex-direction: column;
-            width: 55%;
-
-            z-index: 0;
-
-            background: #333;
-
-            &__item {
-                text-align: left;
-            }
-
-            &__separator {
-                display: none;
-            }
-        }
+        font-size: 1.5rem;
+        padding: 1.5em;
     }
 }

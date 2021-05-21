@@ -3,24 +3,20 @@ layout: presentation
 ref: index
 ---
 
-<meta property="og:title" content="Colabois">
-
 {% capture og_description %}{% tf index/og_description.md %}{% endcapture %}
+<meta property="og:title" content="Colabois">
 <meta property="og:description" content="{{ og_description | strip_html }}">
 
-<section id="infos" class="main__section">
-    <div id="who-are-we">
-        {% tf index/who_are_we.md %}
-    </div>
-    <div>
-        {% tf index/what_do_we_do.md %}
-    </div>
-</section>
-<section id="projects" class="main__section">
-    <h1 class="center">{% t index.our_projects %}</h1>
-    <div class="project-list__wrapper__wrapper">
-        <div class="project-list__wrapper">
-            <div class="project-list">
+<div class="flex-row">
+    <section>{% tf index/who_are_we.md %}</section>
+    <section>{% tf index/what_do_we_do.md %}</section>
+</div>
+
+<section class="bg-light">
+    <h1 class="text-center">{% t index.our_projects %}</h1>
+    <div class="flex-row flex-center">
+        <div class="overflow-x-auto">
+            <div class="flex-row">
                 {% for project in site.data.projects %}
                     <div class="project">
                         {% if project["imgpath"] %}
@@ -37,11 +33,11 @@ ref: index
     </div>
 </section>
 <section id="posts" class="main__section">
-    <h1 class="center">{% t index.our_blog %}</h1>
+    <h1 class="text-center">{% t index.our_blog %}</h1>
     <div class="posts-list">
         {% if site.posts.size != 0 %}
             {% for post in site.posts %}
-                <a href="{{ site.baseurl }}{{ post.url }}" class="no-color">
+                <a href="{{ site.baseurl }}{{ post.url }}" class="reset-color">
                     <div class="posts-list__item">
                         {% if post.cover %}
                             <img src="{{ post.cover }}" alt="post-cover" class="posts-list__item__cover">

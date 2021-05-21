@@ -1,18 +1,16 @@
 .author {
     display: flex;
     align-items: flex-start;
-
-    padding: 1em 0;
+    padding: 1rem;
 
     &__avatar {
-        width: 8ch;
-        height: auto;
+        width: 4rem;
         border-radius: 100%;
-        margin: 0 2em;
+        margin: 0 1rem;
     }
 
     &__infos {
-        > * {
+        p {
             margin: 0;
         }
     }

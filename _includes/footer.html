@@ -1,5 +1,5 @@
-<footer class="footer">
-    <div class="footer-section">
+<footer class="footer bg-dark flex-row flex-center">
+    <div class="flex-col">
       {% for lang in site.languages %}
         {% unless site.lang == lang %}
           {% if lang == site.default_lang and site.default_locale_in_subfolder != true %}
@@ -10,14 +10,14 @@
         {% endunless %}
       {% endfor %}
     </div>
-    <div class="footer-section">
+    <div class="flex-col">
         {% for page in site['pages'] %}
             {% unless page.not_in_footer == true %}
                 <a href="{{ site.baseurl }}{{ page.url }}" class="footer-link">{% t titles.{{ page.ref }} %}</a>
             {% endunless %}
         {% endfor %}
     </div>
-    <div class="footer-section">
+    <div class="flex-col">
         <a href="https://github.com/colabois/colabois.fr">{% t site_source %}</a>
     </div>
 </footer>

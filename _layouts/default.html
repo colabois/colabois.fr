@@ -2,13 +2,9 @@
 layout: base
 ---
 
-<header class="header">
-    <input type="checkbox" class="header__drawer-checkbox" id="drawer-checkbox">
-    <label class="header__drawer-btn" for="drawer-checkbox"><span class="material-icons">menu</span></label>
+<header class="header bg-accent">
     {% include header.html %}
 </header>
 <main class="main">
-    <section class="main__section">
-        {{ content }}
-    </section>
+    {{ content }}
 </main>

@@ -11,13 +11,13 @@ layout: default
     <meta property="og:image" content="{{ page.cover | prepend: site.baseurl_root }}">
 {% endif %}
 
-<div class="post">
-    <article class="post__article block">
+<div class="flex-col flex-center bg-light">
+    <article class="post block max-readable-width">
         {% if page.cover %}
             <img src="{{ page.cover | prepend: site.baseurl_root }}" class="post__article__cover">
         {% endif %}
-        <h1 class="post__article__title">{{ page.title }}</h1>
-        <p class="post__article__infos">{{ site.data.authors[page.author].name }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}{% if page.translation_author %}<br>{% t translated_by %} {{ site.data.authors[page.translation_author].name }}{% endif %}</p>
+        <h1>{{ page.title }}</h1>
+        <p class="text-grey">{{ site.data.authors[page.author].name }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}{% if page.translation_author %}<br>{% t translated_by %} {{ site.data.authors[page.translation_author].name }}{% endif %}</p>
         {{ content }}
         <hr>
         <h2>{% t written_by %}</h2>
@@ -29,5 +29,3 @@ layout: default
         {% endif %}
     </article>
 </div>
-
-<link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/post.css">
