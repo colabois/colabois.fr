@@ -1,47 +1,53 @@
+---
 projects: Projektoj
-
-site_source: Fontkodo de la retejo
-
-translated_by: Tradukita de
-
-written_by: Skribita de
-
-dates:
-  days:
-    'Monday': 'Lundo'
-    'Tuesday': 'Mardo'
-    'Wednesday': 'Merkredo'
-    'Thursday': 'Ĵaŭdo'
-    'Friday': 'Vendredo'
-    'Saturday': 'Sabato'
-    'Sunday': 'Dimanĉo'
-  months:
-    'January': 'Januaro'
-    'February': 'Februaro'
-    'March': 'Marto'
-    'April': 'Aprilo'
-    'May': 'Majo'
-    'June': 'Junio'
-    'July': 'Julio'
-    'August': 'Aŭgusto'
-    'September': 'Septembro'
-    'October': 'Oktobro'
-    'November': 'Novembro'
-    'December': 'Decembro'
-
 titles:
   index: Akcepto
-  404: '404'
   contact: Kontakto
+  '404': '404'
   blog: Blogo
-
+  pdba: PDBA
+  team: Teamo
+dates:
+  days:
+    Monday: Lundo
+    Tuesday: Mardo
+    Wednesday: Merkredo
+    Thursday: Ĵaŭdo
+    Friday: Vendredo
+    Saturday: Sabato
+    Sunday: Dimanĉo
+  months:
+    January: Januaro
+    February: Februaro
+    March: Marto
+    April: Aprilo
+    May: Majo
+    June: Junio
+    July: Julio
+    August: Aŭgusto
+    September: Septembro
+    October: Oktobro
+    November: Novembro
+    December: Decembro
+site_source: Fontkodo de la retejo
+translated_by: Tradukita de
+written_by: Skribita de
 index:
   our_blog: Nia blogo
   our_projects: Nia projektoj
-
-404:
+  our_posts: Nia afiŝoj
+'404':
   page_not_found: Paĝo ne trovita :(
   turn_back_home: Reiri al la akcepto
-
 posts:
   no_posts: Estas multe senhava tie...
+langs:
+  en: English
+  fr: Français
+  es: Español
+  eo: Esperanto
+header_titles:
+  index: Colabois
+  pdba: PDBA
+header_descriptions:
+  pdba: Python Discord Bot Agregator
