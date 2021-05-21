@@ -35,9 +35,15 @@ Por anstataŭigi Google Drive, [Nextcloud](https://nextcloud.com/) estas unu de 
 
 ### Per Internet
 
+
+
 #### Signal
 
 Por anstataŭigi WhatsApp aŭ Messenger, Signal estas multe bona apliko malfermkoda, ke funkcias de la sama maniero.
+
+### Telegram
+
+Telegram estas ankaŭ bona sevo kie vi uzas via telefonnumeron por ensaluti, kaj, certe, ĉiu estas ĉifrita, krom la metadumoj (la sendinto, la ricevinto, la dato de la mesaĝo...). Vi povas krei "sekretan babilejon" ke povas poste detrui kaj ne estos spuroj de ĝin.
 
 ### SMS
 
