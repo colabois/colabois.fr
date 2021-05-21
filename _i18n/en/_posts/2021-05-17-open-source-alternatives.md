@@ -45,6 +45,10 @@ But it's not always that easy, and you may not want spend time doing that. In th
 
 To replace WhatsApp or Messenger, Signal is a good open source application, which works with the same manner: you give him your phone number to create an account and you can communicate with other who installed the app. It encrypts all your messages so that no other one can read it, and it's even possible to block the access to the application with a biometric authentication or a password.
 
+#### Telegram
+
+Telegram is also a good service where you use your phone number to login, and, of course, everything is encrypted too, except metadata (the sender, the receiver, the date of the message...). You can start "secret chats" which you can then destruct and there will be absolutely no traces of it.
+
 ### SMS
 
 #### QKSMS
