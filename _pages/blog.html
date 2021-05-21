@@ -14,7 +14,7 @@ ref: blog
                     <div class="posts-list__item__desc">
                         <h2 class="posts-list__item__desc__title">{{ post.title }}</h2>
                         <p class="posts-list__item__desc__excerpt">{{ post.excerpt | strip_html }}</p>
-                        <p class="posts-list__item__desc__infos">{{ post.author }} - {% t dates.days.{{ post.date | date: "%A"}} %} {{ post.date | date: "%d" }} {% t dates.months.{{ post.date | date: "%B"}} %} {{ post.date | date: "%Y" }}</p>
+                        <p class="posts-list__item__desc__infos">{{ site.data.authors[post.author].name }} - {% t dates.days.{{ post.date | date: "%A"}} %} {{ post.date | date: "%d" }} {% t dates.months.{{ post.date | date: "%B"}} %} {{ post.date | date: "%Y" }}</p>
                     </div>
                 </div>
             </a>

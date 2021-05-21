@@ -1,7 +1,7 @@
 ---
 title: Malfermkodaj alternativoj
-author: Dean
-translation_author: Victor B
+author: dean
+translation_author: victorb
 ---
 
 Unu de la objektivoj de la starigo de la asocio estas la defendon de la malfermkodo; kaj de la vivo privata de ĉiom. Kiam ni parolas de tiu, la rimarko pli ofta estas : "Sed la servoj de Google estas tiel praktika ! Kaj estas senpaga, kiel mi povas anstataŭigi ilin ?".

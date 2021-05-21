@@ -1,0 +1,14 @@
+.author {
+    display: flex;
+
+    &__infos {
+        display: flex;
+        align-items: flex-start;
+
+        &__avatar {
+            width: 10ch;
+            border-radius: 5px;
+            margin: 1em;
+        }
+    }
+}

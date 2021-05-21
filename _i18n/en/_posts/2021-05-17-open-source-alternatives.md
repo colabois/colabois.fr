@@ -1,7 +1,7 @@
 ---
 title: Open source alternatives
-author: Dean
-translation_author: Victor B
+author: dean
+translation_author: victorb
 ---
 
 One of the goals of the creation of the group is defending the open source; and the privacy of everyone. When we talk about it around us, the most frequent answer is kind of "But Google services are so useful! And it's free, how could I replace them?".

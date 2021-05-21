@@ -2,19 +2,48 @@
 layout: default
 ---
 
+{% assign author = site.data.authors[page.author] %}
+{% assign translation_author = site.data.authors[page.translation_author] %}
+
 <meta property="og:title" content="{{ page.title }} - Colabois">
 <meta property="og:description" content="{{ page.excerpt }}">
 {% if page.cover %}
     <meta property="og:image" content="{{ page.cover | prepend: site.baseurl_root }}">
 {% endif %}
 
-<article class="post">
-    {% if page.cover %}
-        <img src="{{ page.cover | prepend: site.baseurl_root }}" class="post-cover">
-    {% endif %}
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-infos">{{ page.author }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}{% if page.translation_author %}<br>{% t translated_by %} {{ page.translation_author }}{% endif %}</p>
-    {{ content }}
-</article>
+<div class="post">
+    <article class="post__article block">
+        {% if page.cover %}
+            <img src="{{ page.cover | prepend: site.baseurl_root }}" class="post__article__cover">
+        {% endif %}
+        <h1 class="post__article__title">{{ page.title }}</h1>
+        <p class="post__article__infos">{{ site.data.authors[page.author].name }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}{% if page.translation_author %}<br>{% t translated_by %} {{ site.data.authors[page.translation_author].name }}{% endif %}</p>
+        {{ content }}
+        <hr>
+        <h2>{% t written_by %}</h2>
+        <div class="post__article__author author">
+            {% if author.avatar %}
+                <img src="{{ site.baseurl_root }}/assets/img/avatars/{{ page.author }}.png" class="author__infos__avatar" alt="{{ author.name }}'s avatar">
+            {% endif %}
+            <div class="author__infos__desc">
+                <h3>{{ author.name }}</h3>
+                <p>{{ author.desc }}</p>
+            </div>
+        </div>
+        {% if page.translation_author %}
+            <hr>
+            <h2>{% t translated_by %}</h2>
+            <div class="author">
+                {% if translation_author.avatar %}
+                    <img src="{{ site.baseurl_root }}/assets/img/avatars/{{ page.translation_author }}.png" class="author__infos__avatar" alt="{{ translation_author.name }}'s avatar"">
+                {% endif %}
+                <div class="author__infos__desc">
+                    <h3>{{ translation_author.name }}</h3>
+                    <p>{{ translation_author.desc }}</p>
+                </div>
+            </div>
+        {% endif %}
+    </article>
+</div>
 
 <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/post.css">

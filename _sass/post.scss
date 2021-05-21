@@ -3,10 +3,8 @@
         background-color: rgb(230, 230, 230);
     }
 
-    .post {
-        padding: clamp(0px, 10%, 4em);
-        margin: 2em 0;
-        max-width: calc(90ch + 8em);
+    .post__article {
+        max-width: calc(100ch + 8em);
 
         border-radius: 15px;
 
@@ -18,16 +16,41 @@
 
 .post {
     align-self: center;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
 
-    &-title {
-        margin-top: 0;
-    }
+    &__article {
+        &-title {
+            margin-top: 0;
+        }
+        
+        &-infos {
+            color: rgb(116, 116, 116);
+        }
     
-    &-infos {
-        color: rgb(116, 116, 116);
+        img {
+            max-width: 100%;
+        }
     }
 
-    img {
-        max-width: 100%;
+    &__author {
+        position: sticky;
+        top: 2em;
+    }
+}
+
+.author {
+    display: flex;
+
+    &__infos {
+        display: flex;
+        align-items: flex-start;
+
+        &__avatar {
+            width: 10ch;
+            border-radius: 5px;
+            margin: 1em;
+        }
     }
 }
