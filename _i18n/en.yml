@@ -14,6 +14,7 @@ titles:
   404: '404'
   blog: Blog
   pdba: PDBA
+  team: Team
 
 header_titles:
   index: Colabois

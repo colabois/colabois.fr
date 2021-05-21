@@ -37,3 +37,11 @@ div.highlight {
     box-shadow: 0 0 100px rgb(194, 194, 194);
     margin: clamp(0px, 10%, 4em);
 }
+
+.list > * {
+    border-bottom: solid 1px lightgrey;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
