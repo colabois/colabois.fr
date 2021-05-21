@@ -30,7 +30,7 @@ defaults:
 
 permalink: /:title
 
-languages: ["en", "fr", "es", "eo"]
+languages: ["en", "fr", "it", "es", "eo"]
 exclude_from_localizations: ["assets", "favicon.ico"]
 default_locale_in_subfolder: true
 language_redirections: true
