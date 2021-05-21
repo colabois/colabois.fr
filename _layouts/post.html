@@ -11,21 +11,23 @@ layout: default
     <meta property="og:image" content="{{ page.cover | prepend: site.baseurl_root }}">
 {% endif %}
 
-<div class="flex-col flex-center bg-light">
-    <article class="post block max-readable-width">
-        {% if page.cover %}
-            <img src="{{ page.cover | prepend: site.baseurl_root }}" class="post__article__cover">
-        {% endif %}
-        <h1>{{ page.title }}</h1>
-        <p class="text-grey">{{ site.data.authors[page.author].name }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}{% if page.translation_author %}<br>{% t translated_by %} {{ site.data.authors[page.translation_author].name }}{% endif %}</p>
-        {{ content }}
-        <hr>
-        <h2>{% t written_by %}</h2>
-        {% include author.html author=page.author %}
-        {% if page.translation_author %}
+<main>
+    <div class="center bg-light">
+        <article class="post block max-readable-width">
+            {% if page.cover %}
+                <img src="{{ page.cover | prepend: site.baseurl_root }}" class="post__article__cover">
+            {% endif %}
+            <h1>{{ page.title }}</h1>
+            <p class="text-grey">{{ site.data.authors[page.author].name }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}{% if page.translation_author %}<br>{% t translated_by %} {{ site.data.authors[page.translation_author].name }}{% endif %}</p>
+            {{ content }}
             <hr>
-            <h2>{% t translated_by %}</h2>
-            {% include author.html author=page.translation_author %}
-        {% endif %}
-    </article>
-</div>
+            <h2>{% t written_by %}</h2>
+            {% include author.html author=page.author %}
+            {% if page.translation_author %}
+                <hr>
+                <h2>{% t translated_by %}</h2>
+                {% include author.html author=page.translation_author %}
+            {% endif %}
+        </article>
+    </div>
+</main>
