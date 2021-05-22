@@ -1,5 +1,11 @@
 ---
 projects: Projets
+langs:
+  en: English
+  fr: Français
+  es: Español
+  eo: Esperanto
+  it: Italiano
 titles:
   index: Accueil
   contact: Contact
@@ -7,6 +13,11 @@ titles:
   blog: Blog
   pdba: PDBA
   team: Équipe
+header_titles:
+  index: Colabois
+  pdba: PDBA
+header_descriptions:
+  pdba: Python Discord Bot Agregator
 dates:
   days:
     Monday: Lundi
@@ -31,6 +42,7 @@ dates:
     December: Décembre
 site_source: Source du site
 translated_by: Traduit par
+written_by: Écrit par
 index:
   our_blog: Notre blog
   our_projects: Nos projets
@@ -39,14 +51,3 @@ index:
   turn_back_home: Retourner à l'accueil
 posts:
   no_posts: C'est très vide ici...
-langs:
-  en: English
-  fr: Français
-  es: Español
-  eo: Esperanto
-header_titles:
-  index: Colabois
-  pdba: PDBA
-header_descriptions:
-  pdba: Python Discord Bot Agregator
-written_by: Écrit par
