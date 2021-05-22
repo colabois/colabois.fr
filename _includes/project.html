@@ -1,0 +1,11 @@
+{% assign project = include.project %}
+
+<div class="project no-flex-shrink">
+    {% if project.img %}
+        <img src="{{ site.baseurl_root }}/assets/img/projects/{{ project.img }}" class="project__image">
+    {% endif %}
+    <div class="project__desc">
+        <h1 class="project__desc__title"><a href="{{ project.link }}" target="_blank">{{ project.name }}</a></h1>
+        <p class="project__desc__summary">{{ project.desc }}</p>
+    </div>
+</div>
