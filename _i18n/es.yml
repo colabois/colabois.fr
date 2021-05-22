@@ -45,5 +45,23 @@ written_by: Escrito por
 index:
   our_blog: Nuestro blog
   our_projects: Nuestros proyectos
+  og_description: Colabois estas un grupo de desarolladores principiantes, grupados
+    para creer herramientas utiles por la communidad, que siempre saran open source.
+    La lema estas la amistad.
+  what_do_we_do: "# ¿Qué hacemos?\n\nTenemos un ideal de open source, así que todos\
+    \ nuestros proyectos lo son. Un día quizás nuestros proyectos sean bastante importantes\
+    \ para que pasarián a ser nuestro trabajo, pero esperando, vos queremos todos!"
+  who_are_we: "# ¿Quién somos?\n\n¡Somos un grupo de alumnos y desarolladores profesionales,\
+    \ juntos para crear herramientas utiles por la communidad. Nuestro objetivo es\
+    \ de ayudarse, hacer proyectos comunes, y la lema es la amistad!"
 posts:
   no_posts: Estas muy vacío aquí…
+'404':
+  turn_back_home: Volver a la página principal
+  page_not_found: Página no encontrada :(
+team_presentation: Aquí estan los miembros del grupo Colabois
+legal_notice: "# Notificación legal\n\n## Directores editoriales\n\n- Dorian OUAKLI\
+  \ (administrador del sito)\n    Estas posible contactar el administrador del sito\
+  \ por e-mail a [`contact@colabois.fr`](mailto:contact@colabois.fr)\n\n## Hosting\n\
+  \n- El sito [`colabois.fr`](https://colabois.fr) estas servida por Dorian OUAKLI.\
+  \  \n    16 Rue Bec de lièvre,  \n    30900 Nîmes."
