@@ -46,19 +46,21 @@ site_source: Site source
 translated_by: Translated by
 written_by: Written by
 index:
-  og_description: Colabois is a group of beginner developers grouped to create tools usefuls for the community, which will always be open source. The watchword is friendship.
-  who_are_we: |
+  og_description: Colabois is a group of beginner developers grouped to create tools
+    usefuls for the community, which will always be open source. The watchword is
+    friendship.
+  who_are_we: |-
     # Who are we?
 
     We are a group of students and professionnal developers, grouped to create useful tools for community. Our goal is to help each other, develop common projects and the watchword is friendship!
-  what_do_we_do: |
+  what_do_we_do: |-
     # What do we do?
 
     We have an ideal of open source, so all our projects are. Some day, maybe, our projects will become important enough for us to make it become our job, but waiting that, we love you all!
   our_blog: Our blog
   our_projects: Our projects
 posts:
-  no_posts: It's pretty empty here...
+  no_posts: It's pretty empty here…
 legal_notice: |-
   # Legal notice
 
