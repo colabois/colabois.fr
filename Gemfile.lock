@@ -30,7 +30,6 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    execjs (2.7.0)
     ffi (1.15.1)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
@@ -85,7 +84,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  execjs (~> 2.7.0)
   jekyll!
   jekyll-include-cache
   jekyll-liquify
