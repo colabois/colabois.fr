@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "execjs", "~> 2.7.0"
+gem "execjs", "~> 2.8.1"
 
 gem "jekyll", github: "jekyll/jekyll"
 
