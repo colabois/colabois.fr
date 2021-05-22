@@ -1,24 +1,19 @@
 victorb:
   name: Victor B
-  desc:  Ut faucibus accumsan tortor eget dictum. Maecenas lacinia accumsan orci consectetur convallis. Sed lacinia lorem vel augue semper hendrerit. Duis et est metus. Morbi accumsan, metus nec volutpat semper, sem ipsum suscipit nisi, et finibus augue sem eu odio. Sed mi felis, aliquet ut ullamcorper sed, feugiat pulvinar felis. Sed eget massa purus. Integer lacinia maximus enim, ornare scelerisque dui egestas in. Fusce in erat enim. Pellentesque semper turpis vitae mauris rhoncus, non egestas libero pellentesque. Fusce blandit tincidunt gravida. Nulla dictum euismod sem eu tincidunt. Pellentesque dapibus nunc at neque volutpat convallis. Ut maximus imperdiet pulvinar. Maecenas in enim sapien. 
   avatar: true
 
 dean:
   name: Dean
-  desc:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit magna tortor, sit amet semper odio maximus in. In in lectus sit amet risus luctus luctus a in mi. Morbi efficitur mauris sit amet turpis ultrices, a luctus elit commodo. Proin orci ex, ullamcorper id nunc ut, pretium finibus erat. Nunc non magna fringilla, vehicula augue a, dictum sem. Curabitur iaculis rhoncus volutpat. Proin leo arcu, tempus feugiat nisi et, dapibus rutrum ipsum. 
   avatar: true
 
 suwako:
   name: Suwako
-  desc:  Ut gravida, ex eget tristique aliquam, turpis massa egestas elit, vestibulum commodo dolor metus pulvinar ex. Nunc molestie mi at commodo condimentum. Ut mollis ex eu massa efficitur, ac sodales purus pretium. Cras sit amet scelerisque dui. Nunc facilisis magna leo. Aliquam id lectus non est viverra ultricies quis suscipit lacus. Morbi ullamcorper, odio non fermentum pellentesque, est nisl euismod risus, quis consectetur ante augue in mauris. Donec risus tellus, finibus ut elit vitae, commodo interdum sapien. Cras felis lectus, pretium sit amet molestie ultrices, ornare ac nibh. Duis at magna odio. Morbi nec augue sit amet lacus porta porttitor. Mauris non eros pretium, fringilla turpis quis, pellentesque nunc. Praesent rutrum sollicitudin lectus, vel accumsan elit consequat vel. 
   avatar: true
 
 moi2985:
   name: moi2985
-  desc: Etiam interdum eros eget tortor fermentum, eget luctus odio placerat. Nunc blandit est est, sit amet pulvinar orci sollicitudin lobortis. Phasellus viverra dictum sodales. Donec dignissim ultrices pretium. Duis eget ipsum eget neque malesuada vulputate blandit non enim. Duis sit amet fringilla orci. Nulla porta vitae nisi nec convallis. Sed venenatis faucibus molestie. Fusce diam urna, varius quis mauris non, bibendum tincidunt lacus. Nulla tristique maximus dolor, in rutrum dui condimentum vel. 
   avatar: true
 
 busybox:
   name: busybox
-  desc:  Vivamus bibendum porttitor rhoncus. Vivamus finibus eu eros ut mollis. Suspendisse auctor sodales neque, ut posuere leo tempor non. Vivamus auctor ante lectus, non maximus est auctor et. Morbi nec vestibulum orci. Duis faucibus neque ac mi gravida luctus. Sed vel lacus nulla. Aliquam pharetra augue in sapien vestibulum, a viverra est finibus. Mauris pulvinar volutpat arcu interdum ullamcorper. Vestibulum sit amet molestie augue. Phasellus fermentum convallis ipsum euismod pellentesque. 
   avatar: true
