@@ -1,0 +1,7 @@
+languageIds:
+  - html
+
+usageMatchRegex:
+  - "\\{\\% t ({key}) \\%\\}"
+
+monopoly: true

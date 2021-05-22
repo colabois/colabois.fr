@@ -1,14 +1,14 @@
----
 projects: Proyectos
 langs:
   en: English
   fr: Français
   es: Español
   eo: Esperanto
+  it: Italiano
 titles:
+  '404': '404'
   index: Home
   contact: Contacto
-  '404': '404'
   blog: Blog
   pdba: PDBA
   team: Equipo
@@ -45,10 +45,5 @@ written_by: Escrito por
 index:
   our_blog: Nuestro blog
   our_projects: Nuestros proyectos
-'404':
-  page_not_found: Página no encontrada :(
-  turn_back_home: Volver a la página principal
 posts:
   no_posts: Estas muy vacío aquí...
-contact:
-  title: Contacto

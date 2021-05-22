@@ -5,7 +5,8 @@ ref: team
 
 <main>
     <section>
-        {% tf team_presentation.md %}
+        {% capture team_presentation %}{% t team_presentation %}{% endcapture %}
+        {{ team_presentation | markdownify }}
         <div class="list">
             {% include author.html author="victorb" %}
             {% include author.html author="suwako" %}

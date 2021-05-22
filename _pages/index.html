@@ -3,13 +3,18 @@ layout: presentation
 ref: index
 ---
 
-{% capture og_description %}{% tf index/og_description.md %}{% endcapture %}
 <meta property="og:title" content="Colabois">
-<meta property="og:description" content="{{ og_description | strip_html }}">
+<meta property="og:description" content="{% t index.og_description %}">
 
 <div class="flex-row">
-    <section class="flex-basis-100">{% tf index/who_are_we.md %}</section>
-    <section class="flex-basis-100">{% tf index/what_do_we_do.md %}</section>
+    <section class="flex-basis-100">
+        {% capture who_are_we %}{% t index.who_are_we %}{% endcapture %}
+        {{ who_are_we | markdownify }}
+    </section>
+    <section class="flex-basis-100">
+        {% capture what_do_we_do %}{% t index.what_do_we_do %}{% endcapture %}
+        {{ what_do_we_do | markdownify }}
+    </section>
 </div>
 
 <section class="bg-light">

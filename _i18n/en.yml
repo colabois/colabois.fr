@@ -1,73 +1,75 @@
-# Site wide
-
+'404':
+  page_not_found: Page not found :(
+  turn_back_home: Turn back home
 projects: Projects
-
 langs:
   en: English
   fr: Français
   it: Italiano
   es: Español
   eo: Esperanto
-
 titles:
+  '404': '404'
   index: Home
   contact: Contact
-  404: '404'
   blog: Blog
   pdba: PDBA
   team: Team
-
 header_titles:
   index: Colabois
   pdba: PDBA
-
 header_descriptions:
   pdba: Python Discord Bot Agregator
-
 dates:
   days:
-    'Monday': 'Monday'
-    'Tuesday': 'Tuesday'
-    'Wednesday': 'Wednesday'
-    'Thursday': 'Thursday'
-    'Friday': 'Friday'
-    'Saturday': 'Saturday'
-    'Sunday': 'Sunday'
+    Monday: Monday
+    Tuesday: Tuesday
+    Wednesday: Wednesday
+    Thursday: Thursday
+    Friday: Friday
+    Saturday: Saturday
+    Sunday: Sunday
   months:
-    'January': 'January'
-    'February': 'February'
-    'March': 'March'
-    'April': 'April'
-    'May': 'May'
-    'June': 'June'
-    'July': 'July'
-    'August': 'August'
-    'September': 'September'
-    'October': 'October'
-    'November': 'November'
-    'December': 'December'
-
+    January: January
+    February: February
+    March: March
+    April: April
+    May: May
+    June: June
+    July: July
+    August: August
+    September: September
+    October: October
+    November: November
+    December: December
 site_source: Site source
-
 translated_by: Translated by
-
 written_by: Written by
-
-
-# Index
-
 index:
+  og_description: Colabois is a group of beginner developers grouped to create tools usefuls for the community, which will always be open source. The watchword is friendship.
+  who_are_we: |
+    # Who are we?
+
+    We are a group of students and professionnal developers, grouped to create useful tools for community. Our goal is to help each other, develop common projects and the watchword is friendship!
+  what_do_we_do: |
+    # What do we do?
+
+    We have an ideal of open source, so all our projects are. Some day, maybe, our projects will become important enough for us to make it become our job, but waiting that, we love you all!
   our_blog: Our blog
-
-
-# 404 page
-
-404:
-  page_not_found: Page not found :(
-  turn_back_home: Turn back home
-
-
-# Posts page
-
+  our_projects: Our projects
 posts:
   no_posts: It's pretty empty here...
+legal_notice: |-
+  # Legal notice
+
+  ## Editorial directors
+
+  - Dorian OUAKLI (Site administrator)
+      It is possible to contact the site administrator by e-mail at [`contact@colabois.fr`](mailto:contact@colabois.fr)
+
+  ## Hosting
+
+  - The website [`colabois.fr`](https://colabois.fr) is hosted by Dorian OUAKLI.
+      16 Rue Bec de lièvre,  
+      30900 Nîmes.
+team_presentation: Here are the members of the Colabois group

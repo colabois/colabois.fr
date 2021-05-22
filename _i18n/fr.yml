@@ -1,4 +1,6 @@
----
+'404':
+  page_not_found: Page not found :(
+  turn_back_home: Retourner à l'accueil
 projects: Projets
 langs:
   en: English
@@ -7,9 +9,9 @@ langs:
   eo: Esperanto
   it: Italiano
 titles:
+  '404': '404'
   index: Accueil
   contact: Contact
-  '404': '404'
   blog: Blog
   pdba: PDBA
   team: Équipe
@@ -46,8 +48,5 @@ written_by: Écrit par
 index:
   our_blog: Notre blog
   our_projects: Nos projets
-'404':
-  page_not_found: Page not found :(
-  turn_back_home: Retourner à l'accueil
 posts:
   no_posts: C'est très vide ici...

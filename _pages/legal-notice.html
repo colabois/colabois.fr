@@ -3,8 +3,9 @@ layout: default
 ref: contact
 ---
 
-<main class="center">
+<main>
     <section class="max-readable-width">
-        {% tf legal_notice.md %}
+        {% capture legal_notice %}{% t legal_notice %}{% endcapture %}
+        {{ legal_notice | markdownify }}
     </section>
 </main>

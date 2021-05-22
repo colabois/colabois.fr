@@ -1,0 +1,8 @@
+{
+    "i18n-ally.localesPaths": [
+        "_i18n"
+    ],
+    "i18n-ally.pathMatcher": "{locale}.yml",
+    "i18n-ally.editor.preferEditor": true,
+    "i18n-ally.keystyle": "nested"
+}
