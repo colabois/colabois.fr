@@ -1,5 +1,5 @@
 '404':
-  page_not_found: Page not found :(
+  page_not_found: Page non trouvée :(
   turn_back_home: Retourner à l'accueil
 projects: Projets
 langs:
@@ -48,6 +48,21 @@ written_by: Écrit par
 index:
   our_blog: Notre blog
   our_projects: Nos projets
+  og_description: Colabois est un groupe de développeurs unis pour créer des outils
+    utiles à la communauté, qui seront toujours open source. Le mot d'ordre est l'amitié.
+  who_are_we: "# Qui sommes-nous ?\n\nNous sommes un collectif de programmeurs amateurs,\
+    \ étudiants et professionnels, regroupés pour créer des outils utiles à la communauté.\
+    \ Notre but est de s’entraider mutuellement, de développer des projets communs\
+    \ et le mot d’ordre est l’amitié !"
+  what_do_we_do: "# Que faisons-nous ?\n\nNous avons un idéal d’open source, donc\
+    \ tous nos projets le sont. Un jour, peut-être, nos projets deviendront assez\
+    \ importants pour que nous puissions en faire notre métier, mais en attendant\
+    \ on vous aime tous !"
 posts:
-  no_posts: C'est très vide ici...
+  no_posts: C'est très vide ici…
 team_presentation: Voici les membres de l'association Colabois
+legal_notice: "# Mentions légales\n\n## Responsables éditoriaux\n\n- Dorian OUAKLI\
+  \ (Administrateur de site)\n    Il est possible de contacter l’administrateur du\
+  \ site par courrier électronique à l’adresse [`contact@colabois.fr`](mailto:contact@colabois.fr)\n\
+  \n## Hébergement\n\n- Le site web [`colabois.fr`](https://colabois.fr) est hébergé\
+  \ par Dorian OUAKLI.\n    16 Rue Bec de lièvre,  \n    30900 Nîmes."
