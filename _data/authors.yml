@@ -17,3 +17,7 @@ moi2985:
 busybox:
   name: busybox
   avatar: true
+
+fomys:
+  name: Fomys
+  avatar: true
