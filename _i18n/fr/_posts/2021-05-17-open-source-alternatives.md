@@ -1,6 +1,7 @@
 ---
 title: Alternatives open-source
 author: dean
+translation_author: victorb
 ---
 
 Un des objectifs de la création de l'association colabois est la défense de l'open source; et de la vie privée de chacun. Lorsqu'il nous arrive d'en parler autour de nous, la remarque la plus fréquente est du style "Mais les services de google sont tellement pratiques ! Et en plus c'est gratuit, comment je peux les remplacer ?".
@@ -9,7 +10,7 @@ Et cette remarque est juste; Google Drive, Docs, YouTube, mais aussi whatsapp et
 
 De plus, comme le dit si bien la Free Software Foundation, nous pensons que chaque programme devrait permettre à ses utilisateurs de lire son code source. Pour pouvoir s'assurer que leur vie privée est respectée, entre autres !
 
-C'est pourquoi nous utilisons quotidiennement des programmes et applications open souce, pour protéger notre vie privée, et défendre nos idéaux. 
+C'est pourquoi nous utilisons quotidiennement des programmes et applications open souce, pour protéger notre vie privée, et défendre nos idéaux.
 
 Pour permettre à n'importe qui de passer à un environnement plus libre, nous avons décidé de rédiger cette liste d'alternatives open source à des applications communes. Elle évoluera régulièrement; n'hésitez pas à la consulter plusieurs fois !
 
@@ -17,8 +18,7 @@ Pour permettre à n'importe qui de passer à un environnement plus libre, nous a
 
 Pour naviguer plus facilement entre les catégories, vous pouvez utiliser la table des matières ci-dessous.
 
-* toc
-{:toc}
+- toc {:toc}
 
 *Les listes effectuées sur cette page peuvent ne pas être exhaustives. Votre moteur de recherche préféré vous permettra d'en apprendre plus, si vous en avez envie !*
 
@@ -30,7 +30,7 @@ Pour remplacer Google Drive, [Nextcloud](https://nextcloud.com/) est une des mei
 
 L'avantage de Nextcloud, c'est qu'il peut fonctionner sur un [raspberry pi](https://www.raspberrypi.org/), avec un disque dur et, bien sûr, une connexion internet stable. Vous pouvez donc garder toutes vos données chez vous, là où elles seront le plus en sécurité ! Le raspberry pi est, de plus, très peu consommateur d'électricité.
 
-Si vous décidez de tenter l'installation, il existe de nombreux guides pour le faire, et vous pouvez aussi trouver de l'aide pour le faire. Vous apprendrez le fonctionnement d'un serveur web, et peut-être même l'utilisation de la ligne de commande de Raspbian (une distribution Linux prévue pour le raspberry pi) ! 
+Si vous décidez de tenter l'installation, il existe de nombreux guides pour le faire, et vous pouvez aussi trouver de l'aide pour le faire. Vous apprendrez le fonctionnement d'un serveur web, et peut-être même l'utilisation de la ligne de commande de Raspbian (une distribution Linux prévue pour le raspberry pi) !
 
 Mais ce n'est pas toujours facile, et vous ne voulez peut-être pas passer du temps à le faire. Dans ce cas, vous pouvez opter pour un service qui héberge des instances de Nextcloud, [gratuitement](https://nextcloud.com/signup/) ou moyennant quelques euros par an.
 
@@ -39,8 +39,6 @@ Mais ce n'est pas toujours facile, et vous ne voulez peut-être pas passer du te
 ### Mail
 
 ### Par internet
-
-
 
 #### Signal
 
@@ -64,7 +62,7 @@ Vous pouvez la télécharger sur le [google play store](https://play.google.com/
 
 ## Systèmes d'exploitation
 
-Comme ils constituent la base de n'importe quelle utilisation de l'informatique, les systèmes d'exploitation doivent bien sûr respecter les critères d'open source et de respect de la vie privée. 
+Comme ils constituent la base de n'importe quelle utilisation de l'informatique, les systèmes d'exploitation doivent bien sûr respecter les critères d'open source et de respect de la vie privée.
 
 ### GNU / Linux
 
@@ -82,6 +80,6 @@ Si vous ne le saviez pas encore, Android est un système qui est à la base open
 
 Heureusement, il existe de nombreuses solutions, et pour tous les goûts : les ROM custom d'Android. Leur installation peut être délicate, mais certaines apportent des fonctionalités intéressantes, et / ou un contrôle sur votre appareil beaucoup plus important. Elles peuvent aussi être plus respectueuses de la vie privée, et, bien sûr, open-source.
 
-Une ROM custom très connue est, par exemple, *LineageOS*. 
+Une ROM custom très connue est, par exemple, *LineageOS*.
 
 Si vous voulez plus d'informations, sur votre appareil, sur une ROM custom ou des instructions, vous pouvez aller voir sur le forum [XDA-developers](https://www.xda-developers.com/the-most-popular-custom-roms-on-xda/), ou encore sur les sites officiels de ces différentes ROM.
