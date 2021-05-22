@@ -14,16 +14,28 @@
     <img src=".readme/screenshots/1.jpg">
 </p>
 
-## Dependencies
+## Contributing
+
+### Building
+
+#### Dependencies
 
 This site relies on Jekyll so you will need to [install it](https://jekyllrb.com/docs/installation/)
 
 You will also need `make` if you don't want to run Jekyll commands manually
 
-## Build
+#### Build
 
 `make build` or `bundle exec jekyll build`
 
-## Run
+#### Run
 
 `make run` or `bundle exec jekyll serve`
+
+### Translation
+
+I make all the translations with the VSCode plugin [i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally) and I highly recommend to do so
+
+You just need to install the plugin and it should automatically be configured following the configuration files in the `.vscode/` folder.
+
+If you really don't want to use VSCode or i18n Ally at all you can just edit the yml files manually in _i18n/
