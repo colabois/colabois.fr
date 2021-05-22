@@ -24,12 +24,12 @@ ref: index
             <div class="flex-row">
                 {% for project in site.data.projects %}
                     <div class="project no-flex-shrink">
-                        {% if project["imgpath"] %}
-                            <img src="{{ project["imgpath"] | liquify }}" class="project__image">
+                        {% if project.img %}
+                            <img src="{{ site.baseurl_root }}/assets/img/projects/{{ project.img }}" class="project__image">
                         {% endif %}
                         <div class="project__desc">
-                            <h1 class="project__desc__title"><a href="{{ project["link"] }}" target="_blank">{{ project["name"] }}</a></h1>
-                            <p class="project__desc__summary">{{ project["desc"] }}</p>
+                            <h1 class="project__desc__title"><a href="{{ project.link }}" target="_blank">{{ project.name }}</a></h1>
+                            <p class="project__desc__summary">{{ project.desc }}</p>
                         </div>
                     </div>
                 {% endfor %}
