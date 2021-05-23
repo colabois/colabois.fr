@@ -2,11 +2,14 @@
 layout: base
 ---
 
-<header class="header full-height bg-accent text-center">
+<header class="header header--full-height bg-accent text-center">
     {% include header.html %}
     <div class="flex-col flex-grow flex-center">
         <h1>{% t header_titles.{{ page.ref }} %}</h1>
-        <p>{% t header_descriptions.{{ page.ref }} %}</p>
+        {% capture description %}{% t header_descriptions.{{ page.ref }} %}{% endcapture %}
+        {% if description != empty %}
+            <p>{% t header_descriptions.{{ page.ref }} %}</p>
+        {% endif %}
     </div>
     <a href="#main" class="header__down"><span class="material-icons">expand_more</span></a>
 </header>
