@@ -79,8 +79,8 @@ Linux often have the reputation of being a system for advanced users; but some d
 
 If you didn't know it yet, Android is an open source operating system (it works with the Linux kernel!). But the changes made by the vendors aren't always open.
 
-Fortunately, there are a lot of solutions, and for all tastes: Android custom ROMs. Their installation can be a little bit hard, but some bring interesting functionnalities, and / or a more important control of your dvice. They can also be more respectful of your privacy and, of course, open source.
+Fortunately, there are a lot of solutions, and for all tastes: Android custom ROMs. Their installation can be a little bit hard, but some bring interesting functionalities, and / or a more important control of your device. They can also be more respectful of your privacy and, of course, open source.
 
 A well-known custom ROM is, for example, *LineageOS*.
 
-If you want more informations, on your device, on a custom ROM, or some guides, you can see the forum [XDA-developers](https://www.xda-developers.com/the-most-popular-custom-roms-on-xda/), or on the official websites on these ROMs.
+If you want more information about your device, a custom ROM, or some guides, you can see the forum [XDA-developers](https://www.xda-developers.com/the-most-popular-custom-roms-on-xda/), or on the official websites on these ROMs.
