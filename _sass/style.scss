@@ -1,5 +1,35 @@
 $responsive-width: 40em;
 
+:root {
+    --clr-accent: $accent;
+
+    /* dark theme */
+    --clr-dark-fg: white;
+    --clr-dark-fg-secondary: rgb(211, 211, 211);
+    --clr-dark-bg: rgb(48, 48, 48);
+    --clr-dark-bg-secondary: rgb(29, 29, 29);
+
+    /* light theme */
+    --clr-light-fg: black;
+    --clr-light-fg-secondary: rgb(216, 216, 216);
+    --clr-light-bg: white;
+    --clr-ligt-bg-secondary: white;
+
+    /* light theme enabled */
+    --clr-fg: var(--clr-light-fg);
+    --clr-fg-secondary: var(--clr-light-fg-secondary);
+    --clr-bg: var(--clr-light-bg);
+    --clr-bg-secondary: var(--clr-light-bg-secondary);
+
+    /* dark theme enabled */
+    @media (prefers-color-scheme: dark) {
+        --clr-fg: var(--clr-dark-fg);
+        --clr-fg-secondary: var(--clr-dark-fg-secondary);
+        --clr-bg: var(--clr-dark-bg);
+        --clr-bg-secondary: var(--clr-dark-bg-secondary);
+    }
+}
+
 * {
     box-sizing: border-box;
 }
@@ -13,6 +43,9 @@ body {
     flex-direction: column;
     font-family: "Segoe UI", sans-serif;
     min-height: 100vh;
+
+    background-color: var(--clr-bg);
+    color: var(--clr-fg);
     
     > main {
         flex-grow: 1;
@@ -47,5 +80,5 @@ img {
 }
 
 hr {
-    border: solid 1px rgb(209, 209, 209);
+    border: solid 1px rgba(134, 134, 134, 0.363);
 }

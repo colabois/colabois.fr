@@ -1,6 +1,6 @@
 .project {
-    background-color: white;
-    box-shadow: 3px 3px 10px rgb(146, 146, 146);
+    background-color: var(--clr-bg);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.342);
     border-radius: 10px;
     width: 12em;
     margin: 2em;
@@ -23,7 +23,7 @@
 
         &__summary {
             margin-top: .5em;
-            color: rgb(44, 44, 44);
+            color: var(--clr-fg-secondary);
         }
     }
 }
