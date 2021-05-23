@@ -12,22 +12,24 @@ layout: default
 {% endif %}
 
 <main>
-    <div class="center bg-light">
-        <article class="post block max-readable-width">
-            {% if page.cover %}
-                <img src="{{ page.cover | prepend: site.baseurl_root }}" class="post__article__cover">
-            {% endif %}
-            <h1>{{ page.title }}</h1>
-            <p class="text-grey">{% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}</p>
-            {{ content }}
-            <hr>
-            <h2>{% t written_by %}</h2>
-            {% include author.html author=page.author %}
-            {% if page.translation_author %}
+    <section>
+        <div class="center">
+            <article class="post max-readable-width">
+                {% if page.cover %}
+                    <img src="{{ page.cover | prepend: site.baseurl_root }}" class="post__article__cover">
+                {% endif %}
+                <h1>{{ page.title }}</h1>
+                <p class="text-grey">{% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}</p>
+                {{ content }}
                 <hr>
-                <h2>{% t translated_by %}</h2>
-                {% include author.html author=page.translation_author %}
-            {% endif %}
-        </article>
-    </div>
+                <h2>{% t written_by %}</h2>
+                {% include author.html author=page.author %}
+                {% if page.translation_author %}
+                    <hr>
+                    <h2>{% t translated_by %}</h2>
+                    {% include author.html author=page.translation_author %}
+                {% endif %}
+            </article>
+        </div>
+    </section>
 </main>
