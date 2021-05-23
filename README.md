@@ -7,7 +7,6 @@
     <a href="https://www-dev.colabois.fr">
         <img src="https://jenkins.colabois.fr/buildStatus/icon?job=Colabois%2Fcolabois.fr%2Fdev&subject=www-dev&style=flat">
     </a>
-    <a href="https://gitlocalize.com/repo/6135/whole_project?utm_source=badge"><img src="https://gitlocalize.com/repo/6135/whole_project/badge.svg"></a>
 </p>
 
 <p align="center">
