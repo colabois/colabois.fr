@@ -3,10 +3,13 @@
 }
 
 .header {
+
     display: flex;
     flex-direction: column;
 
     font-size: 1.25rem;
+
+    /* children */
 
     &__drawer-toggler {
         display: none;
@@ -22,9 +25,30 @@
         }
     }
 
+    &__desc {
+        padding: 2em 0;
+    }
+
     &__down {
         font-size: 1.5rem;
         padding: 1.5em;
+    }
+
+    /* modifiers */
+
+    &--full-height {
+        height: 100vh;
+    }
+
+    /* mobile devices */
+    @media (max-width: 600px) {
+        &--full-height {
+            height: auto;
+        }
+
+        &__down {
+            display: none;
+        }
     }
 }
 
