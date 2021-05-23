@@ -1,5 +1,8 @@
-@media(max-width: 400px) {
-    .infos-section {
-        flex-direction: column;
+.infos-section {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $responsive-width) {
+        flex-direction: row;
     }
 }
