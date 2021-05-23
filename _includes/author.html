@@ -5,6 +5,8 @@
         <img class="author__avatar" src="{{ site.baseurl_root }}/assets/img/avatars/{{ author.avatar }}" alt="{{ author.name }}'s avatar">
     {% endif %}
     <div class="author__infos">
-        <p><strong>{{ author.name }}</strong><br>{{ author.desc }}</p>
+        {% capture description %}{% t author_descriptions.{{ include.author }} %}{% endcapture %}
+        <p><strong>{{ author.name }}</strong></p>
+        <p>{% if description != empty %}{{ description }}{% else %}{% t no_description %}{% endif %}</p>
     </div>
 </div>
