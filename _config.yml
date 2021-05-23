@@ -30,8 +30,17 @@ defaults:
 
 permalink: /:title
 
-languages: ["en", "fr", "it", "es", "eo"]
-exclude_from_localizations: ["assets", "favicon.ico"]
+languages: 
+  - en
+  - fr
+  - it
+  - es
+  - eo
+
+exclude_from_localizations: 
+  - assets
+  - favicon.ico
+
 default_locale_in_subfolder: true
 language_redirections: true
 
@@ -40,11 +49,17 @@ sass:
 
 compress_html:
   clippings: all
-  comments: ["<!-- ", " -->"]
+  comments:
+    - "<!-- "
+    - " -->"
   endings: all
   ignore:
-    envs: [local]
+    envs:
+      - local
   blanklines: false
-  startings: [html, head, body]
+  startings:
+    - html
+    - head
+    - body
 
 baseurl: ""
