@@ -1,8 +1,9 @@
-'404':
+four_hundred_four:
+  page_not_found: Page not found :(
   turn_back_home: Turn back home
 projects: Projects
 titles:
-  '404': '404'
+  four_hundred_four: '404'
   index: Home
   legal_notice: Legal notice
   blog: Blog

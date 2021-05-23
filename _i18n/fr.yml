@@ -1,9 +1,9 @@
-'404':
+four_hundred_four:
   page_not_found: Page non trouvée :(
   turn_back_home: Retourner à l'accueil
 projects: Projets
 titles:
-  '404': '404'
+  four_hundred_four: '404'
   index: Accueil
   contact: Contact
   blog: Blog

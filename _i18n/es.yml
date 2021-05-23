@@ -1,6 +1,6 @@
 projects: Proyectos
 titles:
-  '404': '404'
+  four_hundred_four: '404'
   index: Home
   contact: Contacto
   blog: Blog
@@ -51,7 +51,7 @@ index:
     \ de ayudarse, hacer proyectos comunes, y la lema es la amistad!"
 posts:
   no_posts: Estas muy vacío aquí…
-'404':
+four_hundred_four:
   turn_back_home: Volver a la página principal
   page_not_found: Página no encontrada :(
 team_presentation: Aquí estan los miembros del grupo Colabois
