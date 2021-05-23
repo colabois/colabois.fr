@@ -60,7 +60,7 @@ Vous pouvez la télécharger sur le [google play store](https://play.google.com/
 
 [DuckDuckGo](https://duckduckgo.com/) est un bon compromis entre la qualité des résultats d'une recherche, et la protection de la vie privée. C'est d'ailleurs le moteur de recherche par défaut sur le navigateur Tor. 
 
-Pour android, vous pouvez l'utiliser avec firefox, ou télécharger l'application DuckDuckGo (mais elle se base sur chrome).
+Pour android, vous pouvez l'utiliser avec firefox, ou télécharger l'application DuckDuckGo.
 
 ## Navigateurs
 
