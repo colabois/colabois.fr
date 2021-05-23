@@ -1,0 +1,9 @@
+.posts-list {
+    &__item {
+        &__desc {
+            > * {
+                margin: .4em 0;
+            }
+        }
+    }
+}
