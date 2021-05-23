@@ -41,7 +41,7 @@
     }
 
     /* mobile devices */
-    @media (max-width: 600px) {
+    @media (max-width: $responsive-width) {
         &--full-height {
             height: auto;
         }
@@ -52,7 +52,7 @@
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: $responsive-width) {
     .header {
         position: sticky;
         top: 0;
