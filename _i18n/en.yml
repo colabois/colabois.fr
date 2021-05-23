@@ -1,11 +1,11 @@
 four_hundred_four:
   page_not_found: Page not found :(
-  turn_back_home: Turn back home
+  turn_back_home: Go back home
 projects: Projects
 titles:
   four_hundred_four: '404'
   index: Home
-  legal_notice: Legal notice
+  legal_notice: Contact
   blog: Blog
   pdba: PDBA
   team: Team
