@@ -1,5 +1,5 @@
 :root {
-    --clr-accent: $accent;
+    --clr-accent: #{$accent};
 
     /* dark theme */
     --clr-dark-fg: #dadada;
