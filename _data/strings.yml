@@ -1,0 +1,9 @@
+# This place is for unstranslatable strings like language names.
+# For translatable strings, please see _i18n/LANGUAGE.yml
+
+langs:
+  en: English
+  fr: Français
+  it: Italiano
+  es: Español
+  eo: Esperanto

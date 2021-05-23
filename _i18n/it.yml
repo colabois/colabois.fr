@@ -1,10 +1,4 @@
 projects: Progetti
-langs:
-  en: English
-  fr: Français
-  es: Español
-  eo: Esperanto
-  it: Italiano
 titles:
   '404': '404'
   index: Home

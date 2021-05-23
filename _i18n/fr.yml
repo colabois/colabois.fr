@@ -2,12 +2,6 @@
   page_not_found: Page non trouvée :(
   turn_back_home: Retourner à l'accueil
 projects: Projets
-langs:
-  en: English
-  fr: Français
-  es: Español
-  eo: Esperanto
-  it: Italiano
 titles:
   '404': '404'
   index: Accueil
