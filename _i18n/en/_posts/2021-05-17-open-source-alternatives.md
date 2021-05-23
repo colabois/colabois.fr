@@ -63,7 +63,7 @@ You can download it from the [Google Play Store](https://play.google.com/store/a
 
 ## Operating systems
 
-As they are the base of any usage of computers, operating system msut of course respect open source and privacy criterias.
+As they are the base of any usage of computers, the operating system must, of course, respect open source and privacy criterias.
 
 ### GNU / Linux
 
