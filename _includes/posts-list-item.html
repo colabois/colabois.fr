@@ -8,7 +8,7 @@
         <div class="posts-list__item__desc">
             <h2 class="posts-list__item__desc__title no-margin-bottom">{{ post.title }}</h2>
             <p class="posts-list__item__desc__excerpt no-margin-h">{{ post.excerpt | strip_html }}</p>
-            <p class="posts-list__item__desc__infos no-margin-top">{{ site.data.authors[post.author].name }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}</p>
+            <p class="posts-list__item__desc__infos no-margin-top text-grey">{{ site.data.authors[post.author].name }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}</p>
         </div>
     </div>
 </a>
