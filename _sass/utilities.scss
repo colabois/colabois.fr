@@ -1,6 +1,6 @@
 .bg-accent {
     color: white;
-    background-color: $accent;
+    background-color: var(--clr-accent);
 }
 
 .bg-light {
@@ -13,7 +13,7 @@
 }
 
 .text-grey {
-    color: rgb(133, 133, 133);
+    color: var(--clr-fg-secondary);
 }
 
 .reset-color {
@@ -79,8 +79,8 @@
         &::marker {
             content: '';
         }
-        
-        border-bottom: solid 1px rgb(224, 224, 224);
+
+        border-bottom: solid 1px var(--clr-fg-secondary);
 
         &:last-child {
             border-bottom: inherit;
