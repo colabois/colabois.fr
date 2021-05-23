@@ -3,15 +3,13 @@ title: Alternatives open-source
 author: dean
 ---
 
-Un des objectifs de la création de l'association colabois est la défense de l'open source; et de la vie privée de chacun. Lorsqu'il nous arrive d'en parler autour de nous, la remarque la plus fréquente est du style "Mais les services de google sont tellement pratiques ! Et en plus c'est gratuit, comment je peux les remplacer ?".
+Un des objectifs de la création de l'association colabois est la défense de l'open source; et de la vie privée de chacun. Lorsqu'il nous arrive d'en parler autour de nous, on nous rétorque souvent que les services de Google sont pratiques, gratuits, et fonctionnent toujours.
 
-Et cette remarque est juste; Google Drive, Docs, YouTube, mais aussi whatsapp et messenger, de Facebook... tous ces services sont gratuits, et fonctionnent très correctement. Mais on ne présente plus la politique désastreuse de gestion des données personnelles des réseaux sociaux de Mark Zuckerberg, entre autres.
+Et cette remarque est juste; Google Drive, Docs, YouTube, mais aussi whatsapp et messenger... tous ces services présentent de nombreux avantages. Mais toutes les entreprises qui s'en chargent ont des politiques de gestion des données personnelles qui laissent à désirer.
 
-De plus, comme le dit si bien la Free Software Foundation, nous pensons que chaque programme devrait permettre à ses utilisateurs de lire son code source. Pour pouvoir s'assurer que leur vie privée est respectée, entre autres !
+De plus, nous pensons que chaque programme devrait permettre à ses utilisateurs de lire son code source; et de le modifier. Pour que ces derniers puissent s'assurer que leur vie privée est respectée, entre autres.
 
-C'est pourquoi nous utilisons quotidiennement des programmes et applications open souce, pour protéger notre vie privée, et défendre nos idéaux.
-
-Pour permettre à n'importe qui de passer à un environnement plus libre, nous avons décidé de rédiger cette liste d'alternatives open source à des applications communes. Elle évoluera régulièrement; n'hésitez pas à la consulter plusieurs fois !
+Pour permettre à n'importe qui de passer à un environnement plus libre, nous avons décidé de rédiger cette liste d'alternatives open source à des applications communes. Elle évoluera régulièrement; n'hésitez pas à venir la consulter plusieurs fois !
 
 ## Table des matières
 
@@ -58,7 +56,22 @@ Vous pouvez la télécharger sur le [google play store](https://play.google.com/
 
 ## Moteurs de recherche
 
+### DuckDuckGo
+
+[DuckDuckGo](https://duckduckgo.com/) est un bon compromis entre la qualité des résultats d'une recherche, et la protection de la vie privée. C'est d'ailleurs le moteur de recherche par défaut sur le navigateur Tor. 
+
+Pour android, vous pouvez l'utiliser avec firefox, ou télécharger l'application DuckDuckGo (mais elle se base sur chrome).
+
 ## Navigateurs
+
+Les navigateurs web, sont des programmes qui sont utilisés extrêmement régulièrement, sur ordinateur comme sur mobile. Et ils peuvent collecter beaucoup de données importantes, comme l'historique de navigation, mais aussi des mots de passe, et les fameux cookies. Mais la plupart de ces navigateurs, et les plus populaires, ne sont pas open-source. On peut citer chrome, opera, vivaldi ou même edge...
+
+### Firefox
+
+[Firefox](https://www.mozilla.org/fr/firefox/new/) est un navigateur open-source développé par la fondation mozilla. Il contient de nombreuses fonctionalités pour protéger la vie privée de ses utilisateurs, et est assez personnalisable. C'est aussi un des seuls navigateurs qui n'est pas basé sur chromium, une version open-source de Google chrome − et n'a donc pas de lien avec Google.
+
+Depuis peu, la version Android de firefox a aussi reçu une grosse mise à jour de son interface, ce qui le rend bien plus agréable à utiliser; vous pouvez donc remplacer la version de chrome sur android par Firefox mobile. Si vous utilisez déjà une application d'un moteur de recherche sur votre téléphone, comme DuckDuckGo, Qwant ou Ecosia, vous utilisez chrome; mais vous pouvez installer firefox, et le configurer pour utiliser le moteur de recherche de votre choix.
+
 
 ## Systèmes d'exploitation
 
