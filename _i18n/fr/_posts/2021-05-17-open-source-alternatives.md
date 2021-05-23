@@ -18,7 +18,8 @@ Pour permettre à n'importe qui de passer à un environnement plus libre, nous a
 
 Pour naviguer plus facilement entre les catégories, vous pouvez utiliser la table des matières ci-dessous.
 
-- toc {:toc}
+* toc 
+{:toc}
 
 *Les listes effectuées sur cette page peuvent ne pas être exhaustives. Votre moteur de recherche préféré vous permettra d'en apprendre plus, si vous en avez envie !*
 
