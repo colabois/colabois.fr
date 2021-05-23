@@ -1,23 +1,51 @@
+#drawer-toggler {
+    display: none;
+}
+
 .header {
     display: flex;
     flex-direction: column;
 
     font-size: 1.25rem;
 
-    &__links {
-        a {
-            padding: .75em;
+    &__drawer-toggler {
+        display: none;
+    }
 
-            &:hover,
-            &:focus {
-                outline: none;
-                background-color: rgba(0, 0, 0, 0.281);
-            }
+    &__link {
+        padding: .75em;
+
+        &:hover,
+        &:focus {
+            outline: none;
+            background-color: rgba(0, 0, 0, 0.281);
         }
     }
 
     &__down {
         font-size: 1.5rem;
         padding: 1.5em;
+    }
+}
+
+@media (max-width: 350px) {
+    .header {
+        position: sticky;
+        top: 0;
+
+        &__drawer-toggler {
+            display: block;
+        }
+    
+        &__nav {
+            &__links {
+                display: none;
+                flex-direction: column;
+            }
+        }
+
+        #drawer-toggler:checked ~ &__nav__links {
+            display: flex;
+        }
     }
 }

@@ -1,6 +1,10 @@
-<header class="header__links flex-row">
-    <a href="{{ site.baseurl }}/">Colabois</a>
-    <span class="flex-grow"></span>
-    <a href="{{ site.baseurl }}/team">{% t titles.team %}</a>
-    <a href="{{ site.baseurl }}/blog">{% t titles.blog %}</a>
-</header>
+<nav class="header__nav">
+    <input type="checkbox" id="drawer-toggler">
+    <label for="drawer-toggler" class="header__drawer-toggler header__link"><span class="material-icons">menu</span></label>
+    <div class="header__nav__links flex-row">
+        <a href="{{ site.baseurl }}/" class="header__link">Colabois</a>
+        <span class="flex-grow"></span>
+        <a href="{{ site.baseurl }}/team" class="header__link">{% t titles.team %}</a>
+        <a href="{{ site.baseurl }}/blog" class="header__link">{% t titles.blog %}</a>
+    </div>
+</nav>
