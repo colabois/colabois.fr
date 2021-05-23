@@ -76,6 +76,10 @@
     flex-direction: column;
 
     > * {
+        &::marker {
+            content: '';
+        }
+        
         border-bottom: solid 1px rgb(224, 224, 224);
 
         &:last-child {

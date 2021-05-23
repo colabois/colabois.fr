@@ -7,12 +7,22 @@ ref: team
     <section>
         {% capture team_presentation %}{% t team_presentation %}{% endcapture %}
         {{ team_presentation | markdownify }}
-        <div class="list">
-            {% include author.html author="victorb" %}
-            {% include author.html author="suwako" %}
-            {% include author.html author="dean" %}
-            {% include author.html author="moi2985" %}
-            {% include author.html author="busybox" %}
-        </div>
+        <ul class="list">
+            <li>
+                {% include author.html author="victorb" %}
+            </li>
+            <li>
+                {% include author.html author="suwako" %}
+            </li>
+            <li>
+                {% include author.html author="dean" %}
+            </li>
+            <li>
+                {% include author.html author="moi2985" %}
+            </li>
+            <li>
+                {% include author.html author="busybox" %}
+            </li>
+        </ul>
     </section>
 </main>
