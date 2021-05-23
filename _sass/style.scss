@@ -61,7 +61,7 @@ body {
 
 main {
     h1, h2, h3, h4, h5, h6 {
-        color: $accent;
+        color: var(--clr-accent);
 
         &:first-child {
             margin-top: 0;
@@ -69,7 +69,7 @@ main {
     }
 
     a {
-        color: $accent;
+        color: var(--clr-accent);
     }
 }
 
