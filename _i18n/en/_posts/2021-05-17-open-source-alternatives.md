@@ -29,7 +29,7 @@ To navigate easily between categories, you can use this table of contents
 
 To replace Google Drive, [Nextcloud](https://nextcloud.com/) is one of the best solutions. It's a self-hosted cloud solution, for files, but also for a todo list, contacts, calendar or even cookbooks! It allows you to synchronize all these informations between different clients, on nearly all operating systems. We can also add *Collabora online* or *OnlyOffice*, to replace Google Docs, Sheets, Slides, and others.
 
-The main advantage of Nextcloud is that he can work on a [Raspberry Pi](https://www.raspberrypi.org/), with a hard disk and, of course, a stable internet connection. So you can keep all your data at home, where they'll be secure. The Raspberry Pi is also electricity-efficient.
+The main advantage of Nextcloud is that it can work on a [Raspberry Pi](https://www.raspberrypi.org/), with a hard disk and, of course, a stable internet connection. So you can keep all your data at home, where they'll be secure. The Raspberry Pi is also electricity-efficient.
 
 If you decide to try installing it, there are numerous guides to do so, and you can also find help. You'll learn how a web server works, or even Raspbian's command line!
 
