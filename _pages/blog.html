@@ -8,18 +8,7 @@ ref: blog
         <div class="posts-list">
             {% if site.posts.size != 0 %}
                 {% for post in site.posts %}
-                    <a href="{{ site.baseurl }}{{ post.url }}" class="no-color">
-                        <div class="posts-list__item">
-                            {% if post.cover %}
-                                <img src="{{ post.cover }}" alt="Post cover" class="posts-list__item__cover">
-                            {% endif %}
-                            <div class="posts-list__item__desc">
-                                <h2 class="posts-list__item__desc__title">{{ post.title }}</h2>
-                                <p class="posts-list__item__desc__excerpt">{{ post.excerpt | strip_html }}</p>
-                                <p class="posts-list__item__desc__infos">{{ site.data.authors[post.author].name }} - {% t dates.days.{{ post.date | date: "%A"}} %} {{ post.date | date: "%d" }} {% t dates.months.{{ post.date | date: "%B"}} %} {{ post.date | date: "%Y" }}</p>
-                            </div>
-                        </div>
-                    </a>
+                    {% include posts-list-item.html post=post %}
                 {% endfor %}
             {% else %}
                 <p>{% t posts.no_posts %}</p>

@@ -31,21 +31,10 @@ ref: index
 </section>
 <section id="posts" class="main__section">
     <h1 class="text-center">{% t index.our_blog %}</h1>
-    <div class="posts-list">
+    <div class="posts-list list">
         {% if site.posts.size != 0 %}
             {% for post in site.posts %}
-                <a href="{{ site.baseurl }}{{ post.url }}" class="reset-color">
-                    <div class="posts-list__item">
-                        {% if post.cover %}
-                            <img src="{{ post.cover }}" alt="post-cover" class="posts-list__item__cover">
-                        {% endif %}
-                        <div class="posts-list__item__desc">
-                            <h2 class="posts-list__item__desc__title">{{ post.title }}</h2>
-                            <p class="posts-list__item__desc__excerpt">{{ post.excerpt | strip_html }}</p>
-                            <p class="posts-list__item__desc__infos">{{ site.data.authors[post.author].name }} - {% t dates.days.{{ page.date | date: "%A"}} %} {{ page.date | date: "%d" }} {% t dates.months.{{ page.date | date: "%B"}} %} {{ page.date | date: "%Y" }}</p>
-                        </div>
-                    </div>
-                </a>
+                {% include posts-list-item.html post=post %}
             {% endfor %}
         {% else %}
             <p>{% t posts.no_posts %}</p>

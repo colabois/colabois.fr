@@ -44,6 +44,19 @@
     height: 100vh;
 }
 
+.no-margin-top {
+    margin-top: 0;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.no-margin-h {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .flex-row {
     display: flex;
 }
