@@ -6,7 +6,7 @@ titles:
   blog: Blog
   pdba: PDBA
   team: Equipo
-  legal_notice: Notificación legal
+  legal_notice: Notificaciones legales
 header_titles:
   index: Colabois
   pdba: PDBA
@@ -56,7 +56,8 @@ four_hundred_four:
   page_not_found: Página no encontrada :(
 team_presentation: Aquí estan los miembros del grupo Colabois
 legal_notice: "# Notificación legal\n\n## Directores editoriales\n\n- Dorian OUAKLI\
-  \ (administrador del sito)  \nEstas posible contactar el administrador del sito\
-  \ por e-mail a [`contact@colabois.fr`](mailto:contact@colabois.fr)\n\n## Hosting\n\
-  \n- El sito [`colabois.fr`](https://colabois.fr) estas servida por Dorian OUAKLI.\
+  \ (administrador del sito)  \nEl administrador del sito puede ser contactado por\
+  \ e-mail a [`contact@colabois.fr`](mailto:contact@colabois.fr)\n\n## Hosting\n\n\
+  - El sito [`colabois.fr`](https://colabois.fr) estas servida por Dorian OUAKLI.\
   \  \n16 Rue Bec de lièvre,  \n30900 Nîmes."
+no_description: No descripción aquí
