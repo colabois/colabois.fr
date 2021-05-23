@@ -7,6 +7,6 @@
     <div class="author__infos">
         {% capture description %}{% t author_descriptions.{{ include.author }} %}{% endcapture %}
         <p><strong>{{ author.name }}</strong></p>
-        <p>{% if description != empty %}{{ description }}{% else %}{% t no_description %}{% endif %}</p>
+        <p>{% if description != empty %}{{ description }}{% else %}<span class="text-grey">{% t no_description %}</span>{% endif %}</p>
     </div>
 </div>
