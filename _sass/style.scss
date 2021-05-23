@@ -1,5 +1,7 @@
 $responsive-width: 40em;
 
+/* variables */
+
 :root {
     --clr-accent: $accent;
 
@@ -30,9 +32,13 @@ $responsive-width: 40em;
     }
 }
 
+
+
 * {
     box-sizing: border-box;
 }
+
+/* elements */
 
 html {
     scroll-behavior: smooth;
