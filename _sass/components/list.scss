@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
 
+    /* remove default ul padding */
+    padding-left: 0;
+
     > * {
         &::marker {
             content: '';
