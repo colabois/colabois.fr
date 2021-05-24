@@ -5,7 +5,12 @@ ref: legal_notice
 
 <main>
     <section class="max-readable-width">
-        {% capture legal_notice %}{% t legal_notice %}{% endcapture %}
-        {{ legal_notice | markdownify }}
+        <h1>{% t legal_notices.title %}</h1>
+        <h2>{% t legal_notices.editorial_directors.title %}</h2>
+        {% capture editorial_directors_desc %}{% t legal_notices.editorial_directors.desc %}{% endcapture %}
+        <p>{{ editorial_directors_desc | markdownify }}</p>
+        <h2>{% t legal_notices.hosting.title %}</h2>
+        {% capture hosting_desc %}{% t legal_notices.hosting.desc %}{% endcapture %}
+        <p>{{ hosting_desc | markdownify }}</p>
     </section>
 </main>

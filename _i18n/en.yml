@@ -54,18 +54,18 @@ index:
   our_projects: Our projects
 posts:
   no_posts: It's pretty empty here…
-legal_notice: |-
-  # Legal notice
-
-  ## Editorial directors
-
-  - Dorian OUAKLI (Site administrator)  
-  Site administrator can be contacted via e-mail at [`contact@colabois.fr`](mailto:contact@colabois.fr)
-
-  ## Hosting
-
-  - The website [`colabois.fr`](https://colabois.fr) is hosted by Dorian OUAKLI.  
-  16 Rue Bec de lièvre,  
-  30900 Nîmes.
+legal_notices:
+  title: Legal notice
+  editorial_directors:
+    title: Editorial directors
+    desc: |
+      Dorian OUAKLI (Site administrator)  
+      Site administrator can be contacted via e-mail at [`contact@colabois.fr`](mailto:contact@colabois.fr)
+  hosting:
+    title: Hosting
+    desc: |
+      The website [`colabois.fr`](https://colabois.fr) is hosted by Dorian OUAKLI.  
+      16 Rue Bec de lièvre,  
+      30900 Nîmes.
 team_presentation: Here are the members of the Colabois group
 no_description: No description here
