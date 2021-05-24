@@ -21,3 +21,7 @@ busybox:
 fomys:
   name: Fomys
   avatar: fomys.jpg
+
+borky:
+  name: Borky
+  avatar: borky.jpg
