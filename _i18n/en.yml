@@ -55,11 +55,11 @@ index:
 posts:
   no_posts: It's pretty empty here…
 legal_notices:
-  title: Legal notice
+  title: Legal notices
   editorial_directors:
     title: Editorial directors
     desc: |
-      Dorian OUAKLI (Site administrator)  
+      Dorian OUAKLI (site administrator)  
       Site administrator can be contacted via e-mail at [`contact@colabois.fr`](mailto:contact@colabois.fr)
   hosting:
     title: Hosting

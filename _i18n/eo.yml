@@ -70,3 +70,13 @@ legal_notice: "# Juraj informoj\n\n## Redakciaj direktoroj\n\n- Dorian OUAKLI (a
   \ [`colabois.fr`](https://colabois.fr) estas gastigita per Dorian OUAKLI.  \n16\
   \ Rue Bec de lièvre,  \n30900 Nîmes."
 no_description: Ne priskribo tie
+legal_notices:
+  editorial_directors:
+    title: Juraj informoj
+    desc: "Dorian OUAKLI (administranto de la retejo)\nLa administranto de la retejo\
+      \ povas esti kontaktita per e-mail al [`contact@colabois.fr`](mailto:contact@colabois.fr)\n"
+  hosting:
+    title: Gastigo
+    desc: "La retejo [`colabois.fr`](https://colabois.fr) estas gastigita per Dorian\
+      \ OUAKLI  \n16 Rue Bec de lièvre,  \n30900 NÎmes.\n"
+  title: Juraj informoj
