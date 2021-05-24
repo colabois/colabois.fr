@@ -1,11 +1,10 @@
 four_hundred_four:
   page_not_found: Page not found :(
-  turn_back_home: Turn back home
-projects: Projects
+  turn_back_home: Go back home
 titles:
   four_hundred_four: '404'
   index: Home
-  legal_notice: Legal notice
+  legal_notice: Legal notices
   blog: Blog
   pdba: PDBA
   team: Team
@@ -61,7 +60,7 @@ legal_notice: |-
   ## Editorial directors
 
   - Dorian OUAKLI (Site administrator)  
-  It is possible to contact the site administrator by e-mail at [`contact@colabois.fr`](mailto:contact@colabois.fr)
+  Site administrator can be contacted via e-mail at [`contact@colabois.fr`](mailto:contact@colabois.fr)
 
   ## Hosting
 
