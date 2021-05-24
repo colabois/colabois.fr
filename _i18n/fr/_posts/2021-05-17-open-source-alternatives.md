@@ -3,7 +3,7 @@ title: Alternatives open-source
 author: dean
 ---
 
-Un des objectifs de la création de l'association colabois est la défense de l'open source; et de la vie privée de chacun. Lorsqu'il nous arrive d'en parler autour de nous, on nous rétorque souvent que les services de Google sont pratiques, gratuits, et fonctionnent toujours.
+Un des objectifs de la création de l'association Colabois est la défense de l'open source; et de la vie privée de chacun. Lorsqu'il nous arrive d'en parler autour de nous, on nous rétorque souvent que les services de Google sont pratiques, gratuits, et fonctionnent toujours.
 
 Et cette remarque est juste; Google Drive, Docs, YouTube, mais aussi whatsapp et messenger... tous ces services présentent de nombreux avantages. Mais toutes les entreprises qui s'en chargent ont des politiques de gestion des données personnelles qui laissent à désirer.
 
