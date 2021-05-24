@@ -1,0 +1,16 @@
+.list {
+    display: flex;
+    flex-direction: column;
+
+    > * {
+        &::marker {
+            content: '';
+        }
+
+        border-bottom: solid 1px var(--clr-fg-secondary);
+
+        &:last-child {
+            border-bottom: inherit;
+        }
+    }
+}
