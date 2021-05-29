@@ -36,8 +36,6 @@ You will also need `make` if you don't want to run Jekyll commands manually
 
 ### Translation
 
-I make all the translations with the VSCode plugin [i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally) and I highly recommend to do so
+You can translate the site in a language using our [Weblate instance](https://weblate.colabois.fr)
 
-You just need to install the plugin and it should automatically be configured following the configuration files in the `.vscode/` folder.
-
-If you really don't want to use VSCode or i18n Ally at all you can just edit the yml files manually in _i18n/
+If you want to add a language that isn't there at the moment, please make an issue
