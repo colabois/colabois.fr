@@ -3,9 +3,9 @@ title: Kiel skribi la esperantojn literojn en Linukso
 author: victorb
 ---
 
-Skribi la esperantojn literojn en Linukso povas esti malfacila. Sed vi povas uzi `Alt Gr` por tio.
+Skribi la esperantojn literojn en Linukso povas esti malfacila. Sed kun tio vi povas uzi `Alt Gr` por ĝin.
 
-Aldonu ĝin en `.Xmodmap` :
+Aldonu en `.Xmodmap` :
 
 ```
 keycode 54 = c C NoSymbol NoSymbol ccircumflex Ccircumflex
@@ -16,8 +16,8 @@ keycode 39 = s S NoSymbol NoSymbol scircumflex Scircumflex
 keycode 30 = u U NoSymbol NoSymbol ubreve Ubreve
 ```
 
-Kaj nun vi povas skribi ĉ kun `Alt Gr` + `c` aŭ Ĉ kun `Shift` + `Alt Gr` + `c`
+Kaj nun `Alt Gr + c` donas `ĉ` kaj `Shift + Alt Gr + c` donas `Ĉ`
 
-Vi ne devas plu uzi la h-sistemo aŭ la x-sistemo!
+Vi ne bezonas plu uzi la h-sistemo aŭ la x-sistemo. 
 
 Ĝuu!
