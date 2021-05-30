@@ -1,6 +1,6 @@
 ---
 title: Kiel skribi la esperantojn literojn en Linukso
-author: Victor B
+author: victorb
 ---
 
 Skribi la esperantojn literojn en Linukso povas esti malfacila. Sed vi povas uzi `Alt Gr` por tio.
