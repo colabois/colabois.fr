@@ -6,11 +6,13 @@
     padding-left: 0;
 
     > * {
+        border-bottom: solid 1px var(--clr-fg-secondary);
+        padding: 1rem 0;
+
         &::marker {
             content: '';
         }
 
-        border-bottom: solid 1px var(--clr-fg-secondary);
 
         &:last-child {
             border-bottom: inherit;
