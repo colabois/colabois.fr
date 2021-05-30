@@ -26,9 +26,9 @@
 
 #### Dependencies
 
-This site relies on Jekyll so you will need to [install it](https://jekyllrb.com/docs/installation/)
+This site relies on Jekyll so you will need to [install it](https://jekyllrb.com/docs/installation/).
 
-You will also need `make` if you don't want to run Jekyll commands manually
+You will also need `make` if you don't want to run Jekyll commands manually.
 
 #### Build
 
@@ -40,6 +40,6 @@ You will also need `make` if you don't want to run Jekyll commands manually
 
 ### Translation
 
-You can translate the site in a language using our [Weblate instance](https://weblate.colabois.fr)
+You can translate the site in a language using our [Weblate instance](https://weblate.colabois.fr).
 
-If you want to add a language that isn't there at the moment, please make an issue
+If you want to add a language that isn't there at the moment, please make an issue.
