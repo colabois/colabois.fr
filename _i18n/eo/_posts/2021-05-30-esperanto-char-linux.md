@@ -16,7 +16,7 @@ keycode 39 = s S NoSymbol NoSymbol scircumflex Scircumflex
 keycode 30 = u U NoSymbol NoSymbol ubreve Ubreve
 ```
 
-Kaj nun `Alt Gr + c` donas `ĉ` kaj `Shift + Alt Gr + c` donas `Ĉ`
+Kaj nun `Alt Gr + c` donas `ĉ` kaj `Shift + Alt Gr + c` donas `Ĉ`.
 
 Vi ne bezonas plu uzi la h-sistemo aŭ la x-sistemo. 
 
