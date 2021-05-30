@@ -19,3 +19,5 @@ keycode 30 = u U NoSymbol NoSymbol ubreve Ubreve
 Kaj nun vi povas skribi ĉ kun `Alt Gr` + `c` aŭ Ĉ kun `Shift` + `Alt Gr` + `c`
 
 Vi ne devas plu uzi la h-sistemo aŭ la x-sistemo!
+
+Ĝuu!
