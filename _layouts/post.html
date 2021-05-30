@@ -6,7 +6,7 @@ layout: default
 {% assign translation_author = site.data.authors[page.translation_author] %}
 
 <meta property="og:title" content="{{ page.title }} - Colabois">
-<meta property="og:description" content="{{ page.excerpt }}">
+<meta property="og:description" content="{{ page.excerpt | escape }}">
 {% if page.cover %}
     <meta property="og:image" content="{{ page.cover | prepend: site.baseurl_root }}">
 {% endif %}
