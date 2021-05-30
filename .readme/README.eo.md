@@ -42,4 +42,4 @@ Vi bezonos ankaŭ bezonos `make` se vi ne volas fari la comandoj Jekyll permane
 
 Vi povas traduki la retejo en aliaj lingvoj uzante nia [instanco Weblate](https://weblate.colabois.fr)
 
-Se vi volas aldoni lingvo, vi povas fari issue.
+Se vi volas aldoni lingvo, vi povas fari raporto en GitHub.
