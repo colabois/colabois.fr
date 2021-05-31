@@ -12,7 +12,7 @@
         <img src="https://jenkins.colabois.fr/buildStatus/icon?job=Colabois%2Fcolabois.fr%2Fdev&subject=www-dev&style=flat">
     </a>
     <a href="http://weblate.colabois.fr/engage/colabois-fr/">
-        <img src="http://weblate.colabois.fr/widgets/colabois-fr/-/svg-badge.svg" alt="État de la traduction" />
+        <img src="http://weblate.colabois.fr/widgets/colabois-fr/-/svg-badge.svg"/>
     </a>
 </p>
 
