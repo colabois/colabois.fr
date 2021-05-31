@@ -1,7 +1,7 @@
 <h1 align="center">Colabois.fr</h1>
 
 <p align="center">
-    [ <a href=".readme/README.eo.md">eo</a> | <a href=".readme/README.fr.md">fr</a> ]
+    [ <a href=".readme/README.eo.md">eo</a> ]
 </p>
 
 <p align="center">
@@ -20,24 +20,24 @@
     <img src=".readme/screenshots/1.jpg">
 </p>
 
-## Contributing
+## Contribuer
 
-### Building
+### Compiler
 
-#### Dependencies
+#### Dépendances
 
 - Jekyll
 
-#### Build
+#### Compiler
 
-`make build` or `bundle exec jekyll build`
+`make build` ou `bundle exec jekyll build`
 
-#### Run
+#### Lancer
 
-`make run` or `bundle exec jekyll serve`
+`make run` ou `bundle exec jekyll serve`
 
-### Translation
+### Traduire
 
-You can translate the site in a language using our [Weblate instance](https://weblate.colabois.fr).
+Vous pouvez traduire le site en utilisant notre [instance Weblate](https://weblate.colabois.fr).
 
-If you want to add a language that isn't there at the moment, please make an issue.
+Si vous voulez ajouter un language qui n'est pas encore présent, veuillez faire une *issue*.
