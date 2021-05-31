@@ -26,9 +26,7 @@
 
 #### Devigaj programopartoj
 
-Tio retejo dependas de Jekyll, do vi devos [instali ĝin](https://jekyllrb.com/docs/installation/).
-
-Vi ankaŭ bezonos `make` se vi ne volas fari la comandoj Jekyll permane.
+- Jekyll
 
 #### Kompili
 
