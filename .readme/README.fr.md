@@ -1,10 +1,6 @@
 <h1 align="center">Colabois.fr</h1>
 
 <p align="center">
-    [ <a href=".readme/README.eo.md">eo</a> ]
-</p>
-
-<p align="center">
     <a href="https://colabois.fr">
         <img src="https://jenkins.colabois.fr/buildStatus/icon?job=Colabois%2Fcolabois.fr%2Fmain&subject=production&style=flat">
     </a>
