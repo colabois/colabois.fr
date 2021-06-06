@@ -31,13 +31,15 @@ ref: index
 </section>
 <section id="posts" class="main__section">
     <h1 class="text-center">{% t index.our_blog %}</h1>
-    <div class="posts-list list">
-        {% if site.posts.size != 0 %}
-            {% for post in site.posts %}
-                {% include posts-list-item.html post=post %}
-            {% endfor %}
-        {% else %}
-            <p>{% t posts.no_posts %}</p>
-        {% endif %}
+    <div class="center">
+        <div class="posts-list list max-readable-width">
+            {% if site.posts.size != 0 %}
+                {% for post in site.posts %}
+                    {% include posts-list-item.html post=post %}
+                {% endfor %}
+            {% else %}
+                <p>{% t posts.no_posts %}</p>
+            {% endif %}
+        </div>
     </div>
 </section>

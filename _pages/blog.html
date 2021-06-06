@@ -4,8 +4,8 @@ ref: blog
 ---
 
 <main>
-    <section>
-        <div class="posts-list list">
+    <section class="center">
+        <div class="posts-list list max-readable-width">
             {% if site.posts.size != 0 %}
                 {% for post in site.posts %}
                     {% include posts-list-item.html post=post %}
