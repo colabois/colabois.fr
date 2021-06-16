@@ -22,7 +22,7 @@ pipeline {
     stages {
         stage('Build sources') {
             steps {
-                sh 'mkdir _site'
+                sh 'mkdir _site || true'
                 sh 'chmod -R o+rwx .'
                 sh 'bundle install --jobs $(nproc)'
                 sh 'bundle exec jekyll build'
