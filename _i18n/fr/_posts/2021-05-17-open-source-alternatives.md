@@ -76,7 +76,7 @@ Depuis peu, la version Android de firefox a aussi reçu une grosse mise à jour 
 
 ### Organic Maps
 
-Selon moi, de loin la meilleure alternative à Google Maps serait Organic Maps. C'est un fork maintenu de MAPS.ME, ce dernier ayant été racheté et maintenant closed source. Il est [disponible sur F-Droid](https://f-droid.org/packages/app.organicmaps/) ou [sur le Play Store](https://play.google.com/store/apps/details?id=app.organicmaps)
+Selon moi, de loin la meilleure alternative à Google Maps serait Organic Maps. C'est un fork maintenu de MAPS.ME, ce dernier ayant été racheté et maintenant closed source. Il est disponible [sur F-Droid](https://f-droid.org/packages/app.organicmaps/) ou [sur le Play Store](https://play.google.com/store/apps/details?id=app.organicmaps)
 
 ## Systèmes d'exploitation
 
