@@ -72,6 +72,12 @@ Les navigateurs web, sont des programmes qui sont utilisés extrêmement réguli
 
 Depuis peu, la version Android de firefox a aussi reçu une grosse mise à jour de son interface, ce qui le rend bien plus agréable à utiliser; vous pouvez donc remplacer la version de chrome sur android par Firefox mobile. Si vous utilisez déjà une application d'un moteur de recherche sur votre téléphone, comme DuckDuckGo, Qwant ou Ecosia, vous utilisez chrome; mais vous pouvez installer firefox, et le configurer pour utiliser le moteur de recherche de votre choix.
 
+## Cartes & GPS
+
+### Organic Maps
+
+Selon moi, de loin la meilleure alternative à Google Maps serait Organic Maps. C'est un fork maintenu de MAPS.ME, ce dernier ayant été racheté et maintenant closed source. Il est [disponible sur F-Droid](https://f-droid.org/packages/app.organicmaps/) ou [sur le Play Store](https://play.google.com/store/apps/details?id=app.organicmaps)
+
 ## Systèmes d'exploitation
 
 Comme ils constituent la base de n'importe quelle utilisation de l'informatique, les systèmes d'exploitation doivent bien sûr respecter les critères d'open source et de respect de la vie privée.
