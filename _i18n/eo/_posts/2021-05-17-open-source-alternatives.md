@@ -69,7 +69,7 @@ Linux estas ofte konsiderema kiel sistemo por uzantoj altnivelaj; sed kelkaj dis
 
 [Arch Linux](https://archlinux.org/) aŭ [Gentoo Linux](https://www.gentoo.org/), por uznatoj altnivelaj, kun la envio de lerni plin.
 
-## Android kaj ĝiaj ROM
+### Android kaj ĝiaj ROM
 
 Se vi ne scias ankoraŭ ĝin, Android estas sistemo malfermkoda (funkcias kun la kerno Linukso!). Sed la ŝanĝoj de la frabrikantoj ne estas ĉiam tiel.
 
