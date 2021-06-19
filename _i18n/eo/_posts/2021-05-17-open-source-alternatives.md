@@ -55,6 +55,12 @@ Vi povas elŝuti ĝin en la [Google Play Store](https://play.google.com/store/ap
 
 ## Serĉiloj
 
+## Mapoj & GPS
+
+### Organic Maps
+
+Laŭ mi, la pli bone alternativo al Google Maps estus Organic Maps. Ĝi estas forkon de MAPS.ME, ĉar ĝi estis aĉetita kaj nun fermkoda. Ĝi disponeblas [sur F-Droid](https://f-droid.org/packages/app.organicmaps/) aŭ [sur la Play Store](https://play.google.com/store/apps/details?id=app.organicmaps)
+
 ## Operaciumoj
 
 Kiel ili estas la bazo de ajna uzo de la komputiko, la operciumoj dovas certe respekti la kriteriojn de malfermkodo kaj respekto de la vivo privata.
