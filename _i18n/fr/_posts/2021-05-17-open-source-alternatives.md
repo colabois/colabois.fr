@@ -72,7 +72,6 @@ Les navigateurs web, sont des programmes qui sont utilisés extrêmement réguli
 
 Depuis peu, la version Android de firefox a aussi reçu une grosse mise à jour de son interface, ce qui le rend bien plus agréable à utiliser; vous pouvez donc remplacer la version de chrome sur android par Firefox mobile. Si vous utilisez déjà une application d'un moteur de recherche sur votre téléphone, comme DuckDuckGo, Qwant ou Ecosia, vous utilisez chrome; mais vous pouvez installer firefox, et le configurer pour utiliser le moteur de recherche de votre choix.
 
-
 ## Systèmes d'exploitation
 
 Comme ils constituent la base de n'importe quelle utilisation de l'informatique, les systèmes d'exploitation doivent bien sûr respecter les critères d'open source et de respect de la vie privée.
