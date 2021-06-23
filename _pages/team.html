@@ -8,21 +8,11 @@ ref: team
         {% capture team_presentation %}{% t team_presentation %}{% endcapture %}
         {{ team_presentation | markdownify }}
         <ul class="list">
-            <li>
-                {% include author.html author="victorb" %}
-            </li>
-            <li>
-                {% include author.html author="suwako" %}
-            </li>
-            <li>
-                {% include author.html author="dean" %}
-            </li>
-            <li>
-                {% include author.html author="moi2985" %}
-            </li>
-            <li>
-                {% include author.html author="busybox" %}
-            </li>
+            {% for author_id in site.data.team %}
+                <li>
+                    {% include author.html author=author_id %}
+                </li>
+            {% endfor %}
         </ul>
     </section>
 </main>
