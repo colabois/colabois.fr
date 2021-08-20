@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: 2568aea6eaaa4f2ffd23bf9bf9e48212100635b9
+  revision: 493b800edbf6f6e97c34d1812698260907255665
   specs:
     jekyll (4.2.0)
       addressable (~> 2.4)
@@ -58,7 +58,7 @@ GEM
     liquid (4.0.3)
     liquid-c (4.0.0)
       liquid (>= 3.0.0)
-    listen (3.6.0)
+    listen (3.7.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
