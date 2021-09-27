@@ -11,8 +11,8 @@
     <a href="https://www-dev.colabois.fr">
         <img src="https://jenkins.colabois.fr/buildStatus/icon?job=Colabois%2Fcolabois.fr%2Fdev&subject=www-dev&style=flat">
     </a>
-    <a href="http://weblate.colabois.fr/engage/colabois-fr/">
-        <img src="http://weblate.colabois.fr/widgets/colabois-fr/-/svg-badge.svg"/>
+    <a href="https://colabois.fr">
+        <img src="https://img.shields.io/website?url=https%3A%2F%2Fcolabois.fr">
     </a>
 </p>
 
