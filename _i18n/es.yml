@@ -59,7 +59,7 @@ legal_notice: "# Notificación legal\n\n## Directores editoriales\n\n- Dorian OU
   \ (administrador del sito)  \nEl administrador del sito puede ser contactado por\
   \ e-mail a [`contact@colabois.fr`](mailto:contact@colabois.fr)\n\n## Hosting\n\n\
   - El sito [`colabois.fr`](https://colabois.fr) estas servida por Dorian OUAKLI.\
-  \  \n16 Rue Bec de lièvre,  \n30900 Nîmes."
+  \  \n13 Avenue Pierre Massé,  \n64000 Pau."
 no_description: No descripción aquí
 legal_notices:
   editorial_directors:
@@ -67,7 +67,7 @@ legal_notices:
     desc: "Dorian OUAKLI (administrador del sito)  \nEl administrador del sito puede\
       \ ser contactado por e-mail a [`contact@colabois.fr`](mailto:contact@colabois.fr)\n"
   hosting:
-    desc: "El sito colabois.fr estas servida por Dorian OUAKLI.  \n16 Rue Bec de lièvre,\
-      \  \n30900 Nîmes.\n"
+    desc: "El sito colabois.fr estas servida por Dorian OUAKLI.  \n13 Avenue Pierre Massé,\
+      \  \n64000 Pau.\n"
     title: Alojamiento
   title: Notificaciones legales

@@ -61,7 +61,7 @@ legal_notice: "# Mentions légales\n\n## Responsables éditoriaux\n\n- Dorian OU
   \ (Administrateur de site)  \nIl est possible de contacter l’administrateur du site\
   \ par courrier électronique à l’adresse [`contact@colabois.fr`](mailto:contact@colabois.fr)\n\
   \n## Hébergement\n\n- Le site web [`colabois.fr`](https://colabois.fr) est hébergé\
-  \ par Dorian OUAKLI.  \n16 Rue Bec de lièvre,  \n30900 Nîmes."
+  \ par Dorian OUAKLI.  \n13 Avenue Pierre Massé,  \n64000 Pau."
 no_description: Pas de description ici
 legal_notices:
   title: Mentions légales
@@ -72,4 +72,4 @@ legal_notices:
   hosting:
     title: Hébergement
     desc: "Le site [`colabois.fr`](https://colabois.fr) est hébergé par Dorian OUAKLI.\
-      \  \n16 Rue Bec de lièvre,  \n30900 Nîmes.\n"
+      \  \n13 Avenue Pierre Massé,  \n64000 Pau.\n"
