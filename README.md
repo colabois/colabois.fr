@@ -38,6 +38,6 @@
 
 ### Translation
 
-You can translate the site in a language using our [Weblate instance](https://weblate.colabois.fr).
+If you want to help translating, please see the folder \_i18n.
 
 If you want to add a language that isn't there at the moment, please make an issue.
