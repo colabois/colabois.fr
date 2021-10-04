@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: 5687bf97d8242feb8bb8f03cdc93991fb20847b7
+  revision: d8b38f78b644836403524e8e46c530237b9eb020
   specs:
     jekyll (4.2.1)
       addressable (~> 2.4)
