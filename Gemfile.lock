@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: 10a73596d94c3138eba1a330b52864efecf08a05
+  revision: c90d083ef527df817b4be9ae79cb577865c97659
   specs:
     jekyll (4.2.1)
       addressable (~> 2.4)
@@ -33,7 +33,7 @@ GEM
     ffi (1.15.4)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
-    i18n (1.8.10)
+    i18n (1.8.11)
       concurrent-ruby (~> 1.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
