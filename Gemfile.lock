@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: 1434644dccf8b877c62c5cbb5dd65421c75f1fc4
+  revision: 1ac53868207b08a3dff5037e0d78a2629f81a131
   specs:
     jekyll (4.2.1)
       addressable (~> 2.4)
@@ -70,7 +70,7 @@ GEM
       ffi (~> 1.0)
     redcarpet (3.5.1)
     rexml (3.2.5)
-    rouge (3.26.1)
+    rouge (3.27.0)
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
