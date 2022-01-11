@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: 1ac53868207b08a3dff5037e0d78a2629f81a131
+  revision: e3cbe584f2a78141bf7f53cfef8cf237b3f4c201
   specs:
     jekyll (4.2.1)
       addressable (~> 2.4)
@@ -14,6 +14,7 @@ GIT
       liquid (~> 4.0)
       mercenary (>= 0.3.6, < 0.5)
       pathutil (~> 0.9)
+      psych (~> 3.3)
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
@@ -30,7 +31,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    ffi (1.15.4)
+    ffi (1.15.5)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     i18n (1.8.11)
@@ -64,6 +65,7 @@ GEM
     mercenary (0.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
+    psych (3.3.2)
     public_suffix (4.0.6)
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
